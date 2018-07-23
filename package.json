@@ -1,0 +1,26 @@
+{
+  "name": "the-environment-channel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhdao911/the-environment-channel.git"
+  },
+  "author": "Minh Dao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhdao911/the-environment-channel/issues"
+  },
+  "homepage": "https://github.com/minhdao911/the-environment-channel#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
