@@ -1,13 +1,13 @@
 var width = window.innerWidth,
-  height = window.innerHeight,
-  scale = Math.min(width, height) * 0.35,
-  globeZoomedScale = 35,
-  sens = 0.25,
-  origin = [0, 0],
-  velocity = [0.015, -0.0005],
-  t = Date.now(),
-  start = true,
-  focused;
+    height = window.innerHeight,
+    scale = Math.min(width, height) * 0.35,
+    globeZoomedScale = 35,
+    sens = 0.25,
+    origin = [0, 0],
+    velocity = [0.0015, -0.0003],
+    t = Date.now(),
+    start = true,
+    focused;
 
 var countryScale = Math.min(width, height)*5,
     countryZoomedScale = 5,
@@ -27,10 +27,10 @@ var svgGlobe = d3.select("#globe").append("svg")
     .style("display", "block");
 
 svgGlobe.append("path")
-  .datum({type: "Sphere"})
-  .attr("class", "water")
-  .attr("d", path)
-  .attr("fill", "yellow");
+    .datum({type: "Sphere"})
+    .attr("class", "water")
+    .attr("d", path)
+    .attr("fill", "yellow");
 
 //Set up outerspace
 
@@ -73,26 +73,25 @@ var path = d3.geo.path()
   
 var svgCountry = d3.select("#country").append("svg")
 	.attr("width", width)
-  .attr("height", height)
-  .style("display", "none");
+    .attr("height", height)
+    .style("display", "none");
   
 var country = d3.geo.mercator()
-  .scale(countryScale*countryZoomedScale)
-  .rotate([-26,-64.5,0])
-  .translate([width/2, height/2]);
-  // .fitExtent([0, 0], [width, height]);
+    .scale(countryScale*countryZoomedScale)
+    .rotate([-26,-64.5,0])
+    .translate([width/2, height/2]);
 
 var countryPath = d3.geo.path()
-  .projection(country);
+    .projection(country);
 
 var g = svgCountry.append('g');
  
 /* =========================== */
 
 queue()
-  .defer(d3.json, "../data/world-110m.json")
-  .defer(d3.tsv, "../data/world-110m-country-names.tsv")
-  .await(ready); 
+    .defer(d3.json, "../data/world-110m.json")
+    .defer(d3.tsv, "../data/world-110m-country-names.tsv")
+    .await(ready); 
 
   //Main function
 
@@ -104,10 +103,10 @@ queue()
     //Adding countries to select
 
     countryData.forEach(function(d) {
-      countryById[d.id] = d.name;
-      option = countryList.append("option");
-      option.text(d.name);
-      option.property("value", d.id);
+        countryById[d.id] = d.name;
+        option = countryList.append("option");
+        option.text(d.name);
+        option.property("value", d.id);
     });
 
     //Drawing countries on the globe
@@ -115,67 +114,67 @@ queue()
     projection.clipAngle(180);
 
     var backCountry = svgGlobe.selectAll("path.land")
-      .data(countries)
-      .enter().append("path")
-      .attr("class", "back-country")
-      .attr("d", path)
-      .on("mouseover", d => mouseover(d))
-      .on("mouseout", d => mouseout(d))
-      .on("mousemove", d => mousemove(d))
-      .on("click", d => choose(d.id));
+        .data(countries)
+        .enter().append("path")
+        .attr("class", "back-country")
+        .attr("d", path)
+        .on("mouseover", d => mouseover(d))
+        .on("mouseout", d => mouseout(d))
+        .on("mousemove", d => mousemove(d))
+        .on("click", d => choose(d.id));
     
     projection.clipAngle(90);
     
     var frontCountry = svgGlobe.selectAll("path.land")
-      .data(countries)
-      .enter().append("path")
-      .attr("class", "front-country")
-      .attr("d", path)
-      .on("mouseover", d => mouseover(d))
-      .on("mouseout", d => mouseout(d))
-      .on("mousemove", d => mousemove(d))
-      .on("dblclick", d => choose(d.id));
+        .data(countries)
+        .enter().append("path")
+        .attr("class", "front-country")
+        .attr("d", path)
+        .on("mouseover", d => mouseover(d))
+        .on("mouseout", d => mouseout(d))
+        .on("mousemove", d => mousemove(d))
+        .on("dblclick", d => choose(d.id));
     
     spin(true);
     
     //Drag event
     
     d3.select('body').call(d3.behavior.drag()
-      .origin(function() { var r = projection.rotate(); return {x: r[0] / sens, y: -r[1] / sens}; })
-      .on("drag", drag));
+        .origin(function() { var r = projection.rotate(); return {x: r[0] / sens, y: -r[1] / sens}; })
+        .on("drag", drag));
 
     //Country focus on option select
 
     d3.select("select").on("change", function() {
-      choose(this.value);
+        choose(this.value);
     });
     
     close.on('click', function(){
     	notiText.style('display', 'none');
-      close.style('display', 'none');
-      svgGlobe.style('display', 'block');
-      d3.transition()
-      	.duration(2000)
+        close.style('display', 'none');
+        svgGlobe.style('display', 'block');
+        d3.transition()
+        .duration(2000)
         .tween("zoomout", function(){
-        let curScale = projection.scale();
-        let curSpaceScale = space.scale();
-        return function(t){
-          let scl = t > 0.9995 ? scale : curScale-t*globeZoomedScale*scale;
-          let spaceScl = t > 0.9995 ? spaceScale : curSpaceScale-t*globeZoomedScale*spaceScale;
-          projection.scale(scl);
-          projection.clipAngle(180);
-          svgGlobe.selectAll("path.back-country").attr("d", path);
-          projection.clipAngle(90);
-          svgGlobe.selectAll("path.front-country").attr("d", path);
-          space.scale(spaceScl);
-          redrawStars();
-          svgGlobe.attr('opacity', t);
-          if(t>=1) {
-          	countryList.style('display', 'block');
-          }
-        }
-      })
-    })
+            let curScale = projection.scale();
+            let curSpaceScale = space.scale();
+            return function(t){
+                let scl = t > 0.9995 ? scale : curScale-t*globeZoomedScale*scale;
+                let spaceScl = t > 0.9995 ? spaceScale : curSpaceScale-t*globeZoomedScale*spaceScale;
+                projection.scale(scl);
+                projection.clipAngle(180);
+                svgGlobe.selectAll("path.back-country").attr("d", path);
+                projection.clipAngle(90);
+                svgGlobe.selectAll("path.front-country").attr("d", path);
+                space.scale(spaceScl);
+                redrawStars();
+                svgGlobe.attr('opacity', t);
+                    if(t>=1) {
+                        countryList.style('display', 'block');
+                    }
+                }
+        });
+    });
 
     function country(cnt, sel) { 
       for(var i = 0; i < cnt.length; i++) {
@@ -184,135 +183,138 @@ queue()
     };
     
     function mouseover(d){
-      countryTooltip.text(countryById[d.id])
-      .style("left", (d3.event.pageX + 7) + "px")
-      .style("top", (d3.event.pageY - 15) + "px")
-      .style("display", "block")
-      .style("opacity", 1);
+        countryTooltip.text(countryById[d.id])
+        .style("left", (d3.event.pageX + 7) + "px")
+        .style("top", (d3.event.pageY - 15) + "px")
+        .style("display", "block")
+        .style("opacity", 1);
     }
     
     function mouseout(d){
-      countryTooltip.style("opacity", 0)
-      .style("display", "none");
+        countryTooltip.style("opacity", 0)
+        .style("display", "none");
     }
     
     function mousemove(d){
-      countryTooltip.style("left", (d3.event.pageX + 7) + "px")
-      .style("top", (d3.event.pageY - 15) + "px");
+        countryTooltip.style("left", (d3.event.pageX + 7) + "px")
+        .style("top", (d3.event.pageY - 15) + "px");
     }
     
     
     function choose(d){
-    	countryList.style('display', 'none');
-      start = false;
-      var rotate = projection.rotate(),
-      focusedCountry = country(countries, d),
-      p = d3.geo.centroid(focusedCountry);
-      svgGlobe.selectAll(".focused").classed("focused", focused = false);
+        countryList.style('display', 'none');
+        start = false;
+        var rotate = projection.rotate(),
+        focusedCountry = country(countries, d),
+        p = d3.geo.centroid(focusedCountry);
+        svgGlobe.selectAll(".focused").classed("focused", focused = false);
+        if(rotate[0] === -p[0] && rotate[1] === -p[1]){
+            rotate = [rotate[0], rotate[1]+360];
+        }
 
-    //Globe movement
+        //Globe movement
 
-    (function transition() {
-      d3
-        .transition()
-          .duration(2500)
-          .tween("rotate", function() {
-            var r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
-            return function(t) {
-              projection.rotate(r(t)).clipAngle(180);
-              svgGlobe.selectAll("path.back-country").attr("d", path)
-              .classed("focused", function(d, i) { return d.id == focusedCountry.id ? focused = d : false; });
-              projection.rotate(r(t)).clipAngle(90);
-              svgGlobe.selectAll("path.front-country").attr("d", path)
-              .classed("focused", function(d, i) { return d.id == focusedCountry.id ? focused = d : false; });
-              space.rotate(r(t));
-              redrawStars();
-            };
-          })
-        .transition()
-          .tween("zoomin", function(){
-            return function(t){
-              projection.scale(t*globeZoomedScale*scale+scale);
-              projection.clipAngle(180);
-              svgGlobe.selectAll("path.back-country").attr("d", path);
-              projection.clipAngle(90);
-              svgGlobe.selectAll("path.front-country").attr("d", path);
-              space.scale(t*globeZoomedScale*spaceScale+spaceScale);
-              redrawStars();
-              svgGlobe.attr('opacity', 1-t);
-              if(t>=1){
-                close.style('display', 'block');
-                svgGlobe.style('display', 'none');
-                if(d == 246){
-                	svgCountry.style('display', 'block');
-                	queue()
-                    .defer(d3.json, "../data/countries/finland.json")
-                    .defer(d3.csv, "../data/countries/finland.csv")
-                    .await(loadMap);
-                }else{
-                	notiText.style('display', 'block');
+        (function transition() {
+        d3
+            .transition()
+            .duration(2500)
+            .tween("rotate", function() {
+                var r = d3.interpolate(rotate, [-p[0], -p[1]]);
+                return function(t) {
+                projection.rotate(r(t)).clipAngle(180);
+                svgGlobe.selectAll("path.back-country").attr("d", path)
+                .classed("focused", function(d, i) { return d.id == focusedCountry.id ? focused = d : false; });
+                projection.rotate(r(t)).clipAngle(90);
+                svgGlobe.selectAll("path.front-country").attr("d", path)
+                .classed("focused", function(d, i) { return d.id == focusedCountry.id ? focused = d : false; });
+                space.rotate(r(t));
+                redrawStars();
+                };
+            })
+            .transition()
+            .tween("zoomin", function(){
+                return function(t){
+                projection.scale(t*globeZoomedScale*scale+scale);
+                projection.clipAngle(180);
+                svgGlobe.selectAll("path.back-country").attr("d", path);
+                projection.clipAngle(90);
+                svgGlobe.selectAll("path.front-country").attr("d", path);
+                space.scale(t*globeZoomedScale*spaceScale+spaceScale);
+                redrawStars();
+                svgGlobe.attr('opacity', 1-t);
+                if(t>=1){
+                    close.style('display', 'block');
+                    svgGlobe.style('display', 'none');
+                    if(d == 246){
+                        svgCountry.style('display', 'block');
+                        queue()
+                        .defer(d3.json, "../data/countries/finland.json")
+                        .defer(d3.csv, "../data/countries/finland.csv")
+                        .await(loadMap);
+                    }else{
+                        notiText.style('display', 'block');
+                    }
                 }
-              }
-            }
-          })
+                }
+            })
         })();
     }
     
     function spin(){
-      var timer = d3.timer(function(){
-        if(start){
-          let dt = Date.now() - t;
-          projection.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]).clipAngle(180);
-          svgGlobe.selectAll('path.back-country').attr('d', path);
-          projection.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]).clipAngle(90);
-          svgGlobe.selectAll('path.front-country').attr('d', path);
-          space.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]);
-          redrawStars();
-        }
-      });   
+        var timer = d3.timer(function(){
+            if(start){
+                let dt = Date.now() - t;
+                projection.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]).clipAngle(180);
+                svgGlobe.selectAll('path.back-country').attr('d', path);
+                projection.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]).clipAngle(90);
+                svgGlobe.selectAll('path.front-country').attr('d', path);
+                space.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]);
+                redrawStars();
+            }
+        });   
     }
     
     function drag(){
-      start = false;
-      var rotate = projection.rotate();
-      projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]).clipAngle(180);
-      svgGlobe.selectAll("path.back-country").attr("d", path);
-      svgGlobe.selectAll(".focused").classed("focused", focused = false);
-      projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]).clipAngle(90);
-      svgGlobe.selectAll("path.front-country").attr("d", path);
-      svgGlobe.selectAll(".focused").classed("focused", focused = false);
-      space.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
-      redrawStars();
+        start = false;
+        var rotate = projection.rotate();
+        projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]).clipAngle(180);
+        svgGlobe.selectAll("path.back-country").attr("d", path);
+        svgGlobe.selectAll(".focused").classed("focused", focused = false);
+        projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]).clipAngle(90);
+        svgGlobe.selectAll("path.front-country").attr("d", path);
+        svgGlobe.selectAll(".focused").classed("focused", focused = false);
+        space.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
+        redrawStars();
     }
 
   };
   
 function redrawStars(){
-  stars.attr("d", function(d){
-    spacePath.pointRadius(d.properties.radius);
-    return spacePath(d);
-  });
+    stars.attr("d", function(d){
+        spacePath.pointRadius(d.properties.radius);
+        return spacePath(d);
+    });
 }
 
 function createStars(number){
-  var data = [];
-  for(var i = 0; i < number; i++){
-    data.push({
-      geometry: {
-        type: 'Point',
-        coordinates: randomLonLat()
-      },
-      type: 'Feature',
-      properties: {
-        radius: Math.random() * 1.5
-      }
-    });
-  }
-  return data;
+    var data = [];
+    for(var i = 0; i < number; i++){
+        data.push({
+            geometry: {
+                type: 'Point',
+                coordinates: randomLonLat()
+            },
+            type: 'Feature',
+            properties: {
+                radius: Math.random() * 1.5
+            }
+        });
+    }
+    return data;
 }
 
 function randomLonLat(){
-  return [Math.random() * 360 - 180, Math.random() * 180 - 90];
+    return [Math.random() * 360 - 180, Math.random() * 180 - 90];
 }
 
 /* ======= Country Functions ======= */             
@@ -343,103 +345,96 @@ function loadMap(err, json, csv){
   
     function mouseover(d){
       countryTooltip.text(d.properties.text + ': ' + d.properties.pop)
-          .style("left", (d3.event.pageX + 7) + "px")
-          .style("top", (d3.event.pageY - 15) + "px")
-          .style("display", "block")
-          .style("opacity", 1);
+            .style("left", (d3.event.pageX + 7) + "px")
+            .style("top", (d3.event.pageY - 15) + "px")
+            .style("display", "block")
+            .style("opacity", 1);
     }
 
     function mouseout(d){
-      countryTooltip.style("opacity", 0)
-        .style("display", "none");
+        countryTooltip.style("opacity", 0)
+            .style("display", "none");
     }
     
     function zoomOut(){
     	d3.transition()
-      .duration(2000)
+        .duration(2000)
     	.tween("zoomout", function(){
         	let curScale = country.scale();
-          return function(t){
-          	/* console.log(t); */
-            let scl = t > 0.8115 ? countryScale : curScale-t*countryZoomedScale*countryScale;
-            /* console.log(scl); */
-            country.scale(scl); 
-            svgCountry.selectAll("path.land").attr("d", countryPath);
-            svgCountry.attr('opacity', t);
-        }
-      });
+            return function(t){
+                /* console.log(t); */
+                let scl = t > 0.8115 ? countryScale : curScale-t*countryZoomedScale*countryScale;
+                /* console.log(scl); */
+                country.scale(scl); 
+                svgCountry.selectAll("path.land").attr("d", countryPath);
+                svgCountry.attr('opacity', t);
+            }
+        });
     }
     
     function zoomIn(){
-    	d3.transition()
-      .duration(2000)
-      .tween("zoomin", function(){
-      	return function(t){
-        	close.style('display', 'none');
-        	let scl = t*countryZoomedScale*countryScale+countryScale;
-        	country.scale(scl);
-          svgCountry.selectAll("path.land").attr("d", countryPath);
-          svgCountry.attr('opacity', 1-t);
-          if(t>=1){
-          	svgCountry.style('display', 'none');
-            svgGlobe.style('display', 'block');
-          }
-        }
-      })
-      .transition()
+        g.attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + 1 + ")translate(" + -width/2 + "," + -height/2 + ")");
+        g.selectAll("path")
+          .classed("active", false);
+        d3.transition()
+        .duration(2000)
+        .tween("zoomin", function(){
+            return function(t){
+                close.style('display', 'none');
+                let scl = t*countryZoomedScale*countryScale+countryScale;
+                country.scale(scl);
+                svgCountry.selectAll("path.land").attr("d", countryPath);
+                svgCountry.attr('opacity', 1-t);
+                if(t>=1){
+                    svgCountry.style('display', 'none');
+                    svgGlobe.style('display', 'block');
+                }
+            }
+        })
+        .transition()
         .tween("zoomout", function(){
-        let curScale = projection.scale();
-        let curSpaceScale = space.scale();
-        return function(t){
-          let scl = t > 0.9995 ? scale : curScale-t*globeZoomedScale*scale;
-          let spaceScl = t > 0.9995 ? spaceScale : curSpaceScale-t*globeZoomedScale*spaceScale;
-          projection.scale(scl);
-          projection.clipAngle(180);
-          svgGlobe.selectAll("path.back-country").attr("d", path);
-          projection.clipAngle(90);
-          svgGlobe.selectAll("path.front-country").attr("d", path);
-          space.scale(spaceScl);
-          redrawStars();
-          svgGlobe.attr('opacity', t);
-          if(t>=1) {
-          	countryList.style('display', 'block');
-          }
-        }
-      });
+            let curScale = projection.scale();
+            let curSpaceScale = space.scale();
+            return function(t){
+                let scl = t > 0.9995 ? scale : curScale-t*globeZoomedScale*scale;
+                let spaceScl = t > 0.9995 ? spaceScale : curSpaceScale-t*globeZoomedScale*spaceScale;
+                projection.scale(scl);
+                projection.clipAngle(180);
+                svgGlobe.selectAll("path.back-country").attr("d", path);
+                projection.clipAngle(90);
+                svgGlobe.selectAll("path.front-country").attr("d", path);
+                space.scale(spaceScl);
+                redrawStars();
+                svgGlobe.attr('opacity', t);
+                if(t>=1) {
+                    countryList.style('display', 'block');
+                }
+            }
+        });
     }
 
     function clicked(d) {
-      var x, y, k;
+        var x, y, k;
 
-      var center;
+        if (d && centered !== d) {
+            var centroid = countryPath.centroid(d);
+            x = centroid[0];
+            y = centroid[1];
+            k = 4;
+            centered = d;
+        } else {
+            x = width / 2;
+            y = height / 2;
+            k = 1;
+            centered = null;
+        }
 
-      console.log(path.bounds(d));
+        g.selectAll("path")
+            .classed("active", centered && function(d) { return d === centered; });
 
-      if (d && centered !== d) {
-        var centroid = path.centroid(d);
-        x = centroid[0];
-        y = centroid[1];
-        k = 4;
-        centered = d;
-        center = [width/2-24, height/2-64.5];
-      } else {
-        x = width / 2;
-        y = height / 2;
-        k = 1;
-        centered = null;
-        center = [width/2, height/2];
-      }
-      
-      console.log('x', x);
-      console.log('y', y);
-      console.log('k', k);
-
-      g.selectAll("path")
-          .classed("active", centered && function(d) { return d === centered; });
-
-      g.transition()
-          .duration(750)
-          .attr("transform", "translate(" + center[0] + "," + center[1] + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-          .style("stroke-width", 1.5 / k + "px");
+        g.transition()
+            .duration(750)
+            .attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
+            .style("stroke-width", 1.5 / k + "px");
     }
 }

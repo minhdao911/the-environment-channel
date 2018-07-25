@@ -3,9 +3,12 @@ var geojsonUrl = "../data/countries/finland.json";
 var csvUrl = "../data/countries/finland.csv";
 var scale = Math.min(width, height)*5;
 
+console.log(width/2);
+console.log(height/2);
+
 var projection = d3.geo.mercator()
   .scale(scale)
-  .rotate([-27,-65,0])
+  .rotate([-26,-64.5,0])
   .translate([width/2, height/2]);
   // .fitExtent([0, 0], [width, height]);
 
@@ -76,6 +79,10 @@ function clicked(d) {
     k = 1;
     centered = null;
   }
+
+  console.log('x', x);
+  console.log('y', y);
+  console.log('k', k);
 
   g.selectAll("path")
       .classed("active", centered && function(d) { return d === centered; });
