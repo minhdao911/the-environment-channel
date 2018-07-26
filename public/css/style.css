@@ -9,14 +9,14 @@ body {
   .back-country {
     fill: #737368;
     stroke: #fff;
-    stroke-width: 0.0px;
+    stroke-width: 0.5px;
     stroke-linejoin: round;
   }
   
   .front-country {
     fill: #dadac4;
     stroke: #fff;
-    stroke-width: 0.0px;
+    stroke-width: 0.5px;
     stroke-linejoin: round;
   }
   
@@ -93,15 +93,15 @@ body {
   }
   
   .land {
-    fill: rgb(255, 204, 68);
-    stroke: #fff;
+    fill: #dadac4;
+    stroke: #dadac4;
     stroke-width: 1px;
   }
 
   .land:hover {
-      fill: rgb(142, 114, 38);
+      fill: rgb(255, 204, 68);
   }
 
   .active {
-      fill: rgb(142, 114, 38);
+      fill: rgb(255, 204, 68);
   }
