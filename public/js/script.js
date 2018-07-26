@@ -17,7 +17,8 @@ var countryTooltip = d3.select("body").append("div").attr("class", "countryToolt
   	countryList = d3.select("#globe").append("select").attr("name", "countries"),
     notiText = d3.select("body").append("p").text("This country is unsupported at the moment")
     	.attr("class", "noti"),
-    close = d3.select("body").append("p").text("Close").attr("class", "close");    
+    closeCountry = d3.select("#country").append("p").text("Close").attr("class", "close"),
+    closeNoti = d3.select("body").append("p").text("Close").attr("class", "close");    
 
 $(".noti").css({left: width/2-200, top: height/2});
     
@@ -149,9 +150,10 @@ queue()
         choose(this.value);
     });
     
-    close.on('click', function(){
+    closeNoti.on('click', function(){
+        console.log('close 1');
     	notiText.style('display', 'none');
-        close.style('display', 'none');
+        closeNoti.style('display', 'none');
         svgGlobe.style('display', 'block');
         d3.transition()
         .duration(2000)
@@ -243,15 +245,16 @@ queue()
                 redrawStars();
                 svgGlobe.attr('opacity', 1-t);
                 if(t>=1){
-                    close.style('display', 'block');
                     svgGlobe.style('display', 'none');
                     if(d == 246){
+                        closeCountry.style('display', 'block');
                         svgCountry.style('display', 'block');
                         queue()
                         .defer(d3.json, "../data/countries/finland.json")
                         .defer(d3.csv, "../data/countries/finland.csv")
                         .await(loadMap);
                     }else{
+                        closeNoti.style('display', 'block');
                         notiText.style('display', 'block');
                     }
                 }
@@ -335,15 +338,15 @@ function loadMap(err, json, csv){
         .enter().append("path")
         .attr("class", "land")
         .attr("d", countryPath)
-        .on('mouseover', mouseover)
-        .on('mouseout', mouseout)
+        .on('mouseover', mouseoverCountry)
+        .on('mouseout', mouseoutCountry)
         .on('click', clicked);
         
-    close.on('click', zoomIn);
+    closeCountry.on('click', zoomIn);
         
     zoomOut();
   
-    function mouseover(d){
+    function mouseoverCountry(d){
       countryTooltip.text(d.properties.text + ': ' + d.properties.pop)
             .style("left", (d3.event.pageX + 7) + "px")
             .style("top", (d3.event.pageY - 15) + "px")
@@ -351,7 +354,7 @@ function loadMap(err, json, csv){
             .style("opacity", 1);
     }
 
-    function mouseout(d){
+    function mouseoutCountry(d){
         countryTooltip.style("opacity", 0)
             .style("display", "none");
     }
@@ -373,6 +376,7 @@ function loadMap(err, json, csv){
     }
     
     function zoomIn(){
+        console.log('close 2');
         g.attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + 1 + ")translate(" + -width/2 + "," + -height/2 + ")");
         g.selectAll("path")
           .classed("active", false);
@@ -380,7 +384,7 @@ function loadMap(err, json, csv){
         .duration(2000)
         .tween("zoomin", function(){
             return function(t){
-                close.style('display', 'none');
+                closeCountry.style('display', 'none');
                 let scl = t*countryZoomedScale*countryScale+countryScale;
                 country.scale(scl);
                 svgCountry.selectAll("path.land").attr("d", countryPath);
