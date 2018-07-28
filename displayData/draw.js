@@ -6,6 +6,14 @@ const nh3_break_points = [200, 400, 800, 1200, 1800];
 const o3_break_points = [50, 100, 168, 208, 748];
 const aqi_break_points = [50, 100, 200, 350, 430];
 
+const htmlDisplay = {
+  pm10: "PM 10",
+  pm25: "PM 2.5",
+  no2: "NO 2",
+  nh3: "NH 3",
+  o3: "O 3"
+};
+
 const breakPoints = {
   pm10_break_points,
   pm25_break_points,
@@ -51,12 +59,11 @@ var tip = d3
   .attr("class", "d3-tip")
   .offset([0, 0])
   .html(function(d) {
-    return (
-      d.data.label +
-      ": <span style='color:orangered'>" +
-      d.data.score +
-      "</span>"
-    );
+    const label = htmlDisplay[d.data.label].split(" ");
+    const text = label[0];
+    const subText = label[1];
+
+    return `${text}<sub>${subText}</sub>: <span> ${d.data.score} </span>`;
   });
 
 var arc = d3.svg
@@ -94,12 +101,13 @@ d3.json(
       const name = d[0];
       const quality = d[1].v;
       const qualityBreakPointsArray = breakPoints[`${name}_break_points`];
+      const score = scoreCount(qualityBreakPointsArray, quality);
 
       d.id = name;
       d.order = 1;
       d.color = breakPointCheck(qualityBreakPointsArray, quality);
       d.weight = 1;
-      d.score = scoreCount(qualityBreakPointsArray, quality);
+      d.score = Math.round(score * 100) / 100;
       d.width = +d.weight;
       d.label = name;
     });
