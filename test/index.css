@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,600,700");
+
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+
+.progress-block {
+  margin-bottom: 25px;
+}
+
+.progress-block .name {
+  margin-bottom: 5px;
+}
+
+.info-holder {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  display: inline-block;
+  width: 75%;
+  padding: 1px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+
+  margin-right: 20px;
+}
+
+.progress-bar {
+  height: 20px;
+  border-radius: 1px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.8s linear;
+  transition-property: width, background-color;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25),
+    inset 0 1px rgba(255, 255, 255, 0.1);
+  width: 0%;
+}
+
+.progress-number {
+  display: inline-block;
+  opacity: 0;
+  transition: 1s ease-in;
+}

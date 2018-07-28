@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <h2>Real-time Air Quality Index</h2>
+      <div class="details">
+        <div class="progress-block" id="pm10">
+          <div class="name">PM<sub>10</sub></div>
+          <div class="info-holder">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="progress-number"></div>
+          </div>
+
+        </div>
+        <div class="progress-block" id="pm25">
+          <div class="name">PM<sub>2.5</sub></div>
+          <div class="info-holder">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="progress-number"></div>
+          </div>
+
+        </div>
+        <div class="progress-block" id="so2">
+          <div class="name">SO<sub>2</sub></div>
+          <div class="info-holder">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="progress-number"></div>
+          </div>
+
+        </div>
+        <div class="progress-block" id="o3">
+          <div class="name">O<sub>3</sub></div>
+          <div class="info-holder">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="progress-number"></div>
+          </div>
+
+        </div>
+        <div class="progress-block" id="no2">
+          <div class="name">NO<sub>2</sub></div>
+          <div class="info-holder">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="progress-number"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <h2>Historical Data</h2>
+      <canvas id="myChart" ></canvas>
+    </div>
+  </div>
+
+</body>
+
+</html>
