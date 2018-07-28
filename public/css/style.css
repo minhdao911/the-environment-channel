@@ -1,5 +1,6 @@
 body {
     background: black;
+    font-family: sans-serif;
   } 
   
   .water {
@@ -59,18 +60,24 @@ body {
     box-shadow: inset 1px 1px 2px #ddd8dc;
   }
   
-  .countryTooltip {
+  #tooltip {
     position: absolute;
-    display: none;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     pointer-events: none;
-    background: #fff;
-    padding: 5px;
-    text-align: left;
-    border: solid #ccc 1px;
-    color: #666;
-    font-size: 14px;
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
     font-family: sans-serif;
-  }
+    font-size: 16px;
+    line-height: 20px;
+}
+
   
   .close {
     position: absolute;
@@ -93,7 +100,6 @@ body {
   }
   
   .land {
-    fill: #dadac4;
     stroke: #dadac4;
     stroke-width: 1px;
   }
@@ -104,10 +110,4 @@ body {
 
   .active {
       fill: rgb(255, 204, 68);
-  }
-
-  .station {
-    fill: rgb(255, 255, 193);
-    stroke: rgb(142, 142, 21);
-    stroke-width: 0.4;
   }

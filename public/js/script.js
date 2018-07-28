@@ -13,7 +13,7 @@ var countryScale = Math.min(width, height)*5,
     countryZoomedScale = 5,
     centered;
     
-var countryTooltip = d3.select("body").append("div").attr("class", "countryTooltip"),
+var tooltip = d3.select("#tooltip"),
   	countryList = d3.select("#globe").append("select").attr("name", "countries"),
     notiText = d3.select("body").append("p").text("This country is unsupported at the moment")
     	.attr("class", "noti"),
@@ -184,21 +184,23 @@ queue()
     };
     
     function mouseover(d){
-        countryTooltip.text(countryById[d.id])
-        .style("left", (d3.event.pageX + 7) + "px")
-        .style("top", (d3.event.pageY - 15) + "px")
+        tooltip.select("#name").text(countryById[d.id]);
+        tooltip.select("#value").text("");
+        tooltip
+        .style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY - 80) + "px")
         .style("display", "block")
         .style("opacity", 1);
     }
     
     function mouseout(d){
-        countryTooltip.style("opacity", 0)
+        tooltip.style("opacity", 0)
         .style("display", "none");
     }
     
     function mousemove(d){
-        countryTooltip.style("left", (d3.event.pageX + 7) + "px")
-        .style("top", (d3.event.pageY - 15) + "px");
+        tooltip.style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY - 80) + "px");
     }
     
     
@@ -209,7 +211,10 @@ queue()
         focusedCountry = getCountry(countries, d),
         p = d3.geo.centroid(focusedCountry);
         svgGlobe.selectAll(".focused").classed("focused", focused = false);
-        if(rotate[0] === -p[0] && rotate[1] === -p[1]){
+        console.log(rotate);
+        console.log(p);
+        if(Math.round(rotate[0]) === -Math.round(p[0]) && Math.round(rotate[1]) === -Math.round(p[1])){
+            console.log("ffffff");
             rotate = [rotate[0], rotate[1]+360];
         }
 
@@ -323,7 +328,17 @@ function randomLonLat(){
 /* ======= Country Functions ======= */             
 
 function loadMap(err, json, csv, stations){
-    console.log(stations);
+    
+    var color = d3.scale.quantize()
+        .range(["rgb(218, 218, 196)", "rgb(222, 222, 180)",
+            "rgb(212, 212, 159)", "rgb(206, 206, 142)","rgb(187, 187, 115)"])
+        .domain([0, 100]);
+
+    color.domain([
+        d3.min(csv, function(d) { return d.population; }),
+        d3.max(csv, function(d) { return d.population; })
+        ]);
+
   	csv.forEach(d => {
         json.features.forEach(jd => {
             if(jd.properties.text == d.name){
@@ -337,6 +352,20 @@ function loadMap(err, json, csv, stations){
         .enter().append("path")
         .attr("class", "land")
         .attr("d", countryPath)
+        .style("fill", function(d){
+            return color(Number(d.properties.pop));
+        })
+        .on('mouseover', mouseoverCountry)
+        .on('mouseout', mouseoutCountry)
+        .on('click', clicked);
+
+    var marker = g.selectAll("g.marker")
+        .data(stations.data)
+        .enter().append("g")
+        .attr("class", "marker")
+        .attr("display", "block");
+
+    marker
         .on('mouseover', mouseoverCountry)
         .on('mouseout', mouseoutCountry)
         .on('click', clicked);
@@ -346,15 +375,32 @@ function loadMap(err, json, csv, stations){
     zoomOut();
   
     function mouseoverCountry(d){
-      countryTooltip.text(d.properties.text + ': ' + d.properties.pop)
-            .style("left", (d3.event.pageX + 7) + "px")
-            .style("top", (d3.event.pageY - 15) + "px")
+        let text;
+        if(d.aqi){
+            d3.select(this).moveToFront();
+            d3.select(this).style("stroke", "white").style("stroke-width", 2);
+            text = [d.station.name, "AQI: "+d.aqi];
+        }else{
+            d3.select(this).style("fill", "orange");
+            text = [d.properties.text, "Population: "+d.properties.pop];
+        }
+        tooltip.select("#name").text(text[0]);
+        tooltip.select("#value").text(text[1]);
+
+        tooltip
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 80) + "px")
             .style("display", "block")
             .style("opacity", 1);
     }
 
     function mouseoutCountry(d){
-        countryTooltip.style("opacity", 0)
+        if(d.aqi) {
+            d3.select(this).style("stroke", "none").style("stroke-width", 0);
+        }else {
+            d3.select(this).style("fill", d => color(Number(d.properties.pop)));
+        }
+        tooltip.style("opacity", 0)
             .style("display", "none");
     }
     
@@ -369,9 +415,7 @@ function loadMap(err, json, csv, stations){
                 svgCountry.selectAll("path.land").attr("d", countryPath);
                 svgCountry.attr('opacity', t);
                 if(t>=1){
-                    g.selectAll("circle")
-                    .data(stations.data)
-                    .enter().append("circle")
+                    marker.append("circle")
                     .attr("cx", function(d) {
                         let cx = country([d.station.geo[1], d.station.geo[0]]);
                         return cx == null ? 0 : cx[0];
@@ -380,14 +424,43 @@ function loadMap(err, json, csv, stations){
                         let cy = country([d.station.geo[1], d.station.geo[0]]);
                         return cy == null ? 0 : cy[1];
                     })
-                    .attr("r", 5)
-                    .style("fill", "red");
+                    .attr("r", 12)
+                    .style("fill", function(d){
+                        if(d.aqi == "-") return "rgba(51, 51, 51, 0.9)";
+                        let aqi = d.aqi;
+                        if(aqi < 51){
+                            return "rgba(13, 199, 0, 0.9)";
+                        }else if(aqi < 101){
+                            return "rgba(224, 199, 11, 0.9)";
+                        }else if(aqi < 151){
+                            return "rgba(236, 125, 39, 0.9)";
+                        }else if(aqi < 201){
+                            return "rgba(255, 26, 26, 0.9)";
+                        }else if(aqi < 301){
+                            return "rgba(76, 0, 168, 0.9)";
+                        }else{
+                            return "rgba(102, 0, 0, 0.9)";
+                        }
+                    });
+                    g.selectAll("circle").style("display", "block");
+
+                    // marker.append("text")
+                    // .attr("x", function(d){
+                    //     return country([d.station.geo[1], d.station.geo[0]])[0] - 8;
+                    // })
+                    // .attr("y", function(d){
+                    //     return country([d.station.geo[1], d.station.geo[0]])[1];
+                    // })
+                    // .text(d => d.aqi);
                 }
             }
         });
     }
     
     function zoomIn(){
+        // marker.attr("opacity", 0);
+        // marker.style("display", "none");
+        g.selectAll("circle").style("display", "none");
         g.attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + 1 + ")translate(" + -width/2 + "," + -height/2 + ")");
         g.selectAll("path")
           .classed("active", false);
@@ -432,9 +505,14 @@ function loadMap(err, json, csv, stations){
         var x, y, k;
 
         if (d && centered !== d) {
-            var centroid = countryPath.centroid(d);
-            x = centroid[0];
-            y = centroid[1];
+            var p;
+            if(d.aqi){
+                p = country([d.station.geo[1], d.station.geo[0]]);
+            }else{
+                p = countryPath.centroid(d);
+            }
+            x = p[0];
+            y = p[1];
             k = 4;
             centered = d;
         } else {
@@ -446,10 +524,28 @@ function loadMap(err, json, csv, stations){
 
         g.selectAll("path")
             .classed("active", centered && function(d) { return d === centered; });
+        if(k === 4){
+            g.selectAll("path")
+            .attr("opacity", d => d === centered ? 1 : 0.3);
+
+            g.selectAll("circle")
+            .attr("opacity", d => d === centered ? 1 : 0.3);
+        }else{
+            g.selectAll("path").attr("opacity", 1);
+            g.selectAll("circle").attr("opacity", 1);
+        }
 
         g.transition()
             .duration(750)
             .attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
             .style("stroke-width", 1.5 / k + "px");
+            // .attr("opacity", d => d === centered ? 1 : 0,8);
     }
+
+    d3.selection.prototype.moveToFront = function() {  
+        return this.each(function(){
+          this.parentNode.appendChild(this);
+        });
+    };
+
 }
