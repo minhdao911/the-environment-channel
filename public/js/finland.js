@@ -25,11 +25,11 @@ var countryTooltip = d3.select("body").append("div").attr("class", "countryToolt
 
 queue()
 	.defer(d3.json, geojsonUrl)
-	.defer(d3.csv, csvUrl)
+    .defer(d3.csv, csvUrl)
+    .defer(d3.json, "https://api.waqi.info/search/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8&keyword=finland")
 	.await(ready);
 
-function ready(error, json, csv){
-    /* console.log(cities) */;
+function ready(error, json, csv, stations){
 
     csv.forEach(d => {
         json.features.forEach(jd => {
@@ -49,6 +49,26 @@ function ready(error, json, csv){
         .on('mouseover', mouseover)
         .on('mouseout', mouseout)
         .on('click', clicked);
+
+        console.log(stations);
+        g.selectAll("circle")
+        .data(stations.data)
+        .enter().append("circle")
+        .attr("cx", function(d) {
+            let cx = projection([d.station.geo[1], d.station.geo[0]]);
+            console.log("cx", cx);
+            return cx == null ? 0 : cx[0];
+            // return d.station.geo[0];
+        })
+        .attr("cy", function(d) {
+            let cy = projection([d.station.geo[1], d.station.geo[0]]);
+            console.log("cy", cy);
+            return cy == null ? 0 : cy[1];
+            // return d.station.geo[1];
+        })
+        .attr("r", 5)
+        .style("fill", "red");
+
 };
 
 function mouseover(d){
@@ -79,10 +99,6 @@ function clicked(d) {
     k = 1;
     centered = null;
   }
-
-  console.log('x', x);
-  console.log('y', y);
-  console.log('k', k);
 
   g.selectAll("path")
       .classed("active", centered && function(d) { return d === centered; });

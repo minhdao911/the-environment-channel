@@ -105,3 +105,9 @@ body {
   .active {
       fill: rgb(255, 204, 68);
   }
+
+  .station {
+    fill: rgb(255, 255, 193);
+    stroke: rgb(142, 142, 21);
+    stroke-width: 0.4;
+  }

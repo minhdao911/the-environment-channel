@@ -151,7 +151,6 @@ queue()
     });
     
     closeNoti.on('click', function(){
-        console.log('close 1');
     	notiText.style('display', 'none');
         closeNoti.style('display', 'none');
         svgGlobe.style('display', 'block');
@@ -178,7 +177,7 @@ queue()
         });
     });
 
-    function country(cnt, sel) { 
+    function getCountry(cnt, sel) { 
       for(var i = 0; i < cnt.length; i++) {
         if(cnt[i].id == sel) {return cnt[i];}
       }
@@ -207,7 +206,7 @@ queue()
         countryList.style('display', 'none');
         start = false;
         var rotate = projection.rotate(),
-        focusedCountry = country(countries, d),
+        focusedCountry = getCountry(countries, d),
         p = d3.geo.centroid(focusedCountry);
         svgGlobe.selectAll(".focused").classed("focused", focused = false);
         if(rotate[0] === -p[0] && rotate[1] === -p[1]){
@@ -252,6 +251,7 @@ queue()
                         queue()
                         .defer(d3.json, "../data/countries/finland.json")
                         .defer(d3.csv, "../data/countries/finland.csv")
+                        .defer(d3.json, "https://api.waqi.info/search/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8&keyword=finland")
                         .await(loadMap);
                     }else{
                         closeNoti.style('display', 'block');
@@ -322,7 +322,8 @@ function randomLonLat(){
 
 /* ======= Country Functions ======= */             
 
-function loadMap(err, json, csv){
+function loadMap(err, json, csv, stations){
+    console.log(stations);
   	csv.forEach(d => {
         json.features.forEach(jd => {
             if(jd.properties.text == d.name){
@@ -330,11 +331,9 @@ function loadMap(err, json, csv){
             }
         });
     });
-
-    var features = json.features;
     
     g.selectAll("path")
-        .data(features)
+        .data(json.features)
         .enter().append("path")
         .attr("class", "land")
         .attr("d", countryPath)
@@ -365,18 +364,30 @@ function loadMap(err, json, csv){
     	.tween("zoomout", function(){
         	let curScale = country.scale();
             return function(t){
-                /* console.log(t); */
                 let scl = t > 0.8115 ? countryScale : curScale-t*countryZoomedScale*countryScale;
-                /* console.log(scl); */
                 country.scale(scl); 
                 svgCountry.selectAll("path.land").attr("d", countryPath);
                 svgCountry.attr('opacity', t);
+                if(t>=1){
+                    g.selectAll("circle")
+                    .data(stations.data)
+                    .enter().append("circle")
+                    .attr("cx", function(d) {
+                        let cx = country([d.station.geo[1], d.station.geo[0]]);
+                        return cx == null ? 0 : cx[0];
+                    })
+                    .attr("cy", function(d) {
+                        let cy = country([d.station.geo[1], d.station.geo[0]]);
+                        return cy == null ? 0 : cy[1];
+                    })
+                    .attr("r", 5)
+                    .style("fill", "red");
+                }
             }
         });
     }
     
     function zoomIn(){
-        console.log('close 2');
         g.attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + 1 + ")translate(" + -width/2 + "," + -height/2 + ")");
         g.selectAll("path")
           .classed("active", false);
