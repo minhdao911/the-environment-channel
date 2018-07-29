@@ -15,6 +15,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
+  padding: 0 30px;
 }
 
 .progress-block {
@@ -23,6 +24,7 @@ a {
 
 .progress-block .name {
   margin-bottom: 5px;
+  font-size: 95%;
 }
 
 .info-holder {
@@ -34,11 +36,10 @@ a {
   display: inline-block;
   width: 75%;
   padding: 1px;
-  background: rgba(0, 0, 0, 0.25);
+  background: #e5e5e5;
   border-radius: 0px;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
     0 1px rgba(255, 255, 255, 0.08);
-
   margin-right: 20px;
 }
 
@@ -61,4 +62,34 @@ a {
   display: inline-block;
   opacity: 0;
   transition: 1s ease-in;
+  font-size: 90%;
+}
+
+.custom-radios {
+  display: flex;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  font-size: 80%;
+}
+.custom-radios input[type="radio"] {
+  display: none;
+}
+.custom-radios input[type="radio"] + label span {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 5px 15px;
+  border: 1px solid #f5f5f5;
+}
+.custom-radios input[type="radio"]:checked + label span {
+  background: #dadada;
+  transition: 0.6s;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons span {
+  height: 100%;
 }
