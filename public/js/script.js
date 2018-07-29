@@ -12,16 +12,110 @@ var width = window.innerWidth,
 var countryScale = Math.min(width, height)*5,
     countryZoomedScale = 5,
     centered;
-    
+
+  //begin of air quality config
+    const pm10_break_points = [50, 100, 250, 350, 430];
+    const pm25_break_points = [30, 60, 90, 120, 250];
+    const no2_break_points = [40, 80, 180, 280, 400];
+    const so2_break_points = [40, 80, 380, 800, 1600];
+    const nh3_break_points = [200, 400, 800, 1200, 1800];
+    const o3_break_points = [50, 100, 168, 208, 748];
+    const aqi_break_points = [50, 100, 200, 350, 430];
+
+    const htmlDisplay = {
+      pm10: "PM 10",
+      pm25: "PM 2.5",
+      no2: "NO 2",
+      nh3: "NH 3",
+      o3: "O 3"
+    };
+
+    const breakPoints = {
+      pm10_break_points,
+      pm25_break_points,
+      no2_break_points,
+      so2_break_points,
+      nh3_break_points,
+      o3_break_points
+    };
+
+    const airNameMap = {
+      no2: "Nitrogen dioxide (ug/m3)",
+      pm10: "Particulate matter < 10 µm (ug/m3)",
+      pm25: "Particulate matter < 2.5 µm (ug/m3)"
+    };
+
+    const scoreCount = (arr, value) => {
+      return (Math.log(value) / Math.log(arr[4])) * 100 + "%";
+    };
+
+    const breakPointCheck = (arr, value) => {
+      if (value < arr[0]) {
+        return "#32CE00";
+      } else if (value < arr[1]) {
+        return "#9BFF00";
+      } else if (value < arr[2]) {
+        return "#FAFF00";
+      } else if (value < arr[2]) {
+        return "#F4001C";
+      } else {
+        return "#9D2B30";
+      }
+    };
+    //end of air quality config
+
+    const displayChart = (airName, days) => {
+     const displayData = dataArr.slice(
+      dataArr.length - days * 24,
+      dataArr.length
+     );
+
+     document.querySelector(".close").style.display = "none";
+
+     const canvasDiv = document.querySelector(".canvas");
+     canvasDiv.innerHTML = "";
+     const canvas = document.createElement("canvas");
+     canvas.id = "myChart";
+     canvasDiv.appendChild(canvas);
+
+     var ctx = document.getElementById("myChart").getContext("2d");
+     var myChart = new Chart(ctx, {
+      type: "line",
+      data: {
+         labels: displayData.map(e => {
+           return `${e.Time} - ${e.d}/${e.m}`;
+         }),
+         datasets: [
+           {
+             label: "Amount",
+             data: displayData.map(e => e[airNameMap[airName]])
+           }
+         ]
+      },
+      options: {
+         scales: {
+           yAxes: [
+             {
+               ticks: {
+                 beginAtZero: true
+               }
+             }
+           ]
+         }
+      }
+     });
+   };
+
+
 var tooltip = d3.select("#tooltip"),
   	countryList = d3.select("#globe").append("select").attr("name", "countries"),
     notiText = d3.select("body").append("p").text("This country is unsupported at the moment")
     	.attr("class", "noti"),
     closeCountry = d3.select("#country").append("p").text("Close").attr("class", "close"),
-    closeNoti = d3.select("body").append("p").text("Close").attr("class", "close");    
+    closeNoti = d3.select("body").append("p").text("Close").attr("class", "close");
 
 $(".noti").css({left: width/2-200, top: height/2});
-    
+
 var svgGlobe = d3.select("#globe").append("svg")
     .attr("width",  width)
     .attr("height", height)
@@ -44,9 +138,9 @@ space.scale(spaceScale);
 var spacePath = d3.geo.path()
     .projection(space)
     .pointRadius(1);
-    
+
 var starList = createStars(300);
-                
+
 var stars = svgGlobe.append("g")
     .selectAll("g")
     .data(starList)
@@ -69,14 +163,14 @@ var projection = d3.geo.orthographic()
 var path = d3.geo.path()
     .projection(projection)
     .pointRadius(2);
-    
-/* ======= Country Set Up ======= */ 
-  
+
+/* ======= Country Set Up ======= */
+
 var svgCountry = d3.select("#country").append("svg")
 	.attr("width", width)
     .attr("height", height)
     .style("display", "none");
-  
+
 var country = d3.geo.mercator()
     .scale(countryScale*countryZoomedScale)
     .rotate([-26,-64.5,0])
@@ -86,13 +180,13 @@ var countryPath = d3.geo.path()
     .projection(country);
 
 var g = svgCountry.append('g');
- 
+
 /* =========================== */
 
 queue()
     .defer(d3.json, "../data/world-110m.json")
     .defer(d3.tsv, "../data/world-110m-country-names.tsv")
-    .await(ready); 
+    .await(ready);
 
   //Main function
 
@@ -111,7 +205,7 @@ queue()
     });
 
     //Drawing countries on the globe
-    
+
     projection.clipAngle(180);
 
     var backCountry = svgGlobe.selectAll("path.land")
@@ -123,9 +217,9 @@ queue()
         .on("mouseout", d => mouseout(d))
         .on("mousemove", d => mousemove(d))
         .on("click", d => choose(d.id));
-    
+
     projection.clipAngle(90);
-    
+
     var frontCountry = svgGlobe.selectAll("path.land")
         .data(countries)
         .enter().append("path")
@@ -135,11 +229,11 @@ queue()
         .on("mouseout", d => mouseout(d))
         .on("mousemove", d => mousemove(d))
         .on("dblclick", d => choose(d.id));
-    
+
     spin(true);
-    
+
     //Drag event
-    
+
     d3.select('body').call(d3.behavior.drag()
         .origin(function() { var r = projection.rotate(); return {x: r[0] / sens, y: -r[1] / sens}; })
         .on("drag", drag));
@@ -149,7 +243,7 @@ queue()
     d3.select("select").on("change", function() {
         choose(this.value);
     });
-    
+
     closeNoti.on('click', function(){
     	notiText.style('display', 'none');
         closeNoti.style('display', 'none');
@@ -177,12 +271,12 @@ queue()
         });
     });
 
-    function getCountry(cnt, sel) { 
+    function getCountry(cnt, sel) {
       for(var i = 0; i < cnt.length; i++) {
         if(cnt[i].id == sel) {return cnt[i];}
       }
     };
-    
+
     function mouseover(d){
         tooltip.select("#name").text(countryById[d.id]);
         tooltip.select("#value").text("");
@@ -192,18 +286,18 @@ queue()
         .style("display", "block")
         .style("opacity", 1);
     }
-    
+
     function mouseout(d){
         tooltip.style("opacity", 0)
         .style("display", "none");
     }
-    
+
     function mousemove(d){
         tooltip.style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 80) + "px");
     }
-    
-    
+
+
     function choose(d){
         countryList.style('display', 'none');
         start = false;
@@ -267,7 +361,7 @@ queue()
             })
         })();
     }
-    
+
     function spin(){
         var timer = d3.timer(function(){
             if(start){
@@ -279,9 +373,9 @@ queue()
                 space.rotate([origin[0] + velocity[0] * dt, origin[1] + velocity[1] * dt]);
                 redrawStars();
             }
-        });   
+        });
     }
-    
+
     function drag(){
         start = false;
         var rotate = projection.rotate();
@@ -296,7 +390,7 @@ queue()
     }
 
   };
-  
+
 function redrawStars(){
     stars.attr("d", function(d){
         spacePath.pointRadius(d.properties.radius);
@@ -325,10 +419,10 @@ function randomLonLat(){
     return [Math.random() * 360 - 180, Math.random() * 180 - 90];
 }
 
-/* ======= Country Functions ======= */             
+/* ======= Country Functions ======= */
 
 function loadMap(err, json, csv, stations){
-    
+
     var color = d3.scale.quantize()
         .range(["rgb(218, 218, 196)", "rgb(222, 222, 180)",
             "rgb(212, 212, 159)", "rgb(206, 206, 142)","rgb(187, 187, 115)"])
@@ -346,7 +440,7 @@ function loadMap(err, json, csv, stations){
             }
         });
     });
-    
+
     g.selectAll("path")
         .data(json.features)
         .enter().append("path")
@@ -369,11 +463,11 @@ function loadMap(err, json, csv, stations){
         .on('mouseover', mouseoverCountry)
         .on('mouseout', mouseoutCountry)
         .on('click', clicked);
-        
+
     closeCountry.on('click', zoomIn);
-        
+
     zoomOut();
-  
+
     function mouseoverCountry(d){
         let text;
         if(d.aqi){
@@ -403,7 +497,7 @@ function loadMap(err, json, csv, stations){
         tooltip.style("opacity", 0)
             .style("display", "none");
     }
-    
+
     function zoomOut(){
     	d3.transition()
         .duration(2000)
@@ -411,7 +505,7 @@ function loadMap(err, json, csv, stations){
         	let curScale = country.scale();
             return function(t){
                 let scl = t > 0.8115 ? countryScale : curScale-t*countryZoomedScale*countryScale;
-                country.scale(scl); 
+                country.scale(scl);
                 svgCountry.selectAll("path.land").attr("d", countryPath);
                 svgCountry.attr('opacity', t);
                 if(t>=1){
@@ -456,7 +550,7 @@ function loadMap(err, json, csv, stations){
             }
         });
     }
-    
+
     function zoomIn(){
         // marker.attr("opacity", 0);
         // marker.style("display", "none");
@@ -540,9 +634,85 @@ function loadMap(err, json, csv, stations){
             .attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
             .style("stroke-width", 1.5 / k + "px");
             // .attr("opacity", d => d === centered ? 1 : 0,8);
+
+        const dataLayer = document.getElementById("data");
+        dataLayer.style.display = 'block';
+        dataLayer.style.opacity = 1;
+
+        document.querySelector(".close-data").addEventListener("click", e => {
+            dataLayer.style.display = 'none';
+            dataLayer.style.opacity = 0;
+             document.querySelector(".close").style.display = "block";
+        })
+
+
+            fetch(
+              "https://api.waqi.info/feed/@1451/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8"
+            )
+              .then(res => res.json())
+              .then(res => {
+                const { aqi, iaqi } = res.data;
+
+                const airRegex = /no2|so2|o3|pm10|pm25/;
+
+                const dataArray = Object.entries(iaqi).filter(e => {
+                  return airRegex.test(e[0]);
+                });
+
+                dataArray.forEach(e => {
+                  const name = e[0];
+                  const quality = e[1].v;
+
+                  const breakPointsArray = breakPoints[`${name}_break_points`];
+
+                  const dataDiv = document.getElementById(name);
+                  const progressBar = dataDiv.querySelector(".progress-bar");
+                  const progressNumber = dataDiv.querySelector(".progress-number");
+
+                  progressBar.style.width = scoreCount(breakPointsArray, quality);
+                  progressBar.style.background = breakPointCheck(
+                    breakPointsArray,
+                    quality
+                  );
+
+                  progressNumber.style.opacity = 1;
+                  progressNumber.innerHTML = quality + "(μg/m3)";
+                });
+              });
+
+            let airName = "pm25";
+            let timePeriod = 2;
+
+            displayChart(airName, timePeriod);
+
+            var airButtons = document.querySelectorAll("input[name='air-category']");
+            var prevAir = null;
+            for (var i = 0; i < airButtons.length; i++) {
+              airButtons[i].onclick = function() {
+                if (this !== prevAir) {
+                  prevAir = this;
+                }
+                airName = this.value.split("-").join("");
+
+                displayChart(airName, timePeriod);
+              };
+            }
+
+            var timeButtons = document.querySelectorAll("input[name='time-period']");
+            var prevTime = null;
+            for (var i = 0; i < timeButtons.length; i++) {
+              timeButtons[i].onclick = function() {
+                if (this !== prevTime) {
+                  prevTime = this;
+                }
+                timePeriod = parseInt(this.value);
+
+                displayChart(airName, timePeriod);
+              };
+            }
     }
 
-    d3.selection.prototype.moveToFront = function() {  
+    d3.selection.prototype.moveToFront = function() {
         return this.each(function(){
           this.parentNode.appendChild(this);
         });
