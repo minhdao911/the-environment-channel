@@ -1,0 +1,132 @@
+#data {
+  display: none;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+}
+
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 100vh;
+}
+
+.data-container>* {
+  padding: 0 30px;
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+}
+
+.close-data {
+  position: absolute;
+  top: 36px;
+  left: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  z-index: 3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.progress-block {
+  margin-bottom: 25px;
+}
+
+.progress-block .name {
+  margin-bottom: 5px;
+  font-size: 95%;
+}
+
+.info-holder {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  display: inline-block;
+  width: 75%;
+  padding: 1px;
+  background: #e5e5e5;
+  border-radius: 0px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  margin-right: 20px;
+}
+
+.progress-bar {
+  height: 20px;
+  border-radius: 1px;
+  background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.8s linear;
+  transition-property: width, background-color;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  width: 0%;
+}
+
+.progress-number {
+  display: inline-block;
+  opacity: 0;
+  font-size: 90%;
+}
+
+.custom-radios {
+  display: flex;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  font-size: 80%;
+}
+
+.custom-radios input[type="radio"] {
+  display: none;
+}
+
+.custom-radios input[type="radio"]+label span {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 5px 15px;
+  border: 1px solid #f5f5f5;
+}
+
+.custom-radios input[type="radio"]:checked+label span {
+  background: #dadada;
+  transition: 0.6s;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons span {
+  height: 100%;
+}
+
+.left {
+  width: 450px;
+  color: white;
+  justify-content: center;
+}
+
+.right {
+  width: 650px;
+  background: rgba(255, 255, 255, 0.95);
+  justify-content: flex-start;
+}
+
+#myChart {
+  margin-bottom: 20px;
+}
