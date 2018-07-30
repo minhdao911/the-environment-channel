@@ -636,13 +636,28 @@ function loadMap(err, json, csv, stations){
             // .attr("opacity", d => d === centered ? 1 : 0,8);
 
         const dataLayer = document.getElementById("data");
+        const bars = dataLayer.querySelector('.left');
+        const graph = dataLayer.querySelector('.right');
+
         dataLayer.style.display = 'block';
         dataLayer.style.opacity = 1;
+        bars.style.visibility='visible';
+
+        graph.classList.add('animated');
+        graph.classList.add('bounceInRight');
+        setTimeout(function(){
+          graph.classList.remove('bounceInRight');
+          }, 1000);
 
         document.querySelector(".close-data").addEventListener("click", e => {
+        graph.classList.add('fadeOutRight');
+        bars.style.visibility='hidden';
+        document.querySelector(".close").style.display = "block";
+        setTimeout(function(){
+            graph.classList.remove('fadeOutRight');
             dataLayer.style.display = 'none';
             dataLayer.style.opacity = 0;
-             document.querySelector(".close").style.display = "block";
+          }, 1000);
         })
 
 
