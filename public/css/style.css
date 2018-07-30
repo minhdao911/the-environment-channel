@@ -79,6 +79,10 @@
     line-height: 20px;
   }
 
+  #cond-value {
+    text-transform: capitalize;
+  }
+
   .close {
     position: absolute;
     top: 20px;
@@ -101,7 +105,7 @@
 
   .land {
     stroke: #dadac4;
-    stroke-width: 1px;
+    stroke-width: 0.2px;
   }
 
   .land:hover {
@@ -110,4 +114,54 @@
 
   .active {
     fill: rgb(255, 204, 68);
+  }
+
+  .options {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+  }
+
+  .options button {
+    color: #f2f2f2;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: black;
+    display: block;
+  }
+  
+  .options button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #f2f2f2;
+  }
+
+  .options button:disabled {
+    cursor: not-allowed;
+    color: #f2f2f2;
+    background-color: black;
+  }
+
+  .options button:focus {
+    outline: none;
+  }
+
+  .wi-thermometer {
+      padding: 7px 11px;
+  }
+
+  .wi-strong-wind {
+    padding: 8px 5px;
+  }
+
+  .wi-humidity {
+      padding: 8px 10px;
+  }
+
+  .options .chosen {
+    color: black;
+    background-color: #f2f2f2;
   }

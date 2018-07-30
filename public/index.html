@@ -6,6 +6,7 @@
     <title>The Environment Channel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- <link rel="stylesheet" href="css/globe.css"> -->
+    <link rel="stylesheet" href="css/weather-icons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/data.css">
 </head>
@@ -13,9 +14,24 @@
     <div id="tooltip">
         <p><strong><span id="name"></span></strong></p>
         <p id="value"></p>
+        <p id="cond-value"></p>
+        <p id="temp-value"></p>
+        <p id="wind-value"></p>
+        <p id="humid-value"></p>
     </div>
     <div id="globe"></div>
-    <div id="country"></div>
+    <div id="country">
+        <div class="options">
+            <!-- <ul>
+                <li id="temp"><i class="wi wi-thermometer"></i></li>
+                <li id="wind"><i class="wi wi-strong-wind"></i></li>
+                <li id="humid"><i class="wi wi-humidity"></i></li>
+            </ul> -->
+            <button id="tempBtn"><i class="wi wi-thermometer"></i></button>
+            <button id="windBtn"><i class="wi wi-strong-wind"></i></button>
+            <button id="humidBtn"><i class="wi wi-humidity"></i></button>
+        </div>
+    </div>
     <div id="data">
         <div class="close-data">Close</div>
         <div class="data-container">

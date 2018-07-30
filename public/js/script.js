@@ -9,6 +9,9 @@ var width = window.innerWidth,
     start = true,
     focused;
 
+var weatherKey = "336cc10d5e71d8310a16b448a229e995",
+    weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
+
 var countryScale = Math.min(width, height)*5,
     countryZoomedScale = 5,
     centered;
@@ -112,7 +115,8 @@ var tooltip = d3.select("#tooltip"),
     notiText = d3.select("body").append("p").text("This country is unsupported at the moment")
     	.attr("class", "noti"),
     closeCountry = d3.select("#country").append("p").text("Close").attr("class", "close"),
-    closeNoti = d3.select("body").append("p").text("Close").attr("class", "close");
+    closeNoti = d3.select("body").append("p").text("Close").attr("class", "close"),
+    options = d3.selectAll(".options").style("display", "none");
 
 $(".noti").css({left: width/2-200, top: height/2});
 
@@ -280,6 +284,7 @@ queue()
     function mouseover(d){
         tooltip.select("#name").text(countryById[d.id]);
         tooltip.select("#value").text("");
+        setWeatherData("", "", "", "");
         tooltip
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY - 80) + "px")
@@ -422,17 +427,61 @@ function randomLonLat(){
 /* ======= Country Functions ======= */
 
 function loadMap(err, json, csv, stations){
+    var tempBtn = $("#tempBtn"), 
+        windBtn = $("#windBtn"),
+        humidBtn = $("#humidBtn");
 
-    var color = d3.scale.quantize()
+    var tempOn = false, windOn = false, humidOn = false;
+
+    console.log(tempBtn);
+
+    tempBtn.prop('disabled', true);
+    windBtn.prop('disabled', true);
+    humidBtn.prop('disabled', true);
+
+    var popColor = d3.scale.quantize()
         .range(["rgb(218, 218, 196)", "rgb(222, 222, 180)",
             "rgb(212, 212, 159)", "rgb(206, 206, 142)","rgb(187, 187, 115)"])
+        .domain([0, 100]),
+        tempColor = d3.scale.quantize()
+        .range(["rgb(232, 209, 167)", "rgb(232, 193, 122)", "rgb(237, 158, 135)", 
+            "rgb(229, 125, 87)", "rgb(216, 75, 23)"])
         .domain([0, 100]);
 
-    color.domain([
+    popColor.domain([
         d3.min(csv, function(d) { return d.population; }),
         d3.max(csv, function(d) { return d.population; })
-        ]);
+    ]);
 
+    let cityCount = 0;
+    json.features.forEach(d => {
+        let c = d.properties.text;
+        fetch(weatherUrl+c)
+        .then(res => {
+            return res.status === 200 ? res.json() : "no data";
+        })
+        .then(res => {
+            cityCount++;
+            d.properties.weather = res
+            if(cityCount === json.features.length){
+                console.log(json.features);
+                tempBtn.prop('disabled', false);
+                windBtn.prop('disabled', false);
+                humidBtn.prop('disabled', false);
+                tempColor.domain([
+                    d3.min(json.features, function(d) { 
+                        if(d.properties.weather !== "no data")
+                            return d.properties.weather.main.temp; 
+                    }),
+                    d3.max(json.features, function(d) { 
+                        if(d.properties.weather !== "no data")
+                            return d.properties.weather.main.temp; 
+                    })
+                ]);
+            }
+        });
+    });
+    
   	csv.forEach(d => {
         json.features.forEach(jd => {
             if(jd.properties.text == d.name){
@@ -447,7 +496,7 @@ function loadMap(err, json, csv, stations){
         .attr("class", "land")
         .attr("d", countryPath)
         .style("fill", function(d){
-            return color(Number(d.properties.pop));
+            return popColor(Number(d.properties.pop));
         })
         .on('mouseover', mouseoverCountry)
         .on('mouseout', mouseoutCountry);
@@ -468,8 +517,30 @@ function loadMap(err, json, csv, stations){
 
     zoomOut();
 
+    tempBtn.on('click', () => {
+        tempOn = !tempOn;
+        if(tempOn) {
+            tempBtn.addClass("chosen");
+            g.selectAll("path")
+            .style("fill", function(d){
+                if(d.properties.weather !== "no data"){
+                    return tempColor(d.properties.weather.main.temp);
+                }else{
+                    return "rgb(87, 88, 89)";
+                }
+            });
+        }else{
+            tempBtn.removeClass("chosen");
+            g.selectAll("path")
+                .style("fill", function(d){
+                    return popColor(Number(d.properties.pop));
+                });
+        } 
+    });
+
     function mouseoverCountry(d){
         let text;
+        let c = "", t = "", wi = "", hu = ""; 
         if(d.aqi){
             d3.select(this).moveToFront();
             d3.select(this).style("stroke", "white").style("stroke-width", 2);
@@ -477,7 +548,16 @@ function loadMap(err, json, csv, stations){
         }else{
             d3.select(this).style("fill", "orange");
             text = [d.properties.text, "Population: "+d.properties.pop];
+            let w = d.properties.weather;
+            if(w === "no data") c = "No Data";
+            else{
+                if(tempOn){
+                    c = "Condition: " + w.weather[0].description
+                    t = "Temperature: " + w.main.temp + " C";
+                }
+            }
         }
+        setWeatherData(c, t, wi, hu);
         tooltip.select("#name").text(text[0]);
         tooltip.select("#value").text(text[1]);
 
@@ -492,7 +572,14 @@ function loadMap(err, json, csv, stations){
         if(d.aqi) {
             d3.select(this).style("stroke", "none").style("stroke-width", 0);
         }else {
-            d3.select(this).style("fill", d => color(Number(d.properties.pop)));
+            if(tempOn) {
+                d3.select(this).style("fill", d => {
+                    if(d.properties.weather !== "no data")
+                        return tempColor(d.properties.weather.main.temp);
+                    else
+                        return "rgb(87, 88, 89)";
+                });
+            }else d3.select(this).style("fill", d => popColor(Number(d.properties.pop)));
         }
         tooltip.style("opacity", 0)
             .style("display", "none");
@@ -509,6 +596,7 @@ function loadMap(err, json, csv, stations){
                 svgCountry.selectAll("path.land").attr("d", countryPath);
                 svgCountry.attr('opacity', t);
                 if(t>=1){
+                    options.style("display", "block");
                     marker.append("circle")
                     .attr("cx", function(d) {
                         let cx = country([d.station.geo[1], d.station.geo[0]]);
@@ -734,5 +822,12 @@ function loadMap(err, json, csv, stations){
           this.parentNode.appendChild(this);
         });
     };
+
+    function setWeatherData(cond, temp, wind, humid){
+        tooltip.select("#cond-value").text(cond);
+        tooltip.select("#temp-value").text(temp);
+        tooltip.select("#wind-value").text(wind);
+        tooltip.select("#humid-value").text(humid);
+    }
 
 }
