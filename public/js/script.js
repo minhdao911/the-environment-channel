@@ -356,11 +356,11 @@ function loadMap(err, json, csv, stations){
             return color(Number(d.properties.pop));
         })
         .on('mouseover', mouseoverCountry)
-        .on('mouseout', mouseoutCountry)
-        .on('click', clicked);
+        .on('mouseout', mouseoutCountry);
+        // .on('click', clicked);
 
     var marker = g.selectAll("g.marker")
-        .data(stations.data)
+        .data(stations.data.filter(d => d && d.aqi!=='-'))
         .enter().append("g")
         .attr("class", "marker")
         .attr("display", "block");
@@ -426,7 +426,7 @@ function loadMap(err, json, csv, stations){
                     })
                     .attr("r", 12)
                     .style("fill", function(d){
-                        if(d.aqi == "-") return "rgba(51, 51, 51, 0.9)";
+                        // if(d.aqi == "-") return "rgba(51, 51, 51, 0.9)";
                         let aqi = d.aqi;
                         if(aqi < 51){
                             return "rgba(13, 199, 0, 0.9)";
@@ -505,6 +505,7 @@ function loadMap(err, json, csv, stations){
         var x, y, k;
 
         if (d && centered !== d) {
+            closeCountry.style("display", "none");
             var p;
             if(d.aqi){
                 p = country([d.station.geo[1], d.station.geo[0]]);
@@ -516,6 +517,7 @@ function loadMap(err, json, csv, stations){
             k = 4;
             centered = d;
         } else {
+            closeCountry.style("display", "block")
             x = width / 2;
             y = height / 2;
             k = 1;
