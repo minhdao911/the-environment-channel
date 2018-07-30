@@ -5,7 +5,6 @@
   height: 100vh;
   top: 0;
   position: absolute;
-  padding: 0 10px;
 }
 
 * {
@@ -36,6 +35,7 @@
   text-decoration: underline;
   cursor: pointer;
   color: white;
+  z-index: 3;
 }
 
 a {
@@ -80,7 +80,6 @@ a {
 .progress-number {
   display: inline-block;
   opacity: 0;
-  transition: 1s ease-in;
   font-size: 90%;
 }
 
@@ -117,13 +116,13 @@ a {
 }
 
 .left {
-  width: 400px;
+  width: 450px;
   color: white;
   justify-content: center;
 }
 
 .right {
-  width: 700px;
+  width: 650px;
   background: rgba(255, 255, 255, 0.95);
   justify-content: flex-start;
 }

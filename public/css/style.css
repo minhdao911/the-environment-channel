@@ -1,56 +1,57 @@
-body {
+  body {
     background: black;
     font-family: sans-serif;
-  } 
-  
+    margin: 0;
+  }
+
   .water {
     fill: black;
   }
-  
+
   .back-country {
     fill: #737368;
     stroke: #fff;
     stroke-width: 0.5px;
     stroke-linejoin: round;
   }
-  
+
   .front-country {
     fill: #dadac4;
     stroke: #fff;
     stroke-width: 0.5px;
     stroke-linejoin: round;
   }
-  
+
   .back-country:hover {
     fill: rgb(142, 114, 38);
     stroke: rgb(142, 114, 38);
     stroke-width: 1px;
   }
-  
+
   .front-country:hover {
     fill: rgb(255, 204, 68);
     stroke: rgb(255, 204, 68);
     stroke-width: 1px;
   }
-  
+
   .back-country.focused {
     fill: rgb(142, 114, 38);
     stroke: white;
     stroke-width: 2px;
   }
-  
+
   .front-country.focused {
     fill: rgb(255, 204, 68);
     stroke: white;
     stroke-width: 2px;
   }
-  
+
   .star {
-      fill: #fff;
-      stroke: rgba(255, 255, 255, .5);
-      stroke-width: .25px;
+    fill: #fff;
+    stroke: rgba(255, 255, 255, 0.5);
+    stroke-width: 0.25px;
   }
-  
+
   select {
     position: absolute;
     top: 20px;
@@ -59,7 +60,7 @@ body {
     padding: 3px;
     box-shadow: inset 1px 1px 2px #ddd8dc;
   }
-  
+
   #tooltip {
     position: absolute;
     height: auto;
@@ -69,16 +70,15 @@ body {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     pointer-events: none;
     display: none;
-}
+  }
 
-#tooltip p {
+  #tooltip p {
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 20px;
-}
+  }
 
-  
   .close {
     position: absolute;
     top: 20px;
@@ -86,28 +86,28 @@ body {
     color: white;
     display: none;
   }
-  
+
   .close:hover {
     cursor: pointer;
     color: #dadac4;
   }
-  
+
   .noti {
     position: absolute;
     color: white;
     font-size: 1.5em;
     display: none;
   }
-  
+
   .land {
     stroke: #dadac4;
     stroke-width: 1px;
   }
 
   .land:hover {
-      fill: rgb(255, 204, 68);
+    fill: rgb(255, 204, 68);
   }
 
   .active {
-      fill: rgb(255, 204, 68);
+    fill: rgb(255, 204, 68);
   }
