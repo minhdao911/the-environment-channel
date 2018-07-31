@@ -120,6 +120,10 @@ var tooltip = d3.select("#tooltip"),
 
 $(".noti").css({left: width/2-200, top: height/2});
 
+var tempBtn = $("#tempBtn"), 
+    windBtn = $("#windBtn"),
+    humidBtn = $("#humidBtn");
+
 var svgGlobe = d3.select("#globe").append("svg")
     .attr("width",  width)
     .attr("height", height)
@@ -427,31 +431,22 @@ function randomLonLat(){
 /* ======= Country Functions ======= */
 
 function loadMap(err, json, csv, stations){
-    var tempBtn = $("#tempBtn"), 
-        windBtn = $("#windBtn"),
-        humidBtn = $("#humidBtn");
 
     var tempOn = false, windOn = false, humidOn = false;
 
-    console.log(tempBtn);
+    tempBtn.css("display", "block");
+    windBtn.css("display", "block");
+    humidBtn.css("display", "block");
 
     tempBtn.prop('disabled', true);
     windBtn.prop('disabled', true);
     humidBtn.prop('disabled', true);
 
-    var popColor = d3.scale.quantize()
-        .range(["rgb(218, 218, 196)", "rgb(222, 222, 180)",
-            "rgb(212, 212, 159)", "rgb(206, 206, 142)","rgb(187, 187, 115)"])
-        .domain([0, 100]),
-        tempColor = d3.scale.quantize()
-        .range(["rgb(232, 209, 167)", "rgb(232, 193, 122)", "rgb(237, 158, 135)", 
-            "rgb(229, 125, 87)", "rgb(216, 75, 23)"])
-        .domain([0, 100]);
+    var landColor = "#272727";
 
-    popColor.domain([
-        d3.min(csv, function(d) { return d.population; }),
-        d3.max(csv, function(d) { return d.population; })
-    ]);
+    var tempColor = d3.scale.quantize()
+        .range(["#ffbaba", "#ff7b7b", "#ff5252", "#ff0000", "#a70000"])
+        .domain([0, 100]);
 
     let cityCount = 0;
     json.features.forEach(d => {
@@ -495,12 +490,8 @@ function loadMap(err, json, csv, stations){
         .enter().append("path")
         .attr("class", "land")
         .attr("d", countryPath)
-        .style("fill", function(d){
-            return popColor(Number(d.properties.pop));
-        })
         .on('mouseover', mouseoverCountry)
         .on('mouseout', mouseoutCountry);
-        // .on('click', clicked);
 
     var marker = g.selectAll("g.marker")
         .data(stations.data.filter(d => d && d.aqi!=='-'))
@@ -521,22 +512,50 @@ function loadMap(err, json, csv, stations){
         tempOn = !tempOn;
         if(tempOn) {
             tempBtn.addClass("chosen");
-            g.selectAll("path")
-            .style("fill", function(d){
-                if(d.properties.weather !== "no data"){
-                    return tempColor(d.properties.weather.main.temp);
-                }else{
-                    return "rgb(87, 88, 89)";
-                }
-            });
+            addTempLayer();
         }else{
             tempBtn.removeClass("chosen");
-            g.selectAll("path")
-                .style("fill", function(d){
-                    return popColor(Number(d.properties.pop));
-                });
+            g.selectAll("path").style("fill", landColor);
         } 
     });
+
+    humidBtn.on('click', () => {
+        humidOn = !humidOn;
+        if(humidOn){
+            humidBtn.addClass("chosen");
+            addHumidLayer();
+        }else{
+            humidBtn.removeClass("chosen");
+            g.selectAll("path").attr("opacity", 1);
+        }
+    });
+
+    function addTempLayer(){
+        g.selectAll("path")
+        .style("fill", function(d){
+            if(d.properties.weather !== "no data"){
+                return tempColor(d.properties.weather.main.temp);
+            }else{
+                return "#c6c6c6";
+            }
+        });
+    }
+
+    function addHumidLayer(){
+        g.selectAll("path")
+        .attr("opacity", function(d){
+            if(d.properties.weather !== "no data"){
+                let h = d.properties.weather.main.humidity;
+                if(h < 20) return 0.9;
+                else if(h < 50) return 0.7;
+                else if(h < 70) return 0.5;
+                else if(h < 90) return 0.3;
+                else return 0.2;
+            }else{
+                return 0.1;
+            }
+        });
+    }
 
     function mouseoverCountry(d){
         let text;
@@ -546,15 +565,22 @@ function loadMap(err, json, csv, stations){
             d3.select(this).style("stroke", "white").style("stroke-width", 2);
             text = [d.station.name, "AQI: "+d.aqi];
         }else{
-            d3.select(this).style("fill", "orange");
+            d3.select(this)
+            .style("fill", "orange")
+            .attr("opacity", 1);
             text = [d.properties.text, "Population: "+d.properties.pop];
             let w = d.properties.weather;
-            if(w === "no data") c = "No Data";
-            else{
-                if(tempOn){
-                    c = "Condition: " + w.weather[0].description
+            if(tempOn){
+                if(w === "no data") c = "No Data";
+                else{
+                    c = "Condition: " + w.weather[0].description;
                     t = "Temperature: " + w.main.temp + " C";
                 }
+            }
+            if(humidOn){
+                if(w === "no data") c = "No Data";
+                else
+                    hu = "Humidity: " + w.main.humidity + "%";
             }
         }
         setWeatherData(c, t, wi, hu);
@@ -573,13 +599,11 @@ function loadMap(err, json, csv, stations){
             d3.select(this).style("stroke", "none").style("stroke-width", 0);
         }else {
             if(tempOn) {
-                d3.select(this).style("fill", d => {
-                    if(d.properties.weather !== "no data")
-                        return tempColor(d.properties.weather.main.temp);
-                    else
-                        return "rgb(87, 88, 89)";
-                });
-            }else d3.select(this).style("fill", d => popColor(Number(d.properties.pop)));
+                addTempLayer();
+            }else d3.select(this).style("fill", landColor);
+            if(humidOn){
+                addHumidLayer();
+            }else d3.select(this).attr("opacity", 1);
         }
         tooltip.style("opacity", 0)
             .style("display", "none");
@@ -608,40 +632,32 @@ function loadMap(err, json, csv, stations){
                     })
                     .attr("r", 12)
                     .style("fill", function(d){
-                        // if(d.aqi == "-") return "rgba(51, 51, 51, 0.9)";
                         let aqi = d.aqi;
-                        if(aqi < 51){
-                            return "rgba(13, 199, 0, 0.9)";
-                        }else if(aqi < 101){
-                            return "rgba(224, 199, 11, 0.9)";
-                        }else if(aqi < 151){
-                            return "rgba(236, 125, 39, 0.9)";
-                        }else if(aqi < 201){
-                            return "rgba(255, 26, 26, 0.9)";
-                        }else if(aqi < 301){
-                            return "rgba(76, 0, 168, 0.9)";
-                        }else{
-                            return "rgba(102, 0, 0, 0.9)";
+                        if(aqi < 51){ //green
+                            return "#14a76c";
+                        }else if(aqi < 101){ //yellow
+                            return "#ffe400";
+                        }else if(aqi < 151){ //orange
+                            return "#ff652f";
+                        }else if(aqi < 201){ //pink
+                            return "#c3073f";
+                        }else if(aqi < 301){ //purple
+                            return "#950740";
+                        }else{ //red
+                            return "#6f2232";
                         }
                     });
                     g.selectAll("circle").style("display", "block");
-
-                    // marker.append("text")
-                    // .attr("x", function(d){
-                    //     return country([d.station.geo[1], d.station.geo[0]])[0] - 8;
-                    // })
-                    // .attr("y", function(d){
-                    //     return country([d.station.geo[1], d.station.geo[0]])[1];
-                    // })
-                    // .text(d => d.aqi);
                 }
             }
         });
     }
 
     function zoomIn(){
-        // marker.attr("opacity", 0);
-        // marker.style("display", "none");
+        reset();
+        tempBtn.css("display", "none");
+        windBtn.css("display", "none");
+        humidBtn.css("display", "none");
         g.selectAll("circle").style("display", "none");
         g.attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + 1 + ")translate(" + -width/2 + "," + -height/2 + ")");
         g.selectAll("path")
@@ -715,7 +731,11 @@ function loadMap(err, json, csv, stations){
             g.selectAll("circle")
             .attr("opacity", d => d === centered ? 1 : 0.3);
         }else{
-            g.selectAll("path").attr("opacity", 1);
+            if(humidOn){
+                addHumidLayer();
+            }else{
+                g.selectAll("path").attr("opacity", 1);
+            }
             g.selectAll("circle").attr("opacity", 1);
         }
 
@@ -723,7 +743,6 @@ function loadMap(err, json, csv, stations){
             .duration(750)
             .attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
             .style("stroke-width", 1.5 / k + "px");
-            // .attr("opacity", d => d === centered ? 1 : 0,8);
 
         const dataLayer = document.getElementById("data");
         const bars = dataLayer.querySelector('.left');
@@ -781,7 +800,7 @@ function loadMap(err, json, csv, stations){
                   );
 
                   progressNumber.style.opacity = 1;
-                  progressNumber.innerHTML = quality + "(μg/m3)";
+                  progressNumber.innerHTML = quality + "(µg/m3)";
                 });
               });
 
@@ -823,11 +842,21 @@ function loadMap(err, json, csv, stations){
         });
     };
 
-    function setWeatherData(cond, temp, wind, humid){
-        tooltip.select("#cond-value").text(cond);
-        tooltip.select("#temp-value").text(temp);
-        tooltip.select("#wind-value").text(wind);
-        tooltip.select("#humid-value").text(humid);
+    function reset(){
+        tempBtn.removeClass("chosen");
+        windBtn.removeClass("chosen");
+        humidBtn.removeClass("chosen");
+        setWeatherData("", "", "", "");
+        g.selectAll("path")
+        .style("fill", landColor)
+        .attr("opacity", 1);
     }
 
+}
+
+function setWeatherData(cond, temp, wind, humid){
+    tooltip.select("#cond-value").text(cond);
+    tooltip.select("#temp-value").text(temp);
+    tooltip.select("#wind-value").text(wind);
+    tooltip.select("#humid-value").text(humid);
 }
