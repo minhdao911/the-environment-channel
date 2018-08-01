@@ -159,7 +159,7 @@ a {
 .data-tooltip {
   display: none;
   width: 220px;
-  height: 90px;
+  height: 120px;
   -webkit-clip-path: polygon(100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
   clip-path: polygon(100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
   background: white;
@@ -189,4 +189,6 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index:5;
+  width:140px;
+  text-align:center;
 }

@@ -8,7 +8,7 @@ var width = window.innerWidth,
   t = Date.now(),
   start = true,
   focused;
-  
+
 // 336cc10d5e71d8310a16b448a229e995
 // d7dfe147284d7ec8e4a5f8e1a7bb2812
 // afaa0e32c277554df53bc840221a792d
@@ -53,20 +53,34 @@ const airNameMap = {
 };
 
 const scoreCount = (arr, value) => {
-  return Math.log(value) / Math.log(arr[4]) * 100 + "%";
+  return (Math.log(value) / Math.log(arr[4])) * 100 + "%";
 };
 
 const breakPointCheck = (arr, value) => {
-  if (value < arr[0]) {
+  if (value <= arr[0]) {
     return "#14a76c";
-  } else if (value < arr[1]) {
+  } else if (value <= arr[1]) {
     return "#ffe400";
-  } else if (value < arr[2]) {
+  } else if (value <= arr[2]) {
     return "#ff652f";
-  } else if (value < arr[2]) {
+  } else if (value <= arr[3]) {
     return "#c3073f";
   } else {
     return "#950740";
+  }
+};
+
+const qualityCheck = (arr, value) => {
+  if (value <= arr[0]) {
+    return "Good";
+  } else if (value <= arr[1]) {
+    return "Moderate";
+  } else if (value <= arr[2]) {
+    return "Unhealthy";
+  } else if (value <= arr[3]) {
+    return "Very Unhealthy";
+  } else {
+    return "Hazardous";
   }
 };
 //end of air quality config
@@ -150,7 +164,10 @@ var tooltip = d3.select("#tooltip"),
     .attr("class", "close"),
   options = d3.selectAll(".options").style("display", "none");
 
-$(".noti").css({ left: width / 2 - 200, top: height / 2 });
+$(".noti").css({
+  left: width / 2 - 200,
+  top: height / 2
+});
 
 var tempBtn = $("#tempBtn"),
   windBtn = $("#windBtn"),
@@ -290,7 +307,10 @@ function ready(error, world, countryData) {
       .drag()
       .origin(function() {
         var r = projection.rotate();
-        return { x: r[0] / sens, y: -r[1] / sens };
+        return {
+          x: r[0] / sens,
+          y: -r[1] / sens
+        };
       })
       .on("drag", drag)
   );
@@ -305,8 +325,7 @@ function ready(error, world, countryData) {
     notiText.style("display", "none");
     closeNoti.style("display", "none");
     svgGlobe.style("display", "block");
-    d3
-      .transition()
+    d3.transition()
       .duration(2000)
       .tween("zoomout", function() {
         let curScale = projection.scale();
@@ -379,8 +398,7 @@ function ready(error, world, countryData) {
     //Globe movement
 
     (function transition() {
-      d3
-        .transition()
+      d3.transition()
         .duration(2500)
         .tween("rotate", function() {
           var r = d3.interpolate(rotate, [-p[0], -p[1]]);
@@ -539,32 +557,33 @@ function loadMap(err, json, csv, stations) {
         cityCount++;
         d.properties.weather = res;
 
-        if(res !== "no data"){
-            let speed = res.wind.speed;
-            let deg = res.wind.deg;
-            for(let i=0; i < 5; i++){
-                let coord = [res.coord.lon+(Math.random()*100)/100, res.coord.lat+(Math.random()*100)/100];
-                let x0y0 = country(coord);
-                let x1y1 = country(
-                  getDestinationPoint(coord, 15 * speed, deg)
-                );
-                if (
-                    !isNaN(x0y0[0]) &&
-                    !isNaN(x0y0[1]) &&
-                    !isNaN(x1y1[0]) &&
-                    !isNaN(x1y1[1])
-                    ) {
-                    lines.push({
-                      x0: x0y0[0],
-                      y0: x0y0[1],
-                      x1: x1y1[0],
-                      y1: x1y1[1],
-                      s: speed,
-                      duration: 8000 / speed,
-                      delay: Math.random() * 1000
-                    });
-                }
-            }   
+        if (res !== "no data") {
+          let speed = res.wind.speed;
+          let deg = res.wind.deg;
+          for (let i = 0; i < 5; i++) {
+            let coord = [
+              res.coord.lon + (Math.random() * 100) / 100,
+              res.coord.lat + (Math.random() * 100) / 100
+            ];
+            let x0y0 = country(coord);
+            let x1y1 = country(getDestinationPoint(coord, 15 * speed, deg));
+            if (
+              !isNaN(x0y0[0]) &&
+              !isNaN(x0y0[1]) &&
+              !isNaN(x1y1[0]) &&
+              !isNaN(x1y1[1])
+            ) {
+              lines.push({
+                x0: x0y0[0],
+                y0: x0y0[1],
+                x1: x1y1[0],
+                y1: x1y1[1],
+                s: speed,
+                duration: 8000 / speed,
+                delay: Math.random() * 1000
+              });
+            }
+          }
         }
 
         if (cityCount === json.features.length) {
@@ -593,8 +612,7 @@ function loadMap(err, json, csv, stations) {
     });
   });
 
-  g
-    .selectAll("path")
+  g.selectAll("path")
     .data(json.features)
     .enter()
     .append("path")
@@ -649,9 +667,9 @@ function loadMap(err, json, csv, stations) {
     if (windOn) {
       windBtn.addClass("chosen");
       addWindLayer();
-    }else{
+    } else {
       windBtn.removeClass("chosen");
-      g.selectAll('line').remove();
+      g.selectAll("line").remove();
     }
   });
 
@@ -665,24 +683,23 @@ function loadMap(err, json, csv, stations) {
     });
   }
 
-    function addHumidLayer() {
-        g.selectAll("path").attr("opacity", function(d) {
-        if (d.properties.weather !== "no data") {
-            let h = d.properties.weather.main.humidity;
-            if (h < 20) return 0.9;
-            else if (h < 50) return 0.7;
-            else if (h < 70) return 0.5;
-            else if (h < 90) return 0.3;
-            else return 0.2;
-        } else {
-            return 0.1;
-        }
-        });
-    }
+  function addHumidLayer() {
+    g.selectAll("path").attr("opacity", function(d) {
+      if (d.properties.weather !== "no data") {
+        let h = d.properties.weather.main.humidity;
+        if (h < 20) return 0.9;
+        else if (h < 50) return 0.7;
+        else if (h < 70) return 0.5;
+        else if (h < 90) return 0.3;
+        else return 0.2;
+      } else {
+        return 0.1;
+      }
+    });
+  }
 
   function addWindLayer() {
-    g
-      .selectAll("line")
+    g.selectAll("line")
       .data(lines)
       .enter()
       .append("line")
@@ -742,14 +759,12 @@ function loadMap(err, json, csv, stations) {
       hu = "";
     if (d.aqi) {
       d3.select(this).moveToFront();
-      d3
-        .select(this)
+      d3.select(this)
         .style("stroke", "white")
         .style("stroke-width", 2);
       text = [d.station.name, "AQI: " + d.aqi];
     } else {
-      d3
-        .select(this)
+      d3.select(this)
         .style("fill", "orange")
         .attr("opacity", 1);
       text = [d.properties.text, "Population: " + d.properties.pop];
@@ -783,8 +798,7 @@ function loadMap(err, json, csv, stations) {
 
   function mouseoutCountry(d) {
     if (d.aqi) {
-      d3
-        .select(this)
+      d3.select(this)
         .style("stroke", "none")
         .style("stroke-width", 0);
     } else {
@@ -799,8 +813,7 @@ function loadMap(err, json, csv, stations) {
   }
 
   function zoomOut() {
-    d3
-      .transition()
+    d3.transition()
       .duration(2000)
       .tween("zoomout", function() {
         let curScale = country.scale();
@@ -874,8 +887,7 @@ function loadMap(err, json, csv, stations) {
         ")"
     );
     g.selectAll("path").classed("active", false);
-    d3
-      .transition()
+    d3.transition()
       .duration(2000)
       .tween("zoomin", function() {
         return function(t) {
@@ -919,87 +931,89 @@ function loadMap(err, json, csv, stations) {
   const dataLayer = document.getElementById("data");
   const bars = dataLayer.querySelector(".left");
   const graph = dataLayer.querySelector(".right");
-  const optionButtons =  document.querySelector(".options");
+  const optionButtons = document.querySelector(".options");
   const userTooltip = document.querySelector(".user-tooltip");
+  const absoluteCircle = dataLayer.querySelector(".absolute-circle");
 
-    const absoluteCircle = dataLayer.querySelector(".absolute-circle");
+  absoluteCircle.addEventListener("click", e => {
+    absoluteCircle.style.display = "none";
+    graph.classList.add("fadeOutRight");
+    bars.style.visibility = "hidden";
+    document.querySelector(".close").style.display = "block";
+    setTimeout(function() {
+      graph.classList.remove("fadeOutRight");
+      dataLayer.style.display = "none";
+      dataLayer.style.opacity = 0;
+    }, 1000);
+    animateOnClick();
+  });
 
-    absoluteCircle.addEventListener("click", e => {
-        absoluteCircle.style.display = "none";
-        graph.classList.add("fadeOutRight");
-        bars.style.visibility = "hidden";
-        document.querySelector(".close").style.display = "block";
-        setTimeout(function() {
-        graph.classList.remove("fadeOutRight");
-        dataLayer.style.display = "none";
-        dataLayer.style.opacity = 0;
-        }, 1000);
-        animateOnClick();
-    });
+  function animateOnClick(d) {
+    var x, y, k;
 
-    function animateOnClick(d){
-        var x, y, k;
-
-        if (d && centered !== d) {
-        closeCountry.style("display", "none");
-        var p;
-        if (d.aqi) {
-            p = country([d.station.geo[1], d.station.geo[0]]);
-        } else {
-            p = countryPath.centroid(d);
-        }
-        x = p[0];
-        y = p[1];
-        k = 4;
-        centered = d;
-        } else {
-        closeCountry.style("display", "block");
-        x = width / 2;
-        y = height / 2;
-        k = 1;
-        centered = null;
-        }
-
-        g.selectAll("path").classed(
-        "active",
-        centered &&
-            function(d) {
-            return d === centered;
-            }
-        );
-        if (k === 4) {
-        g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
-
-        g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
-        } else {
-        if (humidOn) {
-            addHumidLayer();
-        } else {
-            g.selectAll("path").attr("opacity", 1);
-        }
-        g.selectAll("circle").attr("opacity", 1);
-        }
-
-        g
-        .transition()
-        .duration(750)
-        .attr(
-            "transform",
-            "translate(" +
-            width / 2 +
-            "," +
-            height / 2 +
-            ")scale(" +
-            k +
-            ")translate(" +
-            -x +
-            "," +
-            -y +
-            ")"
-        )
-        .style("stroke-width", 1.5 / k + "px");
-        return [x, y, k];
+    if (d && centered !== d) {
+      closeCountry.style("display", "none");
+      var p;
+      if (d.aqi) {
+        p = country([d.station.geo[1], d.station.geo[0]]);
+      } else {
+        p = countryPath.centroid(d);
+      }
+      x = p[0];
+      y = p[1];
+      k = 4;
+      centered = d;
+    } else {
+      closeCountry.style("display", "block");
+      x = width / 2;
+      y = height / 2;
+      k = 1;
+      centered = null;
     }
+
+    g.selectAll("path").classed(
+      "active",
+      centered &&
+        function(d) {
+          return d === centered;
+        }
+    );
+    if (k === 4) {
+      optionButtons.style.display = "none";
+
+      g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
+      g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
+    } else {
+      userTooltip.style.display = "none";
+      optionButtons.style.display = "block";
+
+      if (humidOn) {
+        addHumidLayer();
+      } else {
+        g.selectAll("path").attr("opacity", 1);
+      }
+      g.selectAll("circle").attr("opacity", 1);
+    }
+
+    g.transition()
+      .duration(750)
+      .attr(
+        "transform",
+        "translate(" +
+          width / 2 +
+          "," +
+          height / 2 +
+          ")scale(" +
+          k +
+          ")translate(" +
+          -x +
+          "," +
+          -y +
+          ")"
+      )
+      .style("stroke-width", 1.5 / k + "px");
+    return [x, y, k];
+  }
 
   function clicked(d) {
     let a = animateOnClick(d);
@@ -1008,7 +1022,11 @@ function loadMap(err, json, csv, stations) {
       k = a[2];
 
     //work on data
-    const { uid, aqi, station: { name } } = d;
+    const {
+      uid,
+      aqi,
+      station: { name }
+    } = d;
 
     const nameArray = name.split(", ");
     const stationName = nameArray[1] + " " + nameArray[0];
@@ -1029,8 +1047,7 @@ function loadMap(err, json, csv, stations) {
       graph.classList.add("animated");
       graph.classList.add("bounceInRight");
 
-      const breakPointsArray = breakPoints["aqi_break_points"];
-      absoluteCircle.style.background = breakPointCheck(breakPointsArray, aqi); //config circle color
+      absoluteCircle.style.background = breakPointCheck(aqi_break_points, aqi); //config circle color
 
       setTimeout(function() {
         graph.classList.remove("bounceInRight");
@@ -1059,9 +1076,15 @@ function loadMap(err, json, csv, stations) {
         const { aqi, iaqi, dominentpol } = res.data || {};
         const airRegex = /no2|so2|o3|pm10|pm25/;
 
+        const aqiCheck = aqi ? qualityCheck(aqi_break_points, aqi) : "";
+        const aqiText = aqi ? `${aqi} - ${aqiCheck}` : "unknown";
+
+        document.querySelector(
+          "#tooltip-station-name"
+        ).innerHTML = `Station: ${res.data.city.name}`;
         document.querySelector(
           "#tooltip-air-quality"
-        ).innerHTML = `Air quality index: ${aqi || "unknown"}`;
+        ).innerHTML = `Air quality index: ${aqiText}`;
         document.querySelector(
           "#tooltip-pol-dominant"
         ).innerHTML = `Dominent pollutant: ${htmlDisplay[dominentpol] ||
@@ -1137,8 +1160,7 @@ function loadMap(err, json, csv, stations) {
     windBtn.removeClass("chosen");
     humidBtn.removeClass("chosen");
     setWeatherData("", "", "", "");
-    g
-      .selectAll("path")
+    g.selectAll("path")
       .style("fill", landColor)
       .attr("opacity", 1);
   }
@@ -1153,11 +1175,11 @@ function setWeatherData(cond, temp, wind, humid) {
 
 // MATH FUNCTIONS
 function toRad(deg) {
-  return deg * Math.PI / 180;
+  return (deg * Math.PI) / 180;
 }
 
 function toDeg(rad) {
-  return rad * 180 / Math.PI;
+  return (rad * 180) / Math.PI;
 }
 
 function getDestinationPoint(lonLat, d, brng) {
