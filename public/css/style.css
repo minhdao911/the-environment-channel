@@ -1,168 +1,173 @@
-  body {
-    background: black;
-    font-family: sans-serif;
-    margin: 0;
-  }
+body {
+  background: black;
+  font-family: sans-serif;
+  margin: 0;
+}
 
-  .water {
-    fill: black;
-  }
+.water {
+  fill: black;
+}
 
-  .back-country {
-    fill: #737368;
-    stroke: #fff;
-    stroke-width: 0.5px;
-    stroke-linejoin: round;
-  }
+.back-country {
+  fill: #737368;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+}
 
-  .front-country {
-    fill: #dadac4;
-    stroke: #fff;
-    stroke-width: 0.5px;
-    stroke-linejoin: round;
-  }
+.front-country {
+  fill: #dadac4;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+}
 
-  .back-country:hover {
-    fill: rgb(142, 114, 38);
-    stroke: rgb(142, 114, 38);
-    stroke-width: 1px;
-  }
+.back-country:hover {
+  fill: rgb(142, 114, 38);
+  stroke: rgb(142, 114, 38);
+  stroke-width: 1px;
+}
 
-  .front-country:hover {
-    fill: rgb(255, 204, 68);
-    stroke: rgb(255, 204, 68);
-    stroke-width: 1px;
-  }
+.front-country:hover {
+  fill: rgb(255, 204, 68);
+  stroke: rgb(255, 204, 68);
+  stroke-width: 1px;
+}
 
-  .back-country.focused {
-    fill: rgb(142, 114, 38);
-    stroke: white;
-    stroke-width: 2px;
-  }
+.back-country.focused {
+  fill: rgb(142, 114, 38);
+  stroke: white;
+  stroke-width: 2px;
+}
 
-  .front-country.focused {
-    fill: rgb(255, 204, 68);
-    stroke: white;
-    stroke-width: 2px;
-  }
+.front-country.focused {
+  fill: rgb(255, 204, 68);
+  stroke: white;
+  stroke-width: 2px;
+}
 
-  .star {
-    fill: #fff;
-    stroke: rgba(255, 255, 255, 0.5);
-    stroke-width: 0.25px;
-  }
+.star {
+  fill: #fff;
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 0.25px;
+}
 
-  select {
+select {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: solid #ccc 1px;
+  padding: 3px;
+  box-shadow: inset 1px 1px 2px #ddd8dc;
+}
+
+#tooltip {
+  position: absolute;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#cond-value {
+  text-transform: capitalize;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  display: none;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: #dadac4;
+}
+
+.noti {
+  position: absolute;
+  color: white;
+  font-size: 1.5em;
+  display: none;
+}
+
+.land {
+  fill: #636363;
+  stroke: #fff;
+  stroke-width: 0.2px;
+}
+
+.land:hover {
+  fill: rgb(255, 204, 68);
+}
+
+.active {
+  fill: rgb(255, 204, 68);
+}
+
+.options {
     position: absolute;
     top: 20px;
-    left: 20px;
-    border: solid #ccc 1px;
-    padding: 3px;
-    box-shadow: inset 1px 1px 2px #ddd8dc;
-  }
+    right: 20px;
+}
 
-  #tooltip {
-    position: absolute;
-    height: auto;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    pointer-events: none;
-    display: none;
-  }
+.options button {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: black;
+  display: none;
+}
 
-  #tooltip p {
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-  }
+.options button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #f2f2f2;
+}
 
-  #cond-value {
-    text-transform: capitalize;
-  }
+.options button:disabled {
+  cursor: not-allowed;
+  color: #f2f2f2;
+  background-color: black;
+}
 
-  .close {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: white;
-    display: none;
-  }
+.options button:focus {
+  outline: none;
+}
 
-  .close:hover {
-    cursor: pointer;
-    color: #dadac4;
-  }
+.wi-thermometer {
+    padding: 7px 11px;
+}
 
-  .noti {
-    position: absolute;
-    color: white;
-    font-size: 1.5em;
-    display: none;
-  }
+.wi-strong-wind {
+  padding: 8px 5px;
+}
 
-  .land {
-    fill: #272727;
-    stroke: rgb(255, 204, 68);
-    stroke-width: 0.09px;
-  }
+.wi-humidity {
+    padding: 8px 10px;
+}
 
-  .land:hover {
-    fill: rgb(255, 204, 68);
-  }
+.options .chosen {
+  color: black;
+  background-color: #f2f2f2;
+}
 
-  .active {
-    fill: rgb(255, 204, 68);
-  }
-
-  .options {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-  }
-
-  .options button {
-    color: #f2f2f2;
-    font-size: 1.2em;
-    padding: 10px;
-    border: 1px solid #f2f2f2;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    background-color: black;
-    display: none;
-  }
-  
-  .options button:hover {
-    cursor: pointer;
-    color: black;
-    background-color: #f2f2f2;
-  }
-
-  .options button:disabled {
-    cursor: not-allowed;
-    color: #f2f2f2;
-    background-color: black;
-  }
-
-  .options button:focus {
-    outline: none;
-  }
-
-  .wi-thermometer {
-      padding: 7px 11px;
-  }
-
-  .wi-strong-wind {
-    padding: 8px 5px;
-  }
-
-  .wi-humidity {
-      padding: 8px 10px;
-  }
-
-  .options .chosen {
-    color: black;
-    background-color: #f2f2f2;
-  }
+.line {
+  stroke: #fff;
+  stroke-width: 2px;
+}
