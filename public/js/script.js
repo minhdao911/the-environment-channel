@@ -532,12 +532,12 @@ function loadMap(err, json, csv, stations) {
           let speed = res.wind.speed;
           let deg = res.wind.deg;
           let x0y0 = country([res.coord.lon, res.coord.lat]);
-          let x1y1 = country(getDestinationPoint([res.coord.lon, res.coord.lat], 1.2*speed, deg));
+          let x1y1 = country(getDestinationPoint([res.coord.lon, res.coord.lat], 10*speed, deg));
           if(!isNaN(x0y0[0]) && !isNaN(x0y0[1]) && !isNaN(x1y1[0]) && !isNaN(x1y1[1])){
             console.log(res.name, x0y0);
             lines.push({
               x0: x0y0[0],
-              y0: x1y1[1],
+              y0: x0y0[1],
               x1: x1y1[0],
               y1: x1y1[1],
               s: speed,
@@ -874,12 +874,26 @@ function loadMap(err, json, csv, stations) {
       });
   }
 
-  function clicked(d) {
-    const dataLayer = document.getElementById("data");
+  const dataLayer = document.getElementById("data");
     const bars = dataLayer.querySelector(".left");
     const graph = dataLayer.querySelector(".right");
-    const absoluteCircle = dataLayer.querySelector(".absolute-circle");
 
+  const absoluteCircle = dataLayer.querySelector(".absolute-circle");
+
+  absoluteCircle.addEventListener("click", e => {
+    absoluteCircle.style.display = "none";
+    graph.classList.add("fadeOutRight");
+    bars.style.visibility = "hidden";
+    document.querySelector(".close").style.display = "block";
+    setTimeout(function() {
+      graph.classList.remove("fadeOutRight");
+      dataLayer.style.display = "none";
+      dataLayer.style.opacity = 0;
+    }, 1000);
+    animateOnClick();
+  });
+
+  function animateOnClick(d){
     var x, y, k;
 
     if (d && centered !== d) {
@@ -940,6 +954,13 @@ function loadMap(err, json, csv, stations) {
           ")"
       )
       .style("stroke-width", 1.5 / k + "px");
+      return [x, y, k];
+  }
+
+  function clicked(d) {
+
+    let a = animateOnClick(d);
+    var x = a[0], y = a[1], k = a[2];
 
       //work on data
       const { uid, aqi, station: { name } } = d;
@@ -974,17 +995,17 @@ function loadMap(err, json, csv, stations) {
         absoluteCircle.style.display = "flex"; //display circle after 1 sec
       }, 1000);
 
-      absoluteCircle.addEventListener("click", e => {
-        absoluteCircle.style.display = "none";
-        graph.classList.add("fadeOutRight");
-        bars.style.visibility = "hidden";
-        document.querySelector(".close").style.display = "block";
-        setTimeout(function() {
-          graph.classList.remove("fadeOutRight");
-          dataLayer.style.display = "none";
-          dataLayer.style.opacity = 0;
-        }, 1000);
-      });
+    //   absoluteCircle.addEventListener("click", e => {
+    //     absoluteCircle.style.display = "none";
+    //     graph.classList.add("fadeOutRight");
+    //     bars.style.visibility = "hidden";
+    //     document.querySelector(".close").style.display = "block";
+    //     setTimeout(function() {
+    //       graph.classList.remove("fadeOutRight");
+    //       dataLayer.style.display = "none";
+    //       dataLayer.style.opacity = 0;
+    //     }, 1000);
+    //   });
 
       const infoBars = Array.from(document.querySelectorAll(".info-holder"));
 
@@ -1006,6 +1027,7 @@ function loadMap(err, json, csv, stations) {
       fetch(fetchUrl)
         .then(res => res.json())
         .then(res => {
+            console.log(res);
           const { aqi, iaqi, dominentpol } = res.data || {};
           const airRegex = /no2|so2|o3|pm10|pm25/;
 
