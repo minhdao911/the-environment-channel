@@ -908,6 +908,8 @@ function loadMap(err, json, csv, stations) {
   const dataLayer = document.getElementById("data");
   const bars = dataLayer.querySelector(".left");
   const graph = dataLayer.querySelector(".right");
+  const optionButtons =  document.querySelector(".options");
+  const userTooltip = document.querySelector(".user-tooltip");
 
   const absoluteCircle = dataLayer.querySelector(".absolute-circle");
 
@@ -955,10 +957,14 @@ function loadMap(err, json, csv, stations) {
         }
     );
     if (k === 4) {
-      g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
+      optionButtons.style.display = "none";
 
+      g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
       g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
     } else {
+      optionButtons.style.display = "block";
+      userTooltip.style.display = "none";
+
       if (humidOn) {
         addHumidLayer();
       } else {
@@ -1022,6 +1028,7 @@ function loadMap(err, json, csv, stations) {
       setTimeout(function() {
         graph.classList.remove("bounceInRight");
         absoluteCircle.style.display = "flex"; //display circle after 1 sec
+        userTooltip.style.display = "block";
       }, 1000);
 
       const infoBars = Array.from(document.querySelectorAll(".info-holder"));

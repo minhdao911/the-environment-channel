@@ -180,3 +180,13 @@ a {
   display: flex;
   z-index:5;
 }
+
+.user-tooltip {
+  display: none;
+  position: absolute;
+  color:white;
+  top: calc(50% + 80px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:5;
+}
