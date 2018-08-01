@@ -8,8 +8,9 @@ var width = window.innerWidth,
   t = Date.now(),
   start = true,
   focused;
-
-var weatherKey = "d7dfe147284d7ec8e4a5f8e1a7bb2812",
+//   336cc10d5e71d8310a16b448a229e995
+// d7dfe147284d7ec8e4a5f8e1a7bb2812
+var weatherKey = "336cc10d5e71d8310a16b448a229e995",
   weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
 
 var countryScale = Math.min(width, height) * 5,
@@ -354,14 +355,11 @@ function ready(error, world, countryData) {
     var rotate = projection.rotate(),
       focusedCountry = getCountry(countries, d),
       p = d3.geo.centroid(focusedCountry);
-    svgGlobe.selectAll(".focused").classed("focused", (focused = false));
-    console.log(rotate);
-    console.log(p);
+      svgGlobe.selectAll(".focused").classed("focused", (focused = false));
     if (
       Math.round(rotate[0]) === -Math.round(p[0]) &&
       Math.round(rotate[1]) === -Math.round(p[1])
     ) {
-      console.log("ffffff");
       rotate = [rotate[0], rotate[1] + 360];
     }
 
@@ -529,26 +527,34 @@ function loadMap(err, json, csv, stations) {
         d.properties.weather = res;
 
         if(res !== "no data"){
-          let speed = res.wind.speed;
-          let deg = res.wind.deg;
-          let x0y0 = country([res.coord.lon, res.coord.lat]);
-          let x1y1 = country(getDestinationPoint([res.coord.lon, res.coord.lat], 10*speed, deg));
-          if(!isNaN(x0y0[0]) && !isNaN(x0y0[1]) && !isNaN(x1y1[0]) && !isNaN(x1y1[1])){
-            console.log(res.name, x0y0);
-            lines.push({
-              x0: x0y0[0],
-              y0: x0y0[1],
-              x1: x1y1[0],
-              y1: x1y1[1],
-              s: speed,
-              duration: 8000/speed,
-              delay: Math.random() * 1000
-            });
-          }
+            let speed = res.wind.speed;
+            let deg = res.wind.deg;
+            for(let i=0; i < 10; i++){
+                let coord = [res.coord.lon+(Math.random()*100)/100, res.coord.lat+(Math.random()*100)/100];
+                let x0y0 = country(coord);
+                let x1y1 = country(
+                  getDestinationPoint(coord, 15 * speed, deg)
+                );
+                if (
+                    !isNaN(x0y0[0]) &&
+                    !isNaN(x0y0[1]) &&
+                    !isNaN(x1y1[0]) &&
+                    !isNaN(x1y1[1])
+                    ) {
+                    lines.push({
+                      x0: x0y0[0],
+                      y0: x0y0[1],
+                      x1: x1y1[0],
+                      y1: x1y1[1],
+                      s: speed,
+                      duration: 8000 / speed,
+                      delay: Math.random() * 1000
+                    });
+                }
+            }   
         }
         
         if (cityCount === json.features.length) {
-          console.log(json.features);
           tempBtn.prop("disabled", false);
           windBtn.prop("disabled", false);
           humidBtn.prop("disabled", false);
@@ -562,7 +568,6 @@ function loadMap(err, json, csv, stations) {
                 return d.properties.weather.main.temp;
             })
           ]);
-          console.log(lines);
         }
       });
   });
@@ -584,7 +589,8 @@ function loadMap(err, json, csv, stations) {
     .attr("d", countryPath)
     .style("stroke-dasharray", ("3, 3"))
     .on("mouseover", mouseoverCountry)
-    .on("mouseout", mouseoutCountry);
+    .on("mouseout", mouseoutCountry)
+    .on("click", clicked);
 
   var marker = g
     .selectAll("g.marker")
@@ -631,7 +637,7 @@ function loadMap(err, json, csv, stations) {
       windBtn.addClass("chosen");
       addWindLayer();
     }else{
-      humidBtn.removeClass("chosen");
+      windBtn.removeClass("chosen");
       g.selectAll('line').remove();
     }
   });
@@ -646,54 +652,55 @@ function loadMap(err, json, csv, stations) {
     });
   }
 
-  function addHumidLayer() {
-    g.selectAll("path").attr("opacity", function(d) {
-      if (d.properties.weather !== "no data") {
-        let h = d.properties.weather.main.humidity;
-        if (h < 20) return 0.9;
-        else if (h < 50) return 0.7;
-        else if (h < 70) return 0.5;
-        else if (h < 90) return 0.3;
-        else return 0.2;
-      } else {
-        return 0.1;
-      }
-    });
-  }
+    function addHumidLayer() {
+        g.selectAll("path").attr("opacity", function(d) {
+        if (d.properties.weather !== "no data") {
+            let h = d.properties.weather.main.humidity;
+            if (h < 20) return 0.9;
+            else if (h < 50) return 0.7;
+            else if (h < 70) return 0.5;
+            else if (h < 90) return 0.3;
+            else return 0.2;
+        } else {
+            return 0.1;
+        }
+        });
+    }
 
-  function addWindLayer(){
-    console.log("draw line");
-    g.selectAll('line')
-    .data(lines).enter()
-    .append('line')
-    .attr('class', 'line')
-    .attr({
-      x1: function(d) {return d.x0}, 
-      y1: function(d) {return d.y0}
-    }).call(lineAnimate);
-  }
+    function addWindLayer(){
+        g.selectAll('line')
+        .data(lines).enter()
+        .append('line')
+        .attr('class', 'line')
+        .attr({
+        x1: function(d) {return d.x0}, 
+        y1: function(d) {return d.y0}
+        }).call(lineAnimate);
+    }
 
-  function lineAnimate(selection) {
-    selection
-    .attr({
-      x2: function(d) {return d.x0},
-      y2: function(d) {return d.y0}
-    })
-    .style('opacity', 0)
-    .transition()
-      .ease('linear')
-      .duration(function(d) {return d.duration;})
-      .delay(function(d) {return d.delay;})
-      .attr({
-        x2: function(d) {return d.x1},
-        y2: function(d) {return d.y1}
-      })
-      .style('opacity', 0.8)
-    .transition()
-      .duration(1000)
-      .style('opacity', 0.1)
-    .each('end', function() {d3.select(this).call(lineAnimate)});
-  }
+    function lineAnimate(selection) {
+        selection
+        .attr({
+        x2: function(d) {return d.x0},
+        y2: function(d) {return d.y0}
+        })
+        .style('opacity', 0)
+        .transition()
+        .ease('linear')
+        .duration(function(d) {return d.duration;})
+        .delay(function(d) {return d.delay;})
+        .attr({
+            x2: function(d) {return d.x1},
+            y2: function(d) {return d.y1}
+        })
+        .style('opacity', 0.8)
+        .transition()
+        .duration(1000)
+        .style('opacity', 0.1)
+        .each('end', function() {
+            d3.select(this).call(lineAnimate);
+        });
+    }
 
   function mouseoverCountry(d) {
     let text;
@@ -725,6 +732,10 @@ function loadMap(err, json, csv, stations) {
       if (humidOn) {
         if (w === "no data") c = "No Data";
         else hu = "Humidity: " + w.main.humidity + "%";
+      }
+      if (windOn) {
+        if (w === "no data") c = "No Data";
+        else hu = "Wind: " + w.wind.speed + " m/s";
       }
     }
     setWeatherData(c, t, wi, hu);
@@ -775,7 +786,6 @@ function loadMap(err, json, csv, stations) {
               .append("circle")
               .attr("cx", function(d) {
                 let cx = country([d.station.geo[1], d.station.geo[0]]);
-                console.log('circle', cx);
                 return cx == null ? 0 : cx[0];
               })
               .attr("cy", function(d) {
@@ -874,107 +884,106 @@ function loadMap(err, json, csv, stations) {
       });
   }
 
-  const dataLayer = document.getElementById("data");
+    const dataLayer = document.getElementById("data");
     const bars = dataLayer.querySelector(".left");
     const graph = dataLayer.querySelector(".right");
 
-  const absoluteCircle = dataLayer.querySelector(".absolute-circle");
+    const absoluteCircle = dataLayer.querySelector(".absolute-circle");
 
-  absoluteCircle.addEventListener("click", e => {
-    absoluteCircle.style.display = "none";
-    graph.classList.add("fadeOutRight");
-    bars.style.visibility = "hidden";
-    document.querySelector(".close").style.display = "block";
-    setTimeout(function() {
-      graph.classList.remove("fadeOutRight");
-      dataLayer.style.display = "none";
-      dataLayer.style.opacity = 0;
-    }, 1000);
-    animateOnClick();
-  });
+    absoluteCircle.addEventListener("click", e => {
+        absoluteCircle.style.display = "none";
+        graph.classList.add("fadeOutRight");
+        bars.style.visibility = "hidden";
+        document.querySelector(".close").style.display = "block";
+        setTimeout(function() {
+        graph.classList.remove("fadeOutRight");
+        dataLayer.style.display = "none";
+        dataLayer.style.opacity = 0;
+        }, 1000);
+        animateOnClick();
+    });
 
-  function animateOnClick(d){
-    var x, y, k;
+    function animateOnClick(d){
+        var x, y, k;
 
-    if (d && centered !== d) {
-      closeCountry.style("display", "none");
-      var p;
-      if (d.aqi) {
-        p = country([d.station.geo[1], d.station.geo[0]]);
-      } else {
-        p = countryPath.centroid(d);
-      }
-      x = p[0];
-      y = p[1];
-      k = 4;
-      centered = d;
-    } else {
-      closeCountry.style("display", "block");
-      x = width / 2;
-      y = height / 2;
-      k = 1;
-      centered = null;
-    }
-
-    g.selectAll("path").classed(
-      "active",
-      centered &&
-        function(d) {
-          return d === centered;
+        if (d && centered !== d) {
+        closeCountry.style("display", "none");
+        var p;
+        if (d.aqi) {
+            p = country([d.station.geo[1], d.station.geo[0]]);
+        } else {
+            p = countryPath.centroid(d);
         }
-    );
-    if (k === 4) {
-      g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
+        x = p[0];
+        y = p[1];
+        k = 4;
+        centered = d;
+        } else {
+        closeCountry.style("display", "block");
+        x = width / 2;
+        y = height / 2;
+        k = 1;
+        centered = null;
+        }
 
-      g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
-    } else {
-      if (humidOn) {
-        addHumidLayer();
-      } else {
-        g.selectAll("path").attr("opacity", 1);
-      }
-      g.selectAll("circle").attr("opacity", 1);
+        g.selectAll("path").classed(
+        "active",
+        centered &&
+            function(d) {
+            return d === centered;
+            }
+        );
+        if (k === 4) {
+        g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
+
+        g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
+        } else {
+        if (humidOn) {
+            addHumidLayer();
+        } else {
+            g.selectAll("path").attr("opacity", 1);
+        }
+        g.selectAll("circle").attr("opacity", 1);
+        }
+
+        g
+        .transition()
+        .duration(750)
+        .attr(
+            "transform",
+            "translate(" +
+            width / 2 +
+            "," +
+            height / 2 +
+            ")scale(" +
+            k +
+            ")translate(" +
+            -x +
+            "," +
+            -y +
+            ")"
+        )
+        .style("stroke-width", 1.5 / k + "px");
+        return [x, y, k];
     }
-
-    g
-      .transition()
-      .duration(750)
-      .attr(
-        "transform",
-        "translate(" +
-          width / 2 +
-          "," +
-          height / 2 +
-          ")scale(" +
-          k +
-          ")translate(" +
-          -x +
-          "," +
-          -y +
-          ")"
-      )
-      .style("stroke-width", 1.5 / k + "px");
-      return [x, y, k];
-  }
 
   function clicked(d) {
-
     let a = animateOnClick(d);
     var x = a[0], y = a[1], k = a[2];
 
-      //work on data
-      const { uid, aqi, station: { name } } = d;
+    //work on data
+    const { uid, aqi, station: { name } } = d;
 
-      const nameArray = name.split(", ");
-      const stationName = nameArray[1] + " " + nameArray[0];
-      const processedName = stationName.split(" ").join("-");
+    const nameArray = name.split(", ");
+    const stationName = nameArray[1] + " " + nameArray[0];
+    const processedName = stationName.split(" ").join("-");
 
-      const baseUrl = "http://localhost:3000";
-      const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
+    const baseUrl = "http://localhost:3000";
+    const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
-      let airName = "pm25";
-      let timePeriod = 2;
-      let historicalData = [];
+    let airName = "pm25";
+    let timePeriod = 2;
+    let historicalData = [];
 
     if (k === 4) {
       dataLayer.style.display = "block";
@@ -994,18 +1003,6 @@ function loadMap(err, json, csv, stations) {
         graph.classList.remove("bounceInRight");
         absoluteCircle.style.display = "flex"; //display circle after 1 sec
       }, 1000);
-
-    //   absoluteCircle.addEventListener("click", e => {
-    //     absoluteCircle.style.display = "none";
-    //     graph.classList.add("fadeOutRight");
-    //     bars.style.visibility = "hidden";
-    //     document.querySelector(".close").style.display = "block";
-    //     setTimeout(function() {
-    //       graph.classList.remove("fadeOutRight");
-    //       dataLayer.style.display = "none";
-    //       dataLayer.style.opacity = 0;
-    //     }, 1000);
-    //   });
 
       const infoBars = Array.from(document.querySelectorAll(".info-holder"));
 

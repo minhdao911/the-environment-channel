@@ -168,6 +168,6 @@ select {
 }
 
 .line {
-  stroke: #fff;
+  stroke: black;
   stroke-width: 1px;
 }
