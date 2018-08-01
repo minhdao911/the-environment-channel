@@ -8,8 +8,10 @@ var width = window.innerWidth,
   t = Date.now(),
   start = true,
   focused;
-//   336cc10d5e71d8310a16b448a229e995
+  
+// 336cc10d5e71d8310a16b448a229e995
 // d7dfe147284d7ec8e4a5f8e1a7bb2812
+// afaa0e32c277554df53bc840221a792d
 var weatherKey = "336cc10d5e71d8310a16b448a229e995",
   weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
 
@@ -108,11 +110,22 @@ const displayChart = (airName, days, historicalData) => {
         ]
       },
       title: {
-           display: true,
-           text: `Data last ${days} days`
-       }
+        display: true,
+        text: `Data last ${days} days`
+      }
     }
   });
+};
+
+const doRecursiveRequest = (url, limit) => {
+  return fetch(url)
+    .then(res => res.json())
+    .then(res => {
+      if (res.status === "nug" && --limit) {
+        return doRecursiveRequest(url, limit);
+      }
+      return res;
+    });
 };
 
 var tooltip = d3.select("#tooltip"),
@@ -355,7 +368,7 @@ function ready(error, world, countryData) {
     var rotate = projection.rotate(),
       focusedCountry = getCountry(countries, d),
       p = d3.geo.centroid(focusedCountry);
-      svgGlobe.selectAll(".focused").classed("focused", (focused = false));
+    svgGlobe.selectAll(".focused").classed("focused", (focused = false));
     if (
       Math.round(rotate[0]) === -Math.round(p[0]) &&
       Math.round(rotate[1]) === -Math.round(p[1])
@@ -553,7 +566,7 @@ function loadMap(err, json, csv, stations) {
                 }
             }   
         }
-        
+
         if (cityCount === json.features.length) {
           tempBtn.prop("disabled", false);
           windBtn.prop("disabled", false);
@@ -587,7 +600,7 @@ function loadMap(err, json, csv, stations) {
     .append("path")
     .attr("class", "land")
     .attr("d", countryPath)
-    .style("stroke-dasharray", ("3, 3"))
+    .style("stroke-dasharray", "3, 3")
     .on("mouseover", mouseoverCountry)
     .on("mouseout", mouseoutCountry)
     .on("click", clicked);
@@ -631,9 +644,9 @@ function loadMap(err, json, csv, stations) {
     }
   });
 
-  windBtn.on('click', () => {
+  windBtn.on("click", () => {
     windOn = !windOn;
-    if(windOn){
+    if (windOn) {
       windBtn.addClass("chosen");
       addWindLayer();
     }else{
@@ -667,40 +680,59 @@ function loadMap(err, json, csv, stations) {
         });
     }
 
-    function addWindLayer(){
-        g.selectAll('line')
-        .data(lines).enter()
-        .append('line')
-        .attr('class', 'line')
-        .attr({
-        x1: function(d) {return d.x0}, 
-        y1: function(d) {return d.y0}
-        }).call(lineAnimate);
-    }
+  function addWindLayer() {
+    g
+      .selectAll("line")
+      .data(lines)
+      .enter()
+      .append("line")
+      .attr("class", "line")
+      .attr({
+        x1: function(d) {
+          return d.x0;
+        },
+        y1: function(d) {
+          return d.y0;
+        }
+      })
+      .call(lineAnimate);
+  }
 
-    function lineAnimate(selection) {
-        selection
-        .attr({
-        x2: function(d) {return d.x0},
-        y2: function(d) {return d.y0}
-        })
-        .style('opacity', 0)
-        .transition()
-        .ease('linear')
-        .duration(function(d) {return d.duration;})
-        .delay(function(d) {return d.delay;})
-        .attr({
-            x2: function(d) {return d.x1},
-            y2: function(d) {return d.y1}
-        })
-        .style('opacity', 0.8)
-        .transition()
-        .duration(1000)
-        .style('opacity', 0.1)
-        .each('end', function() {
-            d3.select(this).call(lineAnimate);
-        });
-    }
+  function lineAnimate(selection) {
+    selection
+      .attr({
+        x2: function(d) {
+          return d.x0;
+        },
+        y2: function(d) {
+          return d.y0;
+        }
+      })
+      .style("opacity", 0)
+      .transition()
+      .ease("linear")
+      .duration(function(d) {
+        return d.duration;
+      })
+      .delay(function(d) {
+        return d.delay;
+      })
+      .attr({
+        x2: function(d) {
+          return d.x1;
+        },
+        y2: function(d) {
+          return d.y1;
+        }
+      })
+      .style("opacity", 0.8)
+      .transition()
+      .duration(1000)
+      .style("opacity", 0.1)
+      .each("end", function() {
+        d3.select(this).call(lineAnimate);
+      });
+  }
 
   function mouseoverCountry(d) {
     let text;
@@ -884,9 +916,11 @@ function loadMap(err, json, csv, stations) {
       });
   }
 
-    const dataLayer = document.getElementById("data");
-    const bars = dataLayer.querySelector(".left");
-    const graph = dataLayer.querySelector(".right");
+  const dataLayer = document.getElementById("data");
+  const bars = dataLayer.querySelector(".left");
+  const graph = dataLayer.querySelector(".right");
+  const optionButtons =  document.querySelector(".options");
+  const userTooltip = document.querySelector(".user-tooltip");
 
     const absoluteCircle = dataLayer.querySelector(".absolute-circle");
 
@@ -969,7 +1003,9 @@ function loadMap(err, json, csv, stations) {
 
   function clicked(d) {
     let a = animateOnClick(d);
-    var x = a[0], y = a[1], k = a[2];
+    var x = a[0],
+      y = a[1],
+      k = a[2];
 
     //work on data
     const { uid, aqi, station: { name } } = d;
@@ -993,15 +1029,13 @@ function loadMap(err, json, csv, stations) {
       graph.classList.add("animated");
       graph.classList.add("bounceInRight");
 
-      const breakPointsArray = breakPoints['aqi_break_points'];
-      absoluteCircle.style.background = breakPointCheck(
-        breakPointsArray,
-        aqi
-      ); //config circle color
+      const breakPointsArray = breakPoints["aqi_break_points"];
+      absoluteCircle.style.background = breakPointCheck(breakPointsArray, aqi); //config circle color
 
       setTimeout(function() {
         graph.classList.remove("bounceInRight");
         absoluteCircle.style.display = "flex"; //display circle after 1 sec
+        userTooltip.style.display = "block";
       }, 1000);
 
       const infoBars = Array.from(document.querySelectorAll(".info-holder"));
@@ -1021,44 +1055,46 @@ function loadMap(err, json, csv, stations) {
         });
 
       //this function fetch real time data
-      fetch(fetchUrl)
-        .then(res => res.json())
-        .then(res => {
-            console.log(res);
-          const { aqi, iaqi, dominentpol } = res.data || {};
-          const airRegex = /no2|so2|o3|pm10|pm25/;
+      doRecursiveRequest(fetchUrl, 10).then(res => {
+        const { aqi, iaqi, dominentpol } = res.data || {};
+        const airRegex = /no2|so2|o3|pm10|pm25/;
 
-          document.querySelector("#tooltip-air-quality").innerHTML = `Air quality index: ${aqi ||"unknown"}`;
-          document.querySelector("#tooltip-pol-dominant").innerHTML = `Dominent pollutant: ${htmlDisplay[dominentpol] ||"unknown"}`;
+        document.querySelector(
+          "#tooltip-air-quality"
+        ).innerHTML = `Air quality index: ${aqi || "unknown"}`;
+        document.querySelector(
+          "#tooltip-pol-dominant"
+        ).innerHTML = `Dominent pollutant: ${htmlDisplay[dominentpol] ||
+          "unknown"}`;
 
-          const dataArray = iaqi
-            ? Object.entries(iaqi).filter(e => {
-                return airRegex.test(e[0]);
-              })
-            : [];
+        const dataArray = iaqi
+          ? Object.entries(iaqi).filter(e => {
+              return airRegex.test(e[0]);
+            })
+          : [];
 
-          absoluteCircle.innerHTML = aqi || "unknown";
+        absoluteCircle.innerHTML = aqi || "unknown";
 
-          dataArray.forEach(e => {
-            const name = e[0];
-            const quality = e[1].v;
+        dataArray.forEach(e => {
+          const name = e[0];
+          const quality = e[1].v;
 
-            const breakPointsArray = breakPoints[`${name}_break_points`];
+          const breakPointsArray = breakPoints[`${name}_break_points`];
 
-            const dataDiv = document.getElementById(name);
-            const progressBar = dataDiv.querySelector(".progress-bar");
-            const progressNumber = dataDiv.querySelector(".progress-number");
+          const dataDiv = document.getElementById(name);
+          const progressBar = dataDiv.querySelector(".progress-bar");
+          const progressNumber = dataDiv.querySelector(".progress-number");
 
-            progressBar.style.width = scoreCount(breakPointsArray, quality);
-            progressBar.style.background = breakPointCheck(
-              breakPointsArray,
-              quality
-            );
+          progressBar.style.width = scoreCount(breakPointsArray, quality);
+          progressBar.style.background = breakPointCheck(
+            breakPointsArray,
+            quality
+          );
 
-            progressNumber.style.opacity = 1;
-            progressNumber.innerHTML = quality + "(µg/m3)";
-          });
+          progressNumber.style.opacity = 1;
+          progressNumber.innerHTML = quality + "(µg/m3)";
         });
+      });
 
       //handle display in different air catogories
       var airButtons = document.querySelectorAll("input[name='air-category']");
@@ -1109,24 +1145,37 @@ function loadMap(err, json, csv, stations) {
 }
 
 function setWeatherData(cond, temp, wind, humid) {
-    tooltip.select("#cond-value").text(cond);
-    tooltip.select("#temp-value").text(temp);
-    tooltip.select("#wind-value").text(wind);
-    tooltip.select("#humid-value").text(humid);
+  tooltip.select("#cond-value").text(cond);
+  tooltip.select("#temp-value").text(temp);
+  tooltip.select("#wind-value").text(wind);
+  tooltip.select("#humid-value").text(humid);
 }
 
 // MATH FUNCTIONS
-function toRad(deg) {return deg * Math.PI / 180;}
+function toRad(deg) {
+  return deg * Math.PI / 180;
+}
 
-function toDeg(rad) {return rad * 180 / Math.PI;}
+function toDeg(rad) {
+  return rad * 180 / Math.PI;
+}
 
 function getDestinationPoint(lonLat, d, brng) {
-    // Formulae from http://www.movable-type.co.uk/scripts/latlong.html
-    // brg in degree, d in km
-    brng = toRad(brng);
-    var R = 6371; // Earth's radius in km
-    var lon1 = toRad(lonLat[0]), lat1 = toRad(lonLat[1]);
-    var lat2 = Math.asin( Math.sin(lat1)*Math.cos(d/R) + Math.cos(lat1)*Math.sin(d/R)*Math.cos(brng) );
-    var lon2 = lon1 + Math.atan2(Math.sin(brng)*Math.sin(d/R)*Math.cos(lat1), Math.cos(d/R)-Math.sin(lat1)*Math.sin(lat2));
-    return [toDeg(lon2), toDeg(lat2)];
+  // Formulae from http://www.movable-type.co.uk/scripts/latlong.html
+  // brg in degree, d in km
+  brng = toRad(brng);
+  var R = 6371; // Earth's radius in km
+  var lon1 = toRad(lonLat[0]),
+    lat1 = toRad(lonLat[1]);
+  var lat2 = Math.asin(
+    Math.sin(lat1) * Math.cos(d / R) +
+      Math.cos(lat1) * Math.sin(d / R) * Math.cos(brng)
+  );
+  var lon2 =
+    lon1 +
+    Math.atan2(
+      Math.sin(brng) * Math.sin(d / R) * Math.cos(lat1),
+      Math.cos(d / R) - Math.sin(lat1) * Math.sin(lat2)
+    );
+  return [toDeg(lon2), toDeg(lat2)];
 }
