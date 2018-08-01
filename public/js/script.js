@@ -9,7 +9,7 @@ var width = window.innerWidth,
   start = true,
   focused;
 
-var weatherKey = "d7dfe147284d7ec8e4a5f8e1a7bb2812",
+var weatherKey = "afaa0e32c277554df53bc840221a792d",
   weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
 
 var countryScale = Math.min(width, height) * 5,
