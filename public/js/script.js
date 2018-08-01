@@ -67,46 +67,54 @@ var countryScale = Math.min(width, height)*5,
     };
     //end of air quality config
 
-    const displayChart = (airName, days) => {
-     const displayData = dataArr.slice(
-      dataArr.length - days * 24,
-      dataArr.length
-     );
+    const displayChart = (airName, days, stationName) => {
+      const baseUrl = "http://localhost:3000"
+      fetch(`${baseUrl}/data/${stationName}`)
+      .then(res => res.json())
+      .then(data => {
 
-     document.querySelector(".close").style.display = "none";
+                const displayData = data.slice(
+                data.length - days * 24,
+                data.length
+               );
 
-     const canvasDiv = document.querySelector(".canvas");
-     canvasDiv.innerHTML = "";
-     const canvas = document.createElement("canvas");
-     canvas.id = "myChart";
-     canvasDiv.appendChild(canvas);
+               document.querySelector(".close").style.display = "none";
 
-     var ctx = document.getElementById("myChart").getContext("2d");
-     var myChart = new Chart(ctx, {
-      type: "line",
-      data: {
-         labels: displayData.map(e => {
-           return `${e.Time} - ${e.d}/${e.m}`;
-         }),
-         datasets: [
-           {
-             label: "Amount",
-             data: displayData.map(e => e[airNameMap[airName]])
-           }
-         ]
-      },
-      options: {
-         scales: {
-           yAxes: [
-             {
-               ticks: {
-                 beginAtZero: true
-               }
-             }
-           ]
-         }
-      }
-     });
+               const canvasDiv = document.querySelector(".canvas");
+               canvasDiv.innerHTML = "";
+               const canvas = document.createElement("canvas");
+               canvas.id = "myChart";
+               canvasDiv.appendChild(canvas);
+
+               var ctx = document.getElementById("myChart").getContext("2d");
+               var myChart = new Chart(ctx, {
+                type: "line",
+                data: {
+                   labels: displayData.map(e => {
+                     return `${e.Time} - ${e.d}/${e.m}`;
+                   }),
+                   datasets: [
+                     {
+                       label: "Amount",
+                       data: displayData.map(e => e[airNameMap[airName]])
+                     }
+                   ]
+                },
+                options: {
+                   scales: {
+                     yAxes: [
+                       {
+                         ticks: {
+                           beginAtZero: true
+                         }
+                       }
+                     ]
+                   }
+                }
+               });
+      })
+
+
    };
 
 
@@ -120,7 +128,7 @@ var tooltip = d3.select("#tooltip"),
 
 $(".noti").css({left: width/2-200, top: height/2});
 
-var tempBtn = $("#tempBtn"), 
+var tempBtn = $("#tempBtn"),
     windBtn = $("#windBtn"),
     humidBtn = $("#humidBtn");
 
@@ -464,19 +472,19 @@ function loadMap(err, json, csv, stations){
                 windBtn.prop('disabled', false);
                 humidBtn.prop('disabled', false);
                 tempColor.domain([
-                    d3.min(json.features, function(d) { 
+                    d3.min(json.features, function(d) {
                         if(d.properties.weather !== "no data")
-                            return d.properties.weather.main.temp; 
+                            return d.properties.weather.main.temp;
                     }),
-                    d3.max(json.features, function(d) { 
+                    d3.max(json.features, function(d) {
                         if(d.properties.weather !== "no data")
-                            return d.properties.weather.main.temp; 
+                            return d.properties.weather.main.temp;
                     })
                 ]);
             }
         });
     });
-    
+
   	csv.forEach(d => {
         json.features.forEach(jd => {
             if(jd.properties.text == d.name){
@@ -516,7 +524,7 @@ function loadMap(err, json, csv, stations){
         }else{
             tempBtn.removeClass("chosen");
             g.selectAll("path").style("fill", landColor);
-        } 
+        }
     });
 
     humidBtn.on('click', () => {
@@ -559,7 +567,7 @@ function loadMap(err, json, csv, stations){
 
     function mouseoverCountry(d){
         let text;
-        let c = "", t = "", wi = "", hu = ""; 
+        let c = "", t = "", wi = "", hu = "";
         if(d.aqi){
             d3.select(this).moveToFront();
             d3.select(this).style("stroke", "white").style("stroke-width", 2);
@@ -744,96 +752,116 @@ function loadMap(err, json, csv, stations){
             .attr("transform", "translate(" + width/2 + "," + height/2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
             .style("stroke-width", 1.5 / k + "px");
 
-        const dataLayer = document.getElementById("data");
-        const bars = dataLayer.querySelector('.left');
-        const graph = dataLayer.querySelector('.right');
+        if(k===4){
+          const dataLayer = document.getElementById("data");
+          const bars = dataLayer.querySelector('.left');
+          const graph = dataLayer.querySelector('.right');
 
-        dataLayer.style.display = 'block';
-        dataLayer.style.opacity = 1;
-        bars.style.visibility='visible';
+          dataLayer.style.display = 'block';
+          dataLayer.style.opacity = 1;
+          bars.style.visibility='visible';
 
-        graph.classList.add('animated');
-        graph.classList.add('bounceInRight');
-        setTimeout(function(){
-          graph.classList.remove('bounceInRight');
-          }, 1000);
+          graph.classList.add('animated');
+          graph.classList.add('bounceInRight');
+          setTimeout(function(){
+            graph.classList.remove('bounceInRight');
+            }, 1000);
 
-        document.querySelector(".close-data").addEventListener("click", e => {
-        graph.classList.add('fadeOutRight');
-        bars.style.visibility='hidden';
-        document.querySelector(".close").style.display = "block";
-        setTimeout(function(){
-            graph.classList.remove('fadeOutRight');
-            dataLayer.style.display = 'none';
-            dataLayer.style.opacity = 0;
-          }, 1000);
-        })
+          document.querySelector(".close-data").addEventListener("click", e => {
+          graph.classList.add('fadeOutRight');
+          bars.style.visibility='hidden';
+          document.querySelector(".close").style.display = "block";
+          setTimeout(function(){
+              graph.classList.remove('fadeOutRight');
+              dataLayer.style.display = 'none';
+              dataLayer.style.opacity = 0;
+            }, 1000);
+          })
 
+          const infoBars = Array.from(document.querySelectorAll(".info-holder"));
 
-            fetch(
-              "https://api.waqi.info/feed/@1451/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8"
-            )
-              .then(res => res.json())
-              .then(res => {
-                const { aqi, iaqi } = res.data;
+          infoBars.forEach(e=> {
+            e.querySelector(".progress-bar").style.width = 0;
+            e.querySelector(".progress-number").innerHTML = "No data";
+          }) //initialize value
 
-                const airRegex = /no2|so2|o3|pm10|pm25/;
+          const {uid,station:{ name}} = d;
 
-                const dataArray = Object.entries(iaqi).filter(e => {
-                  return airRegex.test(e[0]);
+          console.log(d);
+
+          const nameArray = name.split(', ');
+          const stationName = nameArray[1] + ' ' + nameArray[0];
+          const processedName = stationName.split(' ').join('-');
+
+          console.log(processedName);
+
+          const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`
+
+              fetch(fetchUrl)
+                .then(res => res.json())
+                .then(res => {
+                  console.log(res.data);
+
+                  const { aqi, iaqi } = res.data || {};
+
+                  const airRegex = /no2|so2|o3|pm10|pm25/;
+
+                  const dataArray = iaqi ? Object.entries(iaqi).filter(e => {
+                    return airRegex.test(e[0]);
+                  }): [];
+
+                  dataArray.forEach(e => {
+                    const name = e[0];
+                    const quality = e[1].v;
+
+                    const breakPointsArray = breakPoints[`${name}_break_points`];
+
+                    const dataDiv = document.getElementById(name);
+                    const progressBar = dataDiv.querySelector(".progress-bar");
+                    const progressNumber = dataDiv.querySelector(".progress-number");
+
+                    progressBar.style.width = scoreCount(breakPointsArray, quality);
+                    progressBar.style.background = breakPointCheck(
+                      breakPointsArray,
+                      quality
+                    );
+
+                    progressNumber.style.opacity = 1;
+                    progressNumber.innerHTML = quality + "(µg/m3)";
+                  });
                 });
 
-                dataArray.forEach(e => {
-                  const name = e[0];
-                  const quality = e[1].v;
+              let airName = "pm25";
+              let timePeriod = 2;
 
-                  const breakPointsArray = breakPoints[`${name}_break_points`];
+              displayChart(airName, timePeriod, processedName);
 
-                  const dataDiv = document.getElementById(name);
-                  const progressBar = dataDiv.querySelector(".progress-bar");
-                  const progressNumber = dataDiv.querySelector(".progress-number");
+              var airButtons = document.querySelectorAll("input[name='air-category']");
+              var prevAir = null;
+              for (var i = 0; i < airButtons.length; i++) {
+                airButtons[i].onclick = function() {
+                  if (this !== prevAir) {
+                    prevAir = this;
+                  }
+                  airName = this.value.split("-").join("");
 
-                  progressBar.style.width = scoreCount(breakPointsArray, quality);
-                  progressBar.style.background = breakPointCheck(
-                    breakPointsArray,
-                    quality
-                  );
+                  displayChart(airName, timePeriod, processedName);
+                };
+              }
 
-                  progressNumber.style.opacity = 1;
-                  progressNumber.innerHTML = quality + "(µg/m3)";
-                });
-              });
+              var timeButtons = document.querySelectorAll("input[name='time-period']");
+              var prevTime = null;
+              for (var i = 0; i < timeButtons.length; i++) {
+                timeButtons[i].onclick = function() {
+                  if (this !== prevTime) {
+                    prevTime = this;
+                  }
+                  timePeriod = parseInt(this.value);
 
-            let airName = "pm25";
-            let timePeriod = 2;
-
-            displayChart(airName, timePeriod);
-
-            var airButtons = document.querySelectorAll("input[name='air-category']");
-            var prevAir = null;
-            for (var i = 0; i < airButtons.length; i++) {
-              airButtons[i].onclick = function() {
-                if (this !== prevAir) {
-                  prevAir = this;
-                }
-                airName = this.value.split("-").join("");
-
-                displayChart(airName, timePeriod);
-              };
-            }
-
-            var timeButtons = document.querySelectorAll("input[name='time-period']");
-            var prevTime = null;
-            for (var i = 0; i < timeButtons.length; i++) {
-              timeButtons[i].onclick = function() {
-                if (this !== prevTime) {
-                  prevTime = this;
-                }
-                timePeriod = parseInt(this.value);
-
-                displayChart(airName, timePeriod);
-              };
-            }
+                  displayChart(airName, timePeriod, processedName);
+                };
+              }
+        }
     }
 
     d3.selection.prototype.moveToFront = function() {
