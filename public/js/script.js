@@ -542,7 +542,7 @@ function loadMap(err, json, csv, stations) {
         if(res !== "no data"){
             let speed = res.wind.speed;
             let deg = res.wind.deg;
-            for(let i=0; i < 10; i++){
+            for(let i=0; i < 5; i++){
                 let coord = [res.coord.lon+(Math.random()*100)/100, res.coord.lat+(Math.random()*100)/100];
                 let x0y0 = country(coord);
                 let x1y1 = country(
