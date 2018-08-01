@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto');
 #data {
   display: none;
   opacity: 0;
@@ -5,12 +6,13 @@
   height: 100vh;
   top: 0;
   position: absolute;
+  background: rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
 }
 
 * {
   box-sizing: border-box;
   list-style-type: none;
-  font-family: "Roboto", sans-serif;
 }
 
 .data-container {
@@ -20,10 +22,14 @@
   height: 100vh;
 }
 
+.data-container h2 {
+  font-family: 'Bitter', serif;
+}
+
 .data-container>* {
   padding: 0 30px;
   border-radius: 5px;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-flow: column;
 }
@@ -79,7 +85,7 @@ a {
 
 .progress-number {
   display: inline-block;
-  opacity: 0;
+  opacity: 1;
   font-size: 90%;
 }
 
@@ -122,11 +128,55 @@ a {
 }
 
 .right {
-  width: 650px;
+  width: 620px;
   background: rgba(255, 255, 255, 0.95);
   justify-content: flex-start;
 }
 
 #myChart {
   margin-bottom: 20px;
+}
+
+.absolute-circle {
+  display: none;
+  position: absolute;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  color: #111111;
+  font-size: 120%;
+  font-family: 'Bitter', serif;
+  cursor: pointer;
+}
+
+.data-tooltip {
+  display: none;
+  width: 220px;
+  height: 90px;
+  -webkit-clip-path: polygon(100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
+  clip-path: polygon(100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
+  background: white;
+  top: calc(50% - 110px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  align-items: center;
+  flex-flow:column;
+  font-size:90%;
+}
+
+.data-tooltip > * {
+  padding-top: 10px;
+}
+
+.absolute-circle:hover + .data-tooltip {
+  display: flex;
+  z-index:5;
 }
