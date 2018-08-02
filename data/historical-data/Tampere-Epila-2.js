@@ -7,8 +7,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -19,8 +19,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -31,8 +31,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -43,8 +43,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -55,8 +55,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -67,8 +67,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -79,8 +79,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -91,8 +91,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -103,8 +103,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -115,8 +115,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -127,8 +127,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -139,8 +139,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -151,8 +151,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 30.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 30.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -163,8 +163,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -175,8 +175,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -187,8 +187,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -199,8 +199,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -211,8 +211,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 21,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -223,8 +223,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -235,8 +235,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -247,8 +247,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -259,8 +259,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -271,8 +271,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -283,8 +283,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -295,8 +295,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -307,8 +307,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -319,8 +319,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -331,8 +331,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -343,8 +343,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -355,8 +355,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -367,8 +367,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -379,8 +379,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -391,8 +391,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -403,8 +403,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -415,8 +415,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -427,8 +427,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -439,8 +439,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -451,8 +451,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -463,8 +463,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -475,8 +475,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -487,8 +487,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -499,8 +499,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -511,8 +511,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -523,8 +523,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -535,8 +535,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -547,8 +547,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -559,8 +559,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -571,8 +571,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -583,8 +583,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -595,8 +595,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -607,8 +607,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -619,8 +619,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -631,8 +631,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -643,8 +643,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -655,8 +655,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -667,8 +667,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -679,8 +679,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -691,8 +691,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -703,8 +703,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -715,8 +715,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -727,8 +727,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -739,8 +739,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -751,8 +751,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -763,8 +763,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -775,8 +775,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -787,8 +787,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -799,8 +799,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -811,8 +811,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -823,8 +823,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -835,8 +835,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -847,8 +847,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -859,8 +859,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -871,8 +871,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -883,8 +883,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -895,8 +895,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -907,8 +907,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -919,8 +919,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -931,8 +931,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -943,8 +943,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -955,8 +955,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 27.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 27.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -967,8 +967,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 29,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 29,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -979,8 +979,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 39.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 39.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -991,8 +991,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 30.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 30.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1003,8 +1003,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 26.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 26.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1015,8 +1015,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 42.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 42.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1027,8 +1027,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 60.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 60.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1039,8 +1039,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 41,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 41,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1051,8 +1051,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 38.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 38.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1063,8 +1063,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 34,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 34,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1075,8 +1075,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 32.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 32.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1087,8 +1087,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1099,8 +1099,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1111,8 +1111,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1123,8 +1123,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1135,8 +1135,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1147,8 +1147,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1159,8 +1159,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1171,8 +1171,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1183,8 +1183,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1195,8 +1195,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1207,8 +1207,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1219,8 +1219,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 27.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 27.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1231,8 +1231,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 47.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 47.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1243,8 +1243,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 37.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 37.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1255,8 +1255,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 39.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 39.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1267,8 +1267,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 40.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 40.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1279,8 +1279,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 29.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 29.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1291,8 +1291,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 35,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 35,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1303,8 +1303,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 34.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 34.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1315,8 +1315,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 34.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 34.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1327,8 +1327,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 25.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 25.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1339,8 +1339,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 28.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 28.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1351,8 +1351,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 18,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1363,8 +1363,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1375,8 +1375,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1387,8 +1387,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 10,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1399,8 +1399,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1411,8 +1411,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1423,8 +1423,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1435,8 +1435,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1447,8 +1447,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1459,8 +1459,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1471,8 +1471,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1483,8 +1483,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1495,8 +1495,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1507,8 +1507,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 27,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1519,8 +1519,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1531,8 +1531,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1543,8 +1543,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1555,8 +1555,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1567,8 +1567,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1579,8 +1579,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1591,8 +1591,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1603,8 +1603,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1615,8 +1615,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1627,8 +1627,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1639,8 +1639,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1651,8 +1651,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1663,8 +1663,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1675,8 +1675,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1687,8 +1687,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1699,8 +1699,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1711,8 +1711,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1723,8 +1723,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1735,8 +1735,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1747,8 +1747,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1759,8 +1759,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1771,8 +1771,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1783,8 +1783,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1795,8 +1795,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1807,8 +1807,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1819,8 +1819,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1831,8 +1831,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1843,8 +1843,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 27.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 27.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1855,8 +1855,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 31,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 31,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1867,8 +1867,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 31,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 31,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1879,8 +1879,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 34.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 34.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1891,8 +1891,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1903,8 +1903,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 10,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1915,8 +1915,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1927,8 +1927,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1939,8 +1939,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1951,8 +1951,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1963,8 +1963,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1975,8 +1975,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1987,8 +1987,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -1999,8 +1999,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2011,8 +2011,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2023,8 +2023,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2035,8 +2035,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2047,8 +2047,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2059,8 +2059,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2071,8 +2071,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2083,8 +2083,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2095,8 +2095,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2107,8 +2107,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2119,8 +2119,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2131,8 +2131,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2143,8 +2143,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2155,8 +2155,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2167,8 +2167,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2179,8 +2179,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2191,8 +2191,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2203,8 +2203,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2215,8 +2215,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2227,8 +2227,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2239,8 +2239,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2251,8 +2251,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2263,8 +2263,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2275,8 +2275,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2287,8 +2287,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2299,8 +2299,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2311,8 +2311,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2323,8 +2323,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2335,8 +2335,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2347,8 +2347,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2359,8 +2359,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2371,8 +2371,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2383,8 +2383,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2395,8 +2395,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2407,8 +2407,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2419,8 +2419,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2431,8 +2431,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2443,8 +2443,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2455,8 +2455,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2467,8 +2467,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2479,8 +2479,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2491,8 +2491,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2503,8 +2503,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2515,8 +2515,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2527,8 +2527,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2539,8 +2539,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2551,8 +2551,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2563,8 +2563,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2575,8 +2575,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 25,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2587,8 +2587,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 31,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2599,8 +2599,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 30,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2611,8 +2611,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 21,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2623,8 +2623,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2635,8 +2635,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 26,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2647,8 +2647,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2659,8 +2659,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2671,8 +2671,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2683,8 +2683,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2695,8 +2695,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2707,8 +2707,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2719,8 +2719,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2731,8 +2731,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2743,8 +2743,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2755,8 +2755,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2767,8 +2767,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2779,8 +2779,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2791,8 +2791,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2803,8 +2803,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2815,8 +2815,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2827,8 +2827,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2839,8 +2839,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2851,8 +2851,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2863,8 +2863,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2875,8 +2875,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2887,8 +2887,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2899,8 +2899,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2911,8 +2911,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2923,8 +2923,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2935,8 +2935,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2947,8 +2947,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2959,8 +2959,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2971,8 +2971,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2983,8 +2983,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -2995,8 +2995,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3007,8 +3007,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3019,8 +3019,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3031,8 +3031,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3043,8 +3043,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3055,8 +3055,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3067,8 +3067,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3079,8 +3079,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3091,8 +3091,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3103,8 +3103,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3115,8 +3115,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3127,8 +3127,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3139,8 +3139,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3151,8 +3151,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3163,8 +3163,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3175,8 +3175,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3187,8 +3187,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3199,8 +3199,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3211,8 +3211,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3223,8 +3223,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3235,8 +3235,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3247,8 +3247,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3259,8 +3259,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3271,8 +3271,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3283,8 +3283,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3295,8 +3295,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3307,8 +3307,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3319,8 +3319,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3331,8 +3331,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3343,8 +3343,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3355,8 +3355,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3367,8 +3367,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3379,8 +3379,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3391,8 +3391,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3403,8 +3403,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3415,8 +3415,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3427,8 +3427,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3439,8 +3439,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3451,8 +3451,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3463,8 +3463,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3475,8 +3475,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3487,8 +3487,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3499,8 +3499,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3511,8 +3511,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3523,8 +3523,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3535,8 +3535,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3547,8 +3547,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3559,8 +3559,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3571,8 +3571,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3583,8 +3583,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3595,8 +3595,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3607,8 +3607,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3619,8 +3619,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3631,8 +3631,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3643,8 +3643,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3655,8 +3655,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3667,8 +3667,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3679,8 +3679,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3691,8 +3691,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3703,8 +3703,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3715,8 +3715,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3727,8 +3727,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3739,8 +3739,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3751,8 +3751,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3763,8 +3763,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3775,8 +3775,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3787,8 +3787,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3799,8 +3799,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3811,8 +3811,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3823,8 +3823,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3835,8 +3835,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3847,8 +3847,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3859,8 +3859,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3871,8 +3871,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3883,8 +3883,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3895,8 +3895,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3907,8 +3907,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3919,8 +3919,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3931,8 +3931,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3943,8 +3943,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3955,8 +3955,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3967,8 +3967,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3979,8 +3979,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -3991,8 +3991,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4003,8 +4003,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4015,8 +4015,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4027,8 +4027,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4039,8 +4039,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4051,8 +4051,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4063,8 +4063,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4075,8 +4075,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4087,8 +4087,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4099,8 +4099,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4111,8 +4111,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4123,8 +4123,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4135,8 +4135,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4147,8 +4147,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4159,8 +4159,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4171,8 +4171,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4183,8 +4183,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4195,8 +4195,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4207,8 +4207,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4219,8 +4219,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4231,8 +4231,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4243,8 +4243,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4255,8 +4255,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4267,8 +4267,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4279,8 +4279,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4291,8 +4291,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4303,8 +4303,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4315,8 +4315,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4327,8 +4327,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4339,8 +4339,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4351,8 +4351,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4363,8 +4363,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4375,8 +4375,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4387,8 +4387,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4399,8 +4399,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4411,8 +4411,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4423,8 +4423,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4435,8 +4435,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4447,8 +4447,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4459,8 +4459,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4471,8 +4471,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4483,8 +4483,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4495,8 +4495,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4507,8 +4507,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4519,8 +4519,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4531,8 +4531,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4543,8 +4543,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4555,8 +4555,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4567,8 +4567,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4579,8 +4579,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4591,8 +4591,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 33,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4603,8 +4603,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 35,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4615,8 +4615,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 32,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4627,8 +4627,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 27,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 27.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 27.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4639,8 +4639,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4651,8 +4651,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4663,8 +4663,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4675,8 +4675,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4687,8 +4687,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4699,8 +4699,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4711,8 +4711,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4723,8 +4723,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4735,8 +4735,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4747,8 +4747,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4759,8 +4759,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4771,8 +4771,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4783,8 +4783,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4795,8 +4795,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4807,8 +4807,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4819,8 +4819,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4831,8 +4831,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4843,8 +4843,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4855,8 +4855,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4867,8 +4867,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4879,8 +4879,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4891,8 +4891,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4903,8 +4903,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4915,8 +4915,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4927,8 +4927,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4939,8 +4939,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4951,8 +4951,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4963,8 +4963,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4975,8 +4975,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4987,8 +4987,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -4999,8 +4999,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5011,8 +5011,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5023,8 +5023,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5035,8 +5035,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5047,8 +5047,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5059,8 +5059,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5071,8 +5071,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5083,8 +5083,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5095,8 +5095,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5107,8 +5107,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5119,8 +5119,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5131,8 +5131,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5143,8 +5143,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5155,8 +5155,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5167,8 +5167,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5179,8 +5179,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5191,8 +5191,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5203,8 +5203,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5215,8 +5215,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5227,8 +5227,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5239,8 +5239,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5251,8 +5251,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5263,8 +5263,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5275,8 +5275,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5287,8 +5287,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5299,8 +5299,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5311,8 +5311,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5323,8 +5323,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5335,8 +5335,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5347,8 +5347,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5359,8 +5359,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5371,8 +5371,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5383,8 +5383,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5395,8 +5395,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5407,8 +5407,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5419,8 +5419,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5431,8 +5431,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5443,8 +5443,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5455,8 +5455,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5467,8 +5467,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5479,8 +5479,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5491,8 +5491,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5503,8 +5503,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5515,8 +5515,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5527,8 +5527,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5539,8 +5539,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5551,8 +5551,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5563,8 +5563,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5575,8 +5575,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5587,8 +5587,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5599,8 +5599,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5611,8 +5611,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5623,8 +5623,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 28.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 28.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5635,8 +5635,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5647,8 +5647,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5659,8 +5659,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5671,8 +5671,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5683,8 +5683,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5695,8 +5695,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5707,8 +5707,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5719,8 +5719,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5731,8 +5731,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5743,8 +5743,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5755,8 +5755,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5767,8 +5767,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5779,8 +5779,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5791,8 +5791,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5803,8 +5803,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5815,8 +5815,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5827,8 +5827,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5839,8 +5839,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5851,8 +5851,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5863,8 +5863,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5875,8 +5875,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5887,8 +5887,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5899,8 +5899,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5911,8 +5911,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5923,8 +5923,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5935,8 +5935,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5947,8 +5947,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5959,8 +5959,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5971,8 +5971,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5983,8 +5983,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -5995,8 +5995,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6007,8 +6007,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6019,8 +6019,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6031,8 +6031,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6043,8 +6043,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6055,8 +6055,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6067,8 +6067,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6079,8 +6079,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6091,8 +6091,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6103,8 +6103,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6115,8 +6115,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6127,8 +6127,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6139,8 +6139,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6151,8 +6151,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6163,8 +6163,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6175,8 +6175,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6187,8 +6187,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6199,8 +6199,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6211,8 +6211,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6223,8 +6223,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6235,8 +6235,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6247,8 +6247,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6259,8 +6259,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6271,8 +6271,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6283,8 +6283,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6295,8 +6295,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6307,8 +6307,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6319,8 +6319,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6331,8 +6331,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6343,8 +6343,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6355,8 +6355,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6367,8 +6367,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6379,8 +6379,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6391,8 +6391,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6403,8 +6403,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6415,8 +6415,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": -1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6427,8 +6427,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6439,8 +6439,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6451,8 +6451,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6463,8 +6463,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6475,8 +6475,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6487,8 +6487,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6499,8 +6499,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6511,8 +6511,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6523,8 +6523,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 0.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 0.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6535,8 +6535,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 0.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 0.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6547,8 +6547,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 0.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 0.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6559,8 +6559,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 0.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 0.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6571,8 +6571,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6583,8 +6583,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6595,8 +6595,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6607,8 +6607,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6619,8 +6619,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6631,8 +6631,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6643,8 +6643,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6655,8 +6655,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6667,8 +6667,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6679,8 +6679,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6691,8 +6691,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6703,8 +6703,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6715,8 +6715,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6727,8 +6727,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6739,8 +6739,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6751,8 +6751,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6763,8 +6763,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6775,8 +6775,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6787,8 +6787,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6799,8 +6799,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6811,8 +6811,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6823,8 +6823,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6835,8 +6835,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6847,8 +6847,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6859,8 +6859,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6871,8 +6871,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6883,8 +6883,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6895,8 +6895,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6907,8 +6907,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6919,8 +6919,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6931,8 +6931,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6943,8 +6943,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6955,8 +6955,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6967,8 +6967,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6979,8 +6979,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -6991,8 +6991,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7003,8 +7003,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7015,8 +7015,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7027,8 +7027,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7039,8 +7039,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7051,8 +7051,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7063,8 +7063,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7075,8 +7075,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7087,8 +7087,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7099,8 +7099,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7111,8 +7111,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7123,8 +7123,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7135,8 +7135,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7147,8 +7147,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7159,8 +7159,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": "",
-    "Particulate matter < 2.5 µm (ug/m3)": "",
+    "Particulate matter < 10 Âµm (ug/m3)": "",
+    "Particulate matter < 2.5 Âµm (ug/m3)": "",
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7171,8 +7171,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7183,8 +7183,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7195,8 +7195,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7207,8 +7207,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7219,8 +7219,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7231,8 +7231,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7243,8 +7243,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7255,8 +7255,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7267,8 +7267,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7279,8 +7279,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7291,8 +7291,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7303,8 +7303,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7315,8 +7315,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7327,8 +7327,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7339,8 +7339,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7351,8 +7351,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7363,8 +7363,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7375,8 +7375,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7387,8 +7387,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7399,8 +7399,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7411,8 +7411,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7423,8 +7423,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7435,8 +7435,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7447,8 +7447,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7459,8 +7459,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7471,8 +7471,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7483,8 +7483,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7495,8 +7495,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7507,8 +7507,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7519,8 +7519,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7531,8 +7531,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7543,8 +7543,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7555,8 +7555,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7567,8 +7567,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7579,8 +7579,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7591,8 +7591,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7603,8 +7603,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7615,8 +7615,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7627,8 +7627,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7639,8 +7639,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7651,8 +7651,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7663,8 +7663,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7675,8 +7675,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7687,8 +7687,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7699,8 +7699,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7711,8 +7711,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7723,8 +7723,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7735,8 +7735,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7747,8 +7747,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7759,8 +7759,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7771,8 +7771,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7783,8 +7783,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7795,8 +7795,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7807,8 +7807,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7819,8 +7819,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7831,8 +7831,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7843,8 +7843,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7855,8 +7855,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7867,8 +7867,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7879,8 +7879,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7891,8 +7891,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7903,8 +7903,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7915,8 +7915,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7927,8 +7927,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7939,8 +7939,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7951,8 +7951,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7963,8 +7963,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7975,8 +7975,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7987,8 +7987,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -7999,8 +7999,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8011,8 +8011,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8023,8 +8023,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8035,8 +8035,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8047,8 +8047,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8059,8 +8059,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8071,8 +8071,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8083,8 +8083,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8095,8 +8095,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8107,8 +8107,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8119,8 +8119,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8131,8 +8131,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8143,8 +8143,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8155,8 +8155,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8167,8 +8167,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8179,8 +8179,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8191,8 +8191,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8203,8 +8203,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8215,8 +8215,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8227,8 +8227,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8239,8 +8239,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8251,8 +8251,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8263,8 +8263,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8275,8 +8275,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8287,8 +8287,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8299,8 +8299,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8311,8 +8311,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8323,8 +8323,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8335,8 +8335,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8347,8 +8347,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8359,8 +8359,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8371,8 +8371,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8383,8 +8383,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8395,8 +8395,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8407,8 +8407,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8419,8 +8419,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8431,8 +8431,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8443,8 +8443,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8455,8 +8455,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8467,8 +8467,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8479,8 +8479,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8491,8 +8491,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8503,8 +8503,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8515,8 +8515,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8527,8 +8527,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8539,8 +8539,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8551,8 +8551,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8563,8 +8563,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8575,8 +8575,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8587,8 +8587,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8599,8 +8599,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8611,8 +8611,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8623,8 +8623,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8635,8 +8635,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8647,8 +8647,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8659,8 +8659,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8671,8 +8671,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8683,8 +8683,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8695,8 +8695,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 0.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 0.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8707,8 +8707,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8719,8 +8719,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 1.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 1.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8731,8 +8731,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 1.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 1.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8743,8 +8743,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8755,8 +8755,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8767,8 +8767,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8779,8 +8779,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8791,8 +8791,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8803,8 +8803,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8815,8 +8815,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8827,8 +8827,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8839,8 +8839,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8851,8 +8851,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8863,8 +8863,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8875,8 +8875,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8887,8 +8887,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8899,8 +8899,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8911,8 +8911,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8923,8 +8923,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8935,8 +8935,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8947,8 +8947,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8959,8 +8959,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8971,8 +8971,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8983,8 +8983,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -8995,8 +8995,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9007,8 +9007,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9019,8 +9019,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9031,8 +9031,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9043,8 +9043,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9055,8 +9055,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9067,8 +9067,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9079,8 +9079,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9091,8 +9091,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9103,8 +9103,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9115,8 +9115,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9127,8 +9127,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9139,8 +9139,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9151,8 +9151,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9163,8 +9163,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9175,8 +9175,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9187,8 +9187,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9199,8 +9199,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9211,8 +9211,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9223,8 +9223,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9235,8 +9235,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9247,8 +9247,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9259,8 +9259,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9271,8 +9271,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9283,8 +9283,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9295,8 +9295,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9307,8 +9307,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9319,8 +9319,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9331,8 +9331,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9343,8 +9343,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9355,8 +9355,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9367,8 +9367,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9379,8 +9379,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 23,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9391,8 +9391,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 27,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9403,8 +9403,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9415,8 +9415,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9427,8 +9427,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9439,8 +9439,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9451,8 +9451,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9463,8 +9463,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9475,8 +9475,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9487,8 +9487,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9499,8 +9499,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9511,8 +9511,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9523,8 +9523,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9535,8 +9535,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9547,8 +9547,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9559,8 +9559,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9571,8 +9571,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9583,8 +9583,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9595,8 +9595,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9607,8 +9607,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9619,8 +9619,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9631,8 +9631,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9643,8 +9643,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9655,8 +9655,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9667,8 +9667,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9679,8 +9679,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9691,8 +9691,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9703,8 +9703,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9715,8 +9715,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9727,8 +9727,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9739,8 +9739,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9751,8 +9751,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9763,8 +9763,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9775,8 +9775,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9787,8 +9787,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9799,8 +9799,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9811,8 +9811,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9823,8 +9823,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9835,8 +9835,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9847,8 +9847,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9859,8 +9859,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9871,8 +9871,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9883,8 +9883,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9895,8 +9895,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9907,8 +9907,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9919,8 +9919,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9931,8 +9931,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9943,8 +9943,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9955,8 +9955,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9967,8 +9967,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9979,8 +9979,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -9991,8 +9991,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10003,8 +10003,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10015,8 +10015,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10027,8 +10027,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10039,8 +10039,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10051,8 +10051,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10063,8 +10063,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10075,8 +10075,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10087,8 +10087,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10099,8 +10099,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10111,8 +10111,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10123,8 +10123,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10135,8 +10135,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10147,8 +10147,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10159,8 +10159,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 2.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 2.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10171,8 +10171,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 3.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 3.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10183,8 +10183,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10195,8 +10195,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10207,8 +10207,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10219,8 +10219,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10231,8 +10231,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10243,8 +10243,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10255,8 +10255,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10267,8 +10267,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10279,8 +10279,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10291,8 +10291,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10303,8 +10303,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10315,8 +10315,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 30,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10327,8 +10327,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 25,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10339,8 +10339,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10351,8 +10351,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10363,8 +10363,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10375,8 +10375,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10387,8 +10387,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10399,8 +10399,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10411,8 +10411,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10423,8 +10423,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10435,8 +10435,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10447,8 +10447,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10459,8 +10459,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10471,8 +10471,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10483,8 +10483,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10495,8 +10495,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10507,8 +10507,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10519,8 +10519,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10531,8 +10531,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10543,8 +10543,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10555,8 +10555,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10567,8 +10567,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10579,8 +10579,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10591,8 +10591,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10603,8 +10603,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10615,8 +10615,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10627,8 +10627,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10639,8 +10639,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10651,8 +10651,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10663,8 +10663,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10675,8 +10675,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10687,8 +10687,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10699,8 +10699,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10711,8 +10711,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10723,8 +10723,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10735,8 +10735,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10747,8 +10747,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10759,8 +10759,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10771,8 +10771,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10783,8 +10783,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10795,8 +10795,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10807,8 +10807,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10819,8 +10819,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10831,8 +10831,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10843,8 +10843,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10855,8 +10855,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10867,8 +10867,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10879,8 +10879,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10891,8 +10891,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10903,8 +10903,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10915,8 +10915,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10927,8 +10927,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10939,8 +10939,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10951,8 +10951,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10963,8 +10963,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10975,8 +10975,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10987,8 +10987,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -10999,8 +10999,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11011,8 +11011,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11023,8 +11023,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11035,8 +11035,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11047,8 +11047,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11059,8 +11059,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11071,8 +11071,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11083,8 +11083,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 4.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 4.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11095,8 +11095,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11107,8 +11107,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11119,8 +11119,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11131,8 +11131,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11143,8 +11143,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11155,8 +11155,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11167,8 +11167,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 2.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 2.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11179,8 +11179,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11191,8 +11191,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11203,8 +11203,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11215,8 +11215,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11227,8 +11227,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11239,8 +11239,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11251,8 +11251,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11263,8 +11263,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11275,8 +11275,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11287,8 +11287,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11299,8 +11299,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 29.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 29.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11311,8 +11311,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11323,8 +11323,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11335,8 +11335,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11347,8 +11347,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11359,8 +11359,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11371,8 +11371,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11383,8 +11383,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11395,8 +11395,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11407,8 +11407,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11419,8 +11419,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 4,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11431,8 +11431,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11443,8 +11443,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11455,8 +11455,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11467,8 +11467,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11479,8 +11479,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11491,8 +11491,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11503,8 +11503,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11515,8 +11515,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11527,8 +11527,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11539,8 +11539,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11551,8 +11551,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11563,8 +11563,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11575,8 +11575,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11587,8 +11587,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11599,8 +11599,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11611,8 +11611,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11623,8 +11623,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11635,8 +11635,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11647,8 +11647,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11659,8 +11659,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11671,8 +11671,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11683,8 +11683,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11695,8 +11695,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11707,8 +11707,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11719,8 +11719,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11731,8 +11731,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11743,8 +11743,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11755,8 +11755,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11767,8 +11767,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11779,8 +11779,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 23,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11791,8 +11791,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11803,8 +11803,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11815,8 +11815,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11827,8 +11827,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11839,8 +11839,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": "",
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11851,8 +11851,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11863,8 +11863,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11875,8 +11875,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11887,8 +11887,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 29,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11899,8 +11899,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11911,8 +11911,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11923,8 +11923,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11935,8 +11935,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11947,8 +11947,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 16,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11959,8 +11959,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11971,8 +11971,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11983,8 +11983,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -11995,8 +11995,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 26,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12007,8 +12007,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12019,8 +12019,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12031,8 +12031,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12043,8 +12043,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 26,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12055,8 +12055,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 28,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12067,8 +12067,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12079,8 +12079,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 26,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12091,8 +12091,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12103,8 +12103,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12115,8 +12115,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12127,8 +12127,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12139,8 +12139,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12151,8 +12151,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12163,8 +12163,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 19.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 19.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12175,8 +12175,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 25,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12187,8 +12187,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12199,8 +12199,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12211,8 +12211,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12223,8 +12223,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12235,8 +12235,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12247,8 +12247,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12259,8 +12259,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12271,8 +12271,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12283,8 +12283,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 34,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12295,8 +12295,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 45,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12307,8 +12307,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12319,8 +12319,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12331,8 +12331,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12343,8 +12343,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12355,8 +12355,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12367,8 +12367,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12379,8 +12379,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12391,8 +12391,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12403,8 +12403,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12415,8 +12415,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12427,8 +12427,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12439,8 +12439,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12451,8 +12451,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12463,8 +12463,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12475,8 +12475,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12487,8 +12487,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12499,8 +12499,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12511,8 +12511,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12523,8 +12523,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12535,8 +12535,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12547,8 +12547,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12559,8 +12559,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12571,8 +12571,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 5.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 5.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12583,8 +12583,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12595,8 +12595,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12607,8 +12607,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12619,8 +12619,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12631,8 +12631,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 41,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12643,8 +12643,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 26,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12655,8 +12655,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12667,8 +12667,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12679,8 +12679,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12691,8 +12691,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12703,8 +12703,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12715,8 +12715,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12727,8 +12727,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12739,8 +12739,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12751,8 +12751,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12763,8 +12763,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12775,8 +12775,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12787,8 +12787,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12799,8 +12799,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12811,8 +12811,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12823,8 +12823,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12835,8 +12835,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12847,8 +12847,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12859,8 +12859,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12871,8 +12871,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12883,8 +12883,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12895,8 +12895,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 18,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12907,8 +12907,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 42,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12919,8 +12919,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 49,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12931,8 +12931,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12943,8 +12943,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12955,8 +12955,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12967,8 +12967,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 15,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12979,8 +12979,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -12991,8 +12991,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 18,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13003,8 +13003,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13015,8 +13015,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13027,8 +13027,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 24,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13039,8 +13039,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13051,8 +13051,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 25.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 25.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13063,8 +13063,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13075,8 +13075,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13087,8 +13087,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13099,8 +13099,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13111,8 +13111,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13123,8 +13123,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13135,8 +13135,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13147,8 +13147,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13159,8 +13159,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13171,8 +13171,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13183,8 +13183,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13195,8 +13195,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 41,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13207,8 +13207,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 23,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 33.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 33.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13219,8 +13219,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 25.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 25.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13231,8 +13231,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 17,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13243,8 +13243,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13255,8 +13255,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13267,8 +13267,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13279,8 +13279,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 20.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 20.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13291,8 +13291,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 26.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 20,
+    "Particulate matter < 10 Âµm (ug/m3)": 26.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 20,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13303,8 +13303,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 27.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 19.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 27.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 19.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13315,8 +13315,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13327,8 +13327,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13339,8 +13339,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13351,8 +13351,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13363,8 +13363,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13375,8 +13375,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13387,8 +13387,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13399,8 +13399,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13411,8 +13411,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13423,8 +13423,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13435,8 +13435,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13447,8 +13447,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13459,8 +13459,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13471,8 +13471,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13483,8 +13483,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13495,8 +13495,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13507,8 +13507,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 23,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13519,8 +13519,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13531,8 +13531,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13543,8 +13543,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13555,8 +13555,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13567,8 +13567,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13579,8 +13579,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 28.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 28.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13591,8 +13591,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13603,8 +13603,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 17,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13615,8 +13615,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 25,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13627,8 +13627,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 15,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13639,8 +13639,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13651,8 +13651,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13663,8 +13663,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13675,8 +13675,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13687,8 +13687,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13699,8 +13699,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13711,8 +13711,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13723,8 +13723,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13735,8 +13735,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13747,8 +13747,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13759,8 +13759,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13771,8 +13771,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13783,8 +13783,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13795,8 +13795,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13807,8 +13807,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13819,8 +13819,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13831,8 +13831,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13843,8 +13843,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13855,8 +13855,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13867,8 +13867,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13879,8 +13879,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 23,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13891,8 +13891,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 21,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13903,8 +13903,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13915,8 +13915,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13927,8 +13927,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13939,8 +13939,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13951,8 +13951,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13963,8 +13963,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13975,8 +13975,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13987,8 +13987,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -13999,8 +13999,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14011,8 +14011,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14023,8 +14023,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14035,8 +14035,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 3.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 3.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14047,8 +14047,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14059,8 +14059,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14071,8 +14071,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14083,8 +14083,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14095,8 +14095,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14107,8 +14107,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14119,8 +14119,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14131,8 +14131,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14143,8 +14143,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14155,8 +14155,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14167,8 +14167,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14179,8 +14179,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 23,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 24,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14191,8 +14191,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 27,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14203,8 +14203,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 20,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14215,8 +14215,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14227,8 +14227,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14239,8 +14239,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14251,8 +14251,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 26.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 15,
+    "Particulate matter < 10 Âµm (ug/m3)": 26.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14263,8 +14263,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 21,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14275,8 +14275,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14287,8 +14287,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 16,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14299,8 +14299,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14311,8 +14311,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14323,8 +14323,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14335,8 +14335,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14347,8 +14347,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 19,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14359,8 +14359,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14371,8 +14371,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14383,8 +14383,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14395,8 +14395,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 16,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14407,8 +14407,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14419,8 +14419,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14431,8 +14431,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14443,8 +14443,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 17,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14455,8 +14455,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 21,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14467,8 +14467,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14479,8 +14479,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14491,8 +14491,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14503,8 +14503,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 20,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14515,8 +14515,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14527,8 +14527,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14539,8 +14539,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14551,8 +14551,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14563,8 +14563,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14575,8 +14575,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14587,8 +14587,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14599,8 +14599,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14611,8 +14611,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14623,8 +14623,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 21,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14635,8 +14635,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14647,8 +14647,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14659,8 +14659,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14671,8 +14671,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14683,8 +14683,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 22,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14695,8 +14695,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14707,8 +14707,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 17.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 17.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14719,8 +14719,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 20.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 20.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14731,8 +14731,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14743,8 +14743,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 16,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14755,8 +14755,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14767,8 +14767,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14779,8 +14779,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14791,8 +14791,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14803,8 +14803,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14815,8 +14815,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 10,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14827,8 +14827,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 14,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14839,8 +14839,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 10,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14851,8 +14851,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14863,8 +14863,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14875,8 +14875,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14887,8 +14887,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14899,8 +14899,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14911,8 +14911,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14923,8 +14923,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14935,8 +14935,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14947,8 +14947,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14959,8 +14959,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14971,8 +14971,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14983,8 +14983,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -14995,8 +14995,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15007,8 +15007,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15019,8 +15019,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15031,8 +15031,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15043,8 +15043,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15055,8 +15055,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15067,8 +15067,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15079,8 +15079,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15091,8 +15091,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15103,8 +15103,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 7.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 7.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15115,8 +15115,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15127,8 +15127,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15139,8 +15139,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 4.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 4.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15151,8 +15151,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 5,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15163,8 +15163,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15175,8 +15175,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15187,8 +15187,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 6.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 6.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15199,8 +15199,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 5.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 5.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15211,8 +15211,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 33.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15223,8 +15223,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 37.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15235,8 +15235,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15247,8 +15247,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15259,8 +15259,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15271,8 +15271,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15283,8 +15283,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15295,8 +15295,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15307,8 +15307,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15319,8 +15319,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15331,8 +15331,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15343,8 +15343,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15355,8 +15355,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15367,8 +15367,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15379,8 +15379,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15391,8 +15391,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15403,8 +15403,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15415,8 +15415,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 11.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15427,8 +15427,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15439,8 +15439,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15451,8 +15451,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15463,8 +15463,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 9.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 9.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15475,8 +15475,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15487,8 +15487,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15499,8 +15499,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15511,8 +15511,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 19,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15523,8 +15523,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15535,8 +15535,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15547,8 +15547,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15559,8 +15559,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15571,8 +15571,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15583,8 +15583,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15595,8 +15595,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 15,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15607,8 +15607,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 15,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15619,8 +15619,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15631,8 +15631,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15643,8 +15643,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15655,8 +15655,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15667,8 +15667,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15679,8 +15679,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15691,8 +15691,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15703,8 +15703,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15715,8 +15715,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15727,8 +15727,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15739,8 +15739,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15751,8 +15751,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15763,8 +15763,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15775,8 +15775,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15787,8 +15787,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 12,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15799,8 +15799,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 29.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15811,8 +15811,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 29.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 20,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15823,8 +15823,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15835,8 +15835,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 19.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 19.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15847,8 +15847,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 19.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 19.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15859,8 +15859,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 20.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 20.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15871,8 +15871,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 19.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 19.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15883,8 +15883,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 19.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 19.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15895,8 +15895,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 18.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 18.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15907,8 +15907,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 23.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 16.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 23.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 16.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15919,8 +15919,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 18.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15931,8 +15931,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15943,8 +15943,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15955,8 +15955,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15967,8 +15967,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15979,8 +15979,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -15991,8 +15991,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16003,8 +16003,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16015,8 +16015,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16027,8 +16027,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16039,8 +16039,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16051,8 +16051,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16063,8 +16063,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 33.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16075,8 +16075,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 25.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 25.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 25.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16087,8 +16087,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 40.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16099,8 +16099,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 22.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16111,8 +16111,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16123,8 +16123,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16135,8 +16135,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16147,8 +16147,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16159,8 +16159,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16171,8 +16171,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16183,8 +16183,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16195,8 +16195,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16207,8 +16207,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 24.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 24.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16219,8 +16219,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16231,8 +16231,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16243,8 +16243,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16255,8 +16255,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 10,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16267,8 +16267,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16279,8 +16279,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16291,8 +16291,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16303,8 +16303,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 11,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 11,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16315,8 +16315,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 6.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 6.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16327,8 +16327,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 10.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 10.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16339,8 +16339,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16351,8 +16351,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16363,8 +16363,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 13.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16375,8 +16375,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16387,8 +16387,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16399,8 +16399,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16411,8 +16411,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16423,8 +16423,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16435,8 +16435,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16447,8 +16447,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16459,8 +16459,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16471,8 +16471,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16483,8 +16483,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16495,8 +16495,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16507,8 +16507,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16519,8 +16519,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16531,8 +16531,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16543,8 +16543,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16555,8 +16555,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16567,8 +16567,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16579,8 +16579,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16591,8 +16591,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16603,8 +16603,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16615,8 +16615,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16627,8 +16627,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16639,8 +16639,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 14,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16651,8 +16651,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16663,8 +16663,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16675,8 +16675,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16687,8 +16687,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16699,8 +16699,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16711,8 +16711,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16723,8 +16723,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16735,8 +16735,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16747,8 +16747,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16759,8 +16759,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16771,8 +16771,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 1.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16783,8 +16783,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 0.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16795,8 +16795,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 14,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16807,8 +16807,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 18,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16819,8 +16819,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16831,8 +16831,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16843,8 +16843,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16855,8 +16855,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16867,8 +16867,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16879,8 +16879,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16891,8 +16891,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16903,8 +16903,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 22.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16915,8 +16915,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 22,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 22,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16927,8 +16927,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16939,8 +16939,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 12,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16951,8 +16951,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 12,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16963,8 +16963,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16975,8 +16975,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16987,8 +16987,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 14,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -16999,8 +16999,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 19,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17011,8 +17011,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17023,8 +17023,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17035,8 +17035,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 4.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19,
-    "Particulate matter < 2.5 µm (ug/m3)": 15,
+    "Particulate matter < 10 Âµm (ug/m3)": 19,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17047,8 +17047,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17059,8 +17059,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 20,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17071,8 +17071,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17083,8 +17083,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18,
-    "Particulate matter < 2.5 µm (ug/m3)": 12,
+    "Particulate matter < 10 Âµm (ug/m3)": 18,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17095,8 +17095,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17107,8 +17107,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 6.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17119,8 +17119,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17131,8 +17131,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17143,8 +17143,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.1,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17155,8 +17155,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17167,8 +17167,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 11,
+    "Particulate matter < 10 Âµm (ug/m3)": 15.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17179,8 +17179,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 11.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17191,8 +17191,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17203,8 +17203,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17215,8 +17215,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 18,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17227,8 +17227,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 8.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17239,8 +17239,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.7,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17251,8 +17251,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17263,8 +17263,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 16.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 16.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17275,8 +17275,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17287,8 +17287,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.5,
+    "Particulate matter < 10 Âµm (ug/m3)": 12,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.5,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17299,8 +17299,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 2.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17311,8 +17311,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 3.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 13.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 13.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17323,8 +17323,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 10.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 14.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 14.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17335,8 +17335,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 15,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 15,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17347,8 +17347,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 16.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 8.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 8.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17359,8 +17359,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 15.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17371,8 +17371,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.4,
-    "Particulate matter < 2.5 µm (ug/m3)": 9,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.4,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17383,8 +17383,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17395,8 +17395,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 10.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 10.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17407,8 +17407,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17419,8 +17419,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17431,8 +17431,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17443,8 +17443,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.5,
-    "Particulate matter < 2.5 µm (ug/m3)": 12.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.5,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17455,8 +17455,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 9.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 19.3,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.7,
+    "Particulate matter < 10 Âµm (ug/m3)": 19.3,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.7,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17467,8 +17467,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 14.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 12,
+    "Particulate matter < 10 Âµm (ug/m3)": 20.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 12,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17479,8 +17479,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 17.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 18.8,
-    "Particulate matter < 2.5 µm (ug/m3)": 11.4,
+    "Particulate matter < 10 Âµm (ug/m3)": 18.8,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 11.4,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17491,8 +17491,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 19.3,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 8.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 7.2,
+    "Particulate matter < 10 Âµm (ug/m3)": 8.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 7.2,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17503,8 +17503,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 24.8,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 12.6,
-    "Particulate matter < 2.5 µm (ug/m3)": 9.8,
+    "Particulate matter < 10 Âµm (ug/m3)": 12.6,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 9.8,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17515,8 +17515,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 34.4,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 17.9,
-    "Particulate matter < 2.5 µm (ug/m3)": 13.1,
+    "Particulate matter < 10 Âµm (ug/m3)": 17.9,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 13.1,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17527,8 +17527,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 25,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 20,
-    "Particulate matter < 2.5 µm (ug/m3)": 14.9,
+    "Particulate matter < 10 Âµm (ug/m3)": 20,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 14.9,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17539,8 +17539,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 12.2,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.1,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.1,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.3,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17551,8 +17551,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 7.6,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.7,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.6,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.7,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.6,
     "Sulphur dioxide (ug/m3)": ""
   },
   {
@@ -17563,8 +17563,8 @@ const data = [
     "Time zone": "UTC",
     "Nitrogen dioxide (ug/m3)": 5.5,
     "Ozone (ug/m3)": "",
-    "Particulate matter < 10 µm (ug/m3)": 21.2,
-    "Particulate matter < 2.5 µm (ug/m3)": 15.3,
+    "Particulate matter < 10 Âµm (ug/m3)": 21.2,
+    "Particulate matter < 2.5 Âµm (ug/m3)": 15.3,
     "Sulphur dioxide (ug/m3)": ""
   }
 ];
