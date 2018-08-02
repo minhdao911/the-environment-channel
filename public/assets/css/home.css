@@ -529,3 +529,8 @@ input:checked + .as1 {
   padding: 0 30px!important;
   line-height: 100px;
 }
+
+.vid {
+    width: 100%;
+    text-align: center;
+}
