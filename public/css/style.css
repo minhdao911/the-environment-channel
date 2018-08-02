@@ -185,15 +185,13 @@ select {
   border-radius: 3px 3px 0px 0px;
   -moz-border-radius: 3px 3px 0px 0px;
   -webkit-border-radius: 3px 3px 0px 0px;
-  /* border: 1px solid white; */
   color: white;
   overflow: hidden;
   transition: 0.8s;
   z-index: 5;
-  /* transform: translateY(106px); */
 }
 
-.helper {
+.helper, .color-helper {
   display: flex;
   justify-content: space-between;
   padding: 15px 30px;
@@ -201,10 +199,10 @@ select {
   color: white;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.helper-info {
+.helper-info, .color-info {
   padding: 10px 30px;
   height: 100%;
   display: flex;
@@ -213,6 +211,99 @@ select {
   font-family: "Roboto", sans-serif;
 }
 
-.helper-info > * {
+.legend-name {
+  padding-bottom: 4px !important;
+}
+
+.helper-info>*, .color-info>* {
   padding: 8px 0;
+}
+
+#color-legends {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 90%;
+  width: 360px;
+  background: #191919;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px 3px 0px 0px;
+  -moz-border-radius: 3px 3px 0px 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  color: white;
+  overflow: hidden;
+  transition: 0.8s;
+  z-index: 5;
+}
+
+.color-div {
+  display: flex;
+  justify-content: center;
+}
+
+.color-div>* {
+  height: 30px;
+  width: 60px;
+  border: 1px solid grey;
+}
+
+#heat-1 {
+  background: #ffbaba;
+}
+
+#heat-2 {
+  background: #ff7b7b;
+}
+
+#heat-3 {
+  background: #ff5252;
+}
+
+#heat-4 {
+  background: #ff0000;
+}
+
+#heat-5 {
+  background: #a70000;
+}
+
+#air-1 {
+  background: #14a76c;
+}
+
+#air-2 {
+  background: #ffe400;
+}
+
+#air-3 {
+  background: #ff652f;
+}
+
+#air-4 {
+  background: #c3073f;
+}
+
+#air-5 {
+  background: #950740;
+}
+
+#humid-1 {
+  background: #606060;
+}
+
+#humid-2 {
+  background: #505050;
+}
+
+#humid-3 {
+  background: #363636;
+}
+
+#humid-4 {
+  background: #2A2A2A;
+}
+
+#humid-5 {
+  background: #242424;
 }

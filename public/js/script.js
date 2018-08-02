@@ -146,11 +146,12 @@ const doRecursiveRequest = (url, limit) => {
 };
 
 //set up helper
+const optionButtons = document.querySelector(".options");
+
 const instructionsDiv = document.querySelector("#instructions");
 const toggleInstructions = instructionsDiv.querySelector(".helper");
 const helperInfo = instructionsDiv.querySelector(".helper-info");
 const toggleIndicator = instructionsDiv.querySelector(".helper-toggle");
-const optionButtons = document.querySelector(".options");
 
 toggleInstructions.addEventListener("click", e => {
   const height = helperInfo.clientHeight;
@@ -161,6 +162,23 @@ toggleInstructions.addEventListener("click", e => {
   } else {
     instructionsDiv.style.transform = "translateY(0px)";
     toggleIndicator.innerHTML = "-";
+  }
+});
+
+const colorLegends = document.querySelector("#color-legends");
+const colorHelper = colorLegends.querySelector(".color-helper");
+const colorInfo = colorLegends.querySelector(".color-info");
+const colorToggleIndicator = colorLegends.querySelector(".color-toggle");
+
+colorHelper.addEventListener("click", e => {
+  const height = colorInfo.clientHeight;
+
+  if (colorLegends.style.transform === "" || colorLegends.style.transform === "translateY(0px)") {
+    colorLegends.style.transform = `translateY(${height}px)`;
+    colorToggleIndicator.innerHTML = "+";
+  } else {
+    colorLegends.style.transform = "translateY(0px)";
+    colorToggleIndicator.innerHTML = "-";
   }
 });
 
