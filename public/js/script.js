@@ -146,15 +146,41 @@ const doRecursiveRequest = (url, limit) => {
 //set up helper
 const instructionsDiv = document.querySelector("#instructions");
 const toggleInstructions = instructionsDiv.querySelector(".helper");
+const helperInfo = instructionsDiv.querySelector(".helper-info");
 const toggleIndicator = instructionsDiv.querySelector(".helper-toggle");
+const optionButtons = document.querySelector(".options");
 
 toggleInstructions.addEventListener("click", e => {
-  if (instructionsDiv.style.transform === "translateY(108px)") {
-    instructionsDiv.style.transform = "translateY(0)";
-    toggleIndicator.innerHTML = "-";
+  const optionButtonsDisplay = optionButtons.style.display;
+  if (optionButtonsDisplay === "none") {
+    helperInfo.innerHTML =
+    `
+    <div>
+        Freely spin around the globe by dragging it.
+    </div>
+    <div>
+        Double click a country to view what's inside </br>(only available in Finland currently).
+    </div>
+    `
+  ;
   } else {
-    instructionsDiv.style.transform = "translateY(108px)";
+    helperInfo.innerHTML =
+    `
+    <div>
+      You can click/hover on a city or a station.
+    </div>
+    <div>
+      You can see environmental data by clicking </br>on the buttons on the top-left corner.
+    </div>
+    `
+  }
+  const height = helperInfo.clientHeight;
+  if (instructionsDiv.style.transform === "" || instructionsDiv.style.transform === "translateY(0px)") {
+    instructionsDiv.style.transform = `translateY(${height}px)`;
     toggleIndicator.innerHTML = "+";
+  } else {
+    instructionsDiv.style.transform = "translateY(0px)";
+    toggleIndicator.innerHTML = "-";
   }
 });
 
@@ -958,7 +984,6 @@ function loadMap(err, json, csv, stations) {
   const dataLayer = document.getElementById("data");
   const bars = dataLayer.querySelector(".left");
   const graph = dataLayer.querySelector(".right");
-  const optionButtons = document.querySelector(".options");
   const userTooltip = document.querySelector(".user-tooltip");
   const absoluteCircle = dataLayer.querySelector(".absolute-circle");
 

@@ -179,7 +179,6 @@ select {
   bottom: 0;
   font-size: 90%;
   width: 350px;
-  height: 150px;
   background: white;
   display: flex;
   flex-direction: column;
@@ -190,6 +189,7 @@ select {
   overflow: hidden;
   transition: 0.8s;
   z-index: 5;
+  /* transform: translateY(106px); */
 }
 
 .helper {
@@ -211,4 +211,6 @@ select {
   font-family: "Roboto", sans-serif;
 }
 
-/* transform: translateY(108px); */
+.helper-info > * {
+  padding: 8px 0;
+}
