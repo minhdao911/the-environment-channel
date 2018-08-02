@@ -4,6 +4,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  font-family: 'Karla', sans-serif;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -15,9 +16,24 @@ body, html {
   background-size: cover;
 
 }
+.button4 {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 16px 'Karla', sans-serif;
+    cursor: pointer;
+    background-color: rgba(1,1,1,0);
+    color: white;
+    border: 2px solid #e7e7e7;
+}
 .bgimg-1 {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../images/b2.jpg");
   min-height: 50%;
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items:center; 
 }
 
 .bgimg-2 {
@@ -31,15 +47,19 @@ body, html {
 }
 
 .caption {
-  position: absolute;
+  display: flex;
+  justify-content: space-around;
   left: 0;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  font: 35px 'Karla', sans-serif;
+  color: #f9faf9;
+ margin-bottom: 50px;
+
 }
 p {
-    font: 30px "roboto", sans-serif;
+    font: 25px 'Karla', sans-serif;
 }
 .caption span.border {
   color: #fff;
@@ -53,8 +73,9 @@ p {
 h3 {
   text-transform: uppercase;
   margin: 0;
-  font: 50px "roboto", sans-serif;
+  font: 40px 'Karla', sans-serif;
   color: #111;
+    font-weight: 700;
 
 }
 
@@ -121,8 +142,6 @@ padding-top: 6em;
 -ms-align-items: center;
 align-items: center;
 background: black;
-border-bottom-style: hidden;
-margin: 0;
 cursor: default;
 height: 6em;
 left: 0;
@@ -132,6 +151,7 @@ top: 0;
 width: 100%;
 z-index: 10001;
 text-align: center;
+border-bottom: 100px red;
 }
 
 #header .logo {
@@ -420,7 +440,7 @@ body {
     height: 700px;
 }
 
-input:checked + .slide-container  .slide {
+input:checked + .slide {
     opacity: 1;
 
     transform: scale(1);
@@ -460,12 +480,21 @@ input:checked + .slide-container  .slide {
   justify-content: center;
   background:black;
   height:600px;
-  background-image: url("../../images/humid.PNG");
+  background-image: url("../../images/1.png");
   background-repeat: no-repeat;
    background-position: center;
   background-size: contain;
 }
 
+.as1 {
+    display: none;
+}
+.as2 {
+    display: none;
+}
+.as3 {
+    display:none;
+}
 input[type="radio"] {
   display:none;
 }
@@ -474,9 +503,20 @@ input:checked + label {
   background:black!important;
   color:azure;
   border:2px solid azure;
+    
 }
 
+input:checked + .as1 {
+    display: block;
+}
 .about > div > img {
   width:200px;
   height:200px;
+}
+.github {
+    display: flex;
+    justify-content: center;
+    background: #f9faf9;
+    color: gray;
+    text-align: center;
 }
