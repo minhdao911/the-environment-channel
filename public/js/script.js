@@ -1079,7 +1079,7 @@ function loadMap(err, json, csv, stations) {
     const stationName = nameArray[1] + " " + nameArray[0];
     const processedName = stationName.split(" ").join("-");
 
-    const baseUrl = "http://localhost:3000";
+    const baseUrl = "https://environment-channel.herokuapp.com";
     const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
     let airName = "pm25";
