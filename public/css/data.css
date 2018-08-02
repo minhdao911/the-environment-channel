@@ -130,7 +130,7 @@ a {
 .left {
   width: 450px;
   color: white;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .right {
