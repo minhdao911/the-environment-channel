@@ -179,13 +179,14 @@ select {
   bottom: 0;
   font-size: 90%;
   width: 350px;
-  background: white;
+  background: #191919;
   display: flex;
   flex-direction: column;
   border-radius: 3px 3px 0px 0px;
   -moz-border-radius: 3px 3px 0px 0px;
   -webkit-border-radius: 3px 3px 0px 0px;
-  border: 1px solid grey;
+  /* border: 1px solid white; */
+  color: white;
   overflow: hidden;
   transition: 0.8s;
   z-index: 5;
@@ -196,10 +197,11 @@ select {
   display: flex;
   justify-content: space-between;
   padding: 15px 30px;
-  background: #4285f4;
+  background: #191919;
   color: white;
   font-weight: 600;
   cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .helper-info {

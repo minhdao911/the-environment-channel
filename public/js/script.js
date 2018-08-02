@@ -655,8 +655,7 @@ function loadMap(err, json, csv, stations) {
     .attr("d", countryPath)
     .style("stroke-dasharray", "3, 3")
     .on("mouseover", mouseoverCountry)
-    .on("mouseout", mouseoutCountry)
-    .on("click", clicked);
+    .on("mouseout", mouseoutCountry);
 
   var marker = g
     .selectAll("g.marker")
