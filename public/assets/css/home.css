@@ -33,7 +33,7 @@ body, html {
     display:flex;
     justify-content: center;
     flex-flow: column;
-    align-items:center; 
+    align-items:center;
 }
 
 .bgimg-2 {
@@ -503,7 +503,7 @@ input:checked + label {
   background:black!important;
   color:azure;
   border:2px solid azure;
-    
+
 }
 
 input:checked + .as1 {
@@ -519,4 +519,13 @@ input:checked + .as1 {
     background: #f9faf9;
     color: gray;
     text-align: center;
+}
+
+#check_project {
+  margin-bottom:30px;
+}
+
+#check_project > p {
+  padding: 0 30px!important;
+  line-height: 100px;
 }
