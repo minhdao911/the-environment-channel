@@ -103,7 +103,7 @@ a {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
-  padding: 5px 15px;
+  padding: 5px 12px;
   border: 1px solid #f5f5f5;
 }
 
@@ -115,6 +115,12 @@ a {
 .buttons {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.buttons+div {
+  font-size: 90%;
+  color: #666666
 }
 
 .buttons span {
@@ -168,28 +174,28 @@ a {
   transform: translate(-50%, -50%);
   position: absolute;
   align-items: flex-start;
-  flex-flow:column;
-  font-size:90%;
-  padding:0 10px;
+  flex-flow: column;
+  font-size: 90%;
+  padding: 0 10px;
 }
 
-.data-tooltip > * {
+.data-tooltip>* {
   padding-top: 8px;
 }
 
-.absolute-circle:hover + .data-tooltip {
+.absolute-circle:hover+.data-tooltip {
   display: flex;
-  z-index:5;
+  z-index: 5;
 }
 
 .user-tooltip {
   display: none;
   position: absolute;
-  color:white;
+  color: white;
   top: calc(50% + 80px);
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index:5;
-  width:140px;
-  text-align:center;
+  z-index: 5;
+  width: 140px;
+  text-align: center;
 }

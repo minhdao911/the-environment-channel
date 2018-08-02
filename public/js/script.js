@@ -49,7 +49,9 @@ const breakPoints = {
 const airNameMap = {
   no2: "Nitrogen dioxide (ug/m3)",
   pm10: "Particulate matter < 10 µm (ug/m3)",
-  pm25: "Particulate matter < 2.5 µm (ug/m3)"
+  pm25: "Particulate matter < 2.5 µm (ug/m3)",
+  o3: "Ozone (ug/m3)",
+  so2: "Sulphur dioxide (ug/m3)"
 };
 
 const scoreCount = (arr, value) => {
@@ -109,8 +111,8 @@ const displayChart = (airName, days, historicalData) => {
       }),
       datasets: [
         {
-          label: "Amount",
-          data: displayData.map(e => e[airNameMap[airName]])
+          label: "Amount (ug/m3)",
+          data: displayData.map(e => e[airNameMap[airName]]).map(e => Math.abs(e))
         }
       ]
     },
@@ -151,30 +153,8 @@ const toggleIndicator = instructionsDiv.querySelector(".helper-toggle");
 const optionButtons = document.querySelector(".options");
 
 toggleInstructions.addEventListener("click", e => {
-  const optionButtonsDisplay = optionButtons.style.display;
-  if (optionButtonsDisplay === "none") {
-    helperInfo.innerHTML =
-    `
-    <div>
-        Freely spin around the globe by dragging it.
-    </div>
-    <div>
-        Double click a country to view what's inside </br>(only available in Finland currently).
-    </div>
-    `
-  ;
-  } else {
-    helperInfo.innerHTML =
-    `
-    <div>
-      You can click/hover on a city or a station.
-    </div>
-    <div>
-      You can see environmental data by clicking </br>on the buttons on the top-left corner.
-    </div>
-    `
-  }
   const height = helperInfo.clientHeight;
+
   if (instructionsDiv.style.transform === "" || instructionsDiv.style.transform === "translateY(0px)") {
     instructionsDiv.style.transform = `translateY(${height}px)`;
     toggleIndicator.innerHTML = "+";
@@ -479,6 +459,15 @@ function ready(error, world, countryData) {
             svgGlobe.attr("opacity", 1 - t);
             if (t >= 1) {
               svgGlobe.style("display", "none");
+              helperInfo.innerHTML =
+              `
+              <div>
+                You can click/hover on a city or a station.
+              </div>
+              <div>
+                You can see environmental data by clicking </br>on the buttons on the top-right corner.
+              </div>
+              `;
               if (d == 246) {
                 closeCountry.style("display", "block");
                 svgCountry.style("display", "block");
@@ -949,6 +938,15 @@ function loadMap(err, json, csv, stations) {
           svgCountry.selectAll("path.land").attr("d", countryPath);
           svgCountry.attr("opacity", 1 - t);
           if (t >= 1) {
+            helperInfo.innerHTML =
+            `
+            <div>
+                Freely spin around the globe by dragging it.
+            </div>
+            <div>
+                Double click a country to view what's inside </br>(only available in Finland currently).
+            </div>
+            `;
             svgCountry.style("display", "none");
             svgGlobe.style("display", "block");
           }
@@ -1128,15 +1126,15 @@ function loadMap(err, json, csv, stations) {
         const aqiCheck = aqi ? qualityCheck(aqi_break_points, aqi) : "";
         const aqiText = aqi ? `${aqi} - ${aqiCheck}` : "unknown";
 
-        document.querySelector("#tooltip-station-name").innerHTML = `Station: ${
+        document.querySelector("#tooltip-station-name").innerHTML = `<b>Station</b>: ${
           res.data.city.name
         }`;
         document.querySelector(
           "#tooltip-air-quality"
-        ).innerHTML = `Air quality index: ${aqiText}`;
+        ).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
         document.querySelector(
           "#tooltip-pol-dominant"
-        ).innerHTML = `Dominent pollutant: ${htmlDisplay[dominentpol] ||
+        ).innerHTML = `<b>Dominent pollutant</b>: ${htmlDisplay[dominentpol] ||
           "unknown"}`;
 
         const dataArray = iaqi
