@@ -167,13 +167,14 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  align-items: center;
+  align-items: flex-start;
   flex-flow:column;
   font-size:90%;
+  padding:0 10px;
 }
 
 .data-tooltip > * {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .absolute-circle:hover + .data-tooltip {

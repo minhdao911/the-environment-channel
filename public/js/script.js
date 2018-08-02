@@ -53,7 +53,7 @@ const airNameMap = {
 };
 
 const scoreCount = (arr, value) => {
-  return (Math.log(value) / Math.log(arr[4])) * 100 + "%";
+  return Math.log(value) / Math.log(arr[4]) * 100 + "%";
 };
 
 const breakPointCheck = (arr, value) => {
@@ -85,6 +85,7 @@ const qualityCheck = (arr, value) => {
 };
 //end of air quality config
 
+//set up functions
 const displayChart = (airName, days, historicalData) => {
   const displayData = historicalData.slice(
     historicalData.length - days * 24,
@@ -142,6 +143,22 @@ const doRecursiveRequest = (url, limit) => {
     });
 };
 
+//set up helper
+const instructionsDiv = document.querySelector("#instructions");
+const toggleInstructions = instructionsDiv.querySelector(".helper");
+const toggleIndicator = instructionsDiv.querySelector(".helper-toggle");
+
+toggleInstructions.addEventListener("click", e => {
+  if (instructionsDiv.style.transform === "translateY(108px)") {
+    instructionsDiv.style.transform = "translateY(0)";
+    toggleIndicator.innerHTML = "-";
+  } else {
+    instructionsDiv.style.transform = "translateY(108px)";
+    toggleIndicator.innerHTML = "+";
+  }
+});
+
+//----
 var tooltip = d3.select("#tooltip"),
   countryList = d3
     .select("#globe")
@@ -325,7 +342,8 @@ function ready(error, world, countryData) {
     notiText.style("display", "none");
     closeNoti.style("display", "none");
     svgGlobe.style("display", "block");
-    d3.transition()
+    d3
+      .transition()
       .duration(2000)
       .tween("zoomout", function() {
         let curScale = projection.scale();
@@ -398,7 +416,8 @@ function ready(error, world, countryData) {
     //Globe movement
 
     (function transition() {
-      d3.transition()
+      d3
+        .transition()
         .duration(2500)
         .tween("rotate", function() {
           var r = d3.interpolate(rotate, [-p[0], -p[1]]);
@@ -562,8 +581,8 @@ function loadMap(err, json, csv, stations) {
           let deg = res.wind.deg;
           for (let i = 0; i < 5; i++) {
             let coord = [
-              res.coord.lon + (Math.random() * 100) / 100,
-              res.coord.lat + (Math.random() * 100) / 100
+              res.coord.lon + Math.random() * 100 / 100,
+              res.coord.lat + Math.random() * 100 / 100
             ];
             let x0y0 = country(coord);
             let x1y1 = country(getDestinationPoint(coord, 15 * speed, deg));
@@ -612,7 +631,8 @@ function loadMap(err, json, csv, stations) {
     });
   });
 
-  g.selectAll("path")
+  g
+    .selectAll("path")
     .data(json.features)
     .enter()
     .append("path")
@@ -699,7 +719,8 @@ function loadMap(err, json, csv, stations) {
   }
 
   function addWindLayer() {
-    g.selectAll("line")
+    g
+      .selectAll("line")
       .data(lines)
       .enter()
       .append("line")
@@ -759,12 +780,14 @@ function loadMap(err, json, csv, stations) {
       hu = "";
     if (d.aqi) {
       d3.select(this).moveToFront();
-      d3.select(this)
+      d3
+        .select(this)
         .style("stroke", "white")
         .style("stroke-width", 2);
       text = [d.station.name, "AQI: " + d.aqi];
     } else {
-      d3.select(this)
+      d3
+        .select(this)
         .style("fill", "orange")
         .attr("opacity", 1);
       text = [d.properties.text, "Population: " + d.properties.pop];
@@ -798,7 +821,8 @@ function loadMap(err, json, csv, stations) {
 
   function mouseoutCountry(d) {
     if (d.aqi) {
-      d3.select(this)
+      d3
+        .select(this)
         .style("stroke", "none")
         .style("stroke-width", 0);
     } else {
@@ -813,7 +837,8 @@ function loadMap(err, json, csv, stations) {
   }
 
   function zoomOut() {
-    d3.transition()
+    d3
+      .transition()
       .duration(2000)
       .tween("zoomout", function() {
         let curScale = country.scale();
@@ -887,7 +912,8 @@ function loadMap(err, json, csv, stations) {
         ")"
     );
     g.selectAll("path").classed("active", false);
-    d3.transition()
+    d3
+      .transition()
       .duration(2000)
       .tween("zoomin", function() {
         return function(t) {
@@ -928,6 +954,7 @@ function loadMap(err, json, csv, stations) {
       });
   }
 
+  //----- get elements ----------------------
   const dataLayer = document.getElementById("data");
   const bars = dataLayer.querySelector(".left");
   const graph = dataLayer.querySelector(".right");
@@ -995,7 +1022,8 @@ function loadMap(err, json, csv, stations) {
       g.selectAll("circle").attr("opacity", 1);
     }
 
-    g.transition()
+    g
+      .transition()
       .duration(750)
       .attr(
         "transform",
@@ -1022,11 +1050,7 @@ function loadMap(err, json, csv, stations) {
       k = a[2];
 
     //work on data
-    const {
-      uid,
-      aqi,
-      station: { name }
-    } = d;
+    const { uid, aqi, station: { name } } = d;
 
     const nameArray = name.split(", ");
     const stationName = nameArray[1] + " " + nameArray[0];
@@ -1079,9 +1103,9 @@ function loadMap(err, json, csv, stations) {
         const aqiCheck = aqi ? qualityCheck(aqi_break_points, aqi) : "";
         const aqiText = aqi ? `${aqi} - ${aqiCheck}` : "unknown";
 
-        document.querySelector(
-          "#tooltip-station-name"
-        ).innerHTML = `Station: ${res.data.city.name}`;
+        document.querySelector("#tooltip-station-name").innerHTML = `Station: ${
+          res.data.city.name
+        }`;
         document.querySelector(
           "#tooltip-air-quality"
         ).innerHTML = `Air quality index: ${aqiText}`;
@@ -1160,7 +1184,8 @@ function loadMap(err, json, csv, stations) {
     windBtn.removeClass("chosen");
     humidBtn.removeClass("chosen");
     setWeatherData("", "", "", "");
-    g.selectAll("path")
+    g
+      .selectAll("path")
       .style("fill", landColor)
       .attr("opacity", 1);
   }
@@ -1175,11 +1200,11 @@ function setWeatherData(cond, temp, wind, humid) {
 
 // MATH FUNCTIONS
 function toRad(deg) {
-  return (deg * Math.PI) / 180;
+  return deg * Math.PI / 180;
 }
 
 function toDeg(rad) {
-  return (rad * 180) / Math.PI;
+  return rad * 180 / Math.PI;
 }
 
 function getDestinationPoint(lonLat, d, brng) {
