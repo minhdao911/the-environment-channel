@@ -59,7 +59,7 @@ h3 {
 }
 
 .columm{
-    
+
     flex: 50%;
     text-align:center
 }
@@ -79,9 +79,9 @@ h3 {
     display: flex;
     color: #777;
     background-color:#f9faf9;
-    text-align:center;
     padding:50px 80px;
     text-align: justify;
+    justify-content: space-around;
 }
 
 .box3 {
@@ -106,6 +106,7 @@ h3 {
     display: flex;
     justify-content:space-around;
     background-color: #f9faf9;
+    padding:50px 80px 90px 80px;
 }
 
 /* Header */
@@ -394,13 +395,13 @@ body {
     -webkit-touch-callout: none;
 }
 
-.slides input { 
-    display: none; 
+.slides input {
+    display: none;
 }
 
-.slide-container { 
-    
-    display: block; 
+.slide-container {
+
+    display: block;
 }
 
 .slide {
@@ -448,8 +449,34 @@ input:checked + .slide-container  .slide {
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
-input#img-1:checked ~ .nav-dots label#img-dot-1,
-input#img-2:checked ~ .nav-dots label#img-dot-2,
-input#img-3:checked ~ .nav-dots label#img-dot-3 {
-	background-color: rgba(0, 0, 0, 0.8);
+.featured-images-padding {
+  padding:20px;
+  background:black;
+}
+
+.featured-images {
+  display: flex;
+  padding:20px;
+  justify-content: center;
+  background:black;
+  height:600px;
+  background-image: url("../../images/humid.PNG");
+  background-repeat: no-repeat;
+   background-position: center;
+  background-size: contain;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+input:checked + label {
+  background:black!important;
+  color:azure;
+  border:2px solid azure;
+}
+
+.about > div > img {
+  width:200px;
+  height:200px;
 }
