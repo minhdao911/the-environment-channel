@@ -151,7 +151,7 @@ top: 0;
 width: 100%;
 z-index: 10001;
 text-align: center;
-border-bottom: 100px red;
+border-bottom: 3px solid #1c1c1c;
 }
 
 #header .logo {
