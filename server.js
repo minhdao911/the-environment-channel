@@ -6,9 +6,13 @@ var port = process.env.PORT || 3000;
 
 var displayDataPath = path.join(__dirname, "./displayData");
 var publicPath = path.join(__dirname, "./public");
+var homePath =  path.join(__dirname, "./public/home.html");
+var learnmorePath = path.join(__dirname, "./public/learnMore.html")
 
 app.use(express.static(publicPath));
-app.use("/display",express.static(displayDataPath));
+app.use("/display", express.static(displayDataPath));
+app.use("/home", express.static(homePath));
+app.use("/learn-more", express.static(learnmorePath));
 
 app.get("/data/:stationName", function(req,res){
   const stationName = req.params.stationName;
