@@ -19,7 +19,7 @@ const weatherKeyArray = [
   "6bcd4d8208862c56e49824c1f8897f53"
 ];
 
-const randomNumber = Math.floor(Math.random() * (weatherKeyArray.length + 1)); //temporary solution to avoid over quota
+const randomNumber = Math.floor(Math.random() * weatherKeyArray.length); //temporary solution to avoid over quota
 
 var weatherKey = weatherKeyArray[randomNumber],
   weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
