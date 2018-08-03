@@ -9,10 +9,19 @@ var width = window.innerWidth,
   start = true,
   focused;
 
-// 336cc10d5e71d8310a16b448a229e995
-// d7dfe147284d7ec8e4a5f8e1a7bb2812
-// afaa0e32c277554df53bc840221a792d
-var weatherKey = "336cc10d5e71d8310a16b448a229e995",
+const weatherKeyArray = [
+  "d7dfe147284d7ec8e4a5f8e1a7bb2812",
+  "afaa0e32c277554df53bc840221a792d",
+  "47f39f44428b8de9e62ab25171587f69",
+  "7257c0ef6e1cf3d7b539d9d24ef1b052",
+  "aa5f83559f473e3819da097970e22fef",
+  "6c3bcae594cfbfaf61177ee366398aad",
+  "6bcd4d8208862c56e49824c1f8897f53",
+]
+
+const randomNumber = Math.floor(Math.random() * (weatherKeyArray.length + 1)); //temporary solution to avoid over quota
+
+var weatherKey = weatherKeyArray[randomNumber],
   weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
 
 var countryScale = Math.min(width, height) * 5,
