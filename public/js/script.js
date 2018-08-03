@@ -16,13 +16,15 @@ const weatherKeyArray = [
   "7257c0ef6e1cf3d7b539d9d24ef1b052",
   "aa5f83559f473e3819da097970e22fef",
   "6c3bcae594cfbfaf61177ee366398aad",
-  "6bcd4d8208862c56e49824c1f8897f53",
-]
+  "6bcd4d8208862c56e49824c1f8897f53"
+];
 
 const randomNumber = Math.floor(Math.random() * (weatherKeyArray.length + 1)); //temporary solution to avoid over quota
 
 var weatherKey = weatherKeyArray[randomNumber],
   weatherUrl = `https://api.openweathermap.org/data/2.5/weather?appid=${weatherKey}&units=metric&q=`;
+
+console.log(weatherKey);
 
 var countryScale = Math.min(width, height) * 5,
   countryZoomedScale = 5,
@@ -121,7 +123,9 @@ const displayChart = (airName, days, historicalData) => {
       datasets: [
         {
           label: "Amount (ug/m3)",
-          data: displayData.map(e => e[airNameMap[airName]]).map(e => Math.abs(e))
+          data: displayData
+            .map(e => e[airNameMap[airName]])
+            .map(e => Math.abs(e))
         }
       ]
     },
@@ -165,7 +169,10 @@ const toggleIndicator = instructionsDiv.querySelector(".helper-toggle");
 toggleInstructions.addEventListener("click", e => {
   const height = helperInfo.clientHeight;
 
-  if (instructionsDiv.style.transform === "" || instructionsDiv.style.transform === "translateY(0px)") {
+  if (
+    instructionsDiv.style.transform === "" ||
+    instructionsDiv.style.transform === "translateY(0px)"
+  ) {
     instructionsDiv.style.transform = `translateY(${height}px)`;
     toggleIndicator.innerHTML = "+";
   } else {
@@ -182,7 +189,10 @@ const colorToggleIndicator = colorLegends.querySelector(".color-toggle");
 colorHelper.addEventListener("click", e => {
   const height = colorInfo.clientHeight;
 
-  if (colorLegends.style.transform === "" || colorLegends.style.transform === "translateY(0px)") {
+  if (
+    colorLegends.style.transform === "" ||
+    colorLegends.style.transform === "translateY(0px)"
+  ) {
     colorLegends.style.transform = `translateY(${height}px)`;
     colorToggleIndicator.innerHTML = "+";
   } else {
@@ -486,8 +496,7 @@ function ready(error, world, countryData) {
             svgGlobe.attr("opacity", 1 - t);
             if (t >= 1) {
               svgGlobe.style("display", "none");
-              helperInfo.innerHTML =
-              `
+              helperInfo.innerHTML = `
               <div>
                 You can click/hover on a city or a station.
               </div>
@@ -964,8 +973,7 @@ function loadMap(err, json, csv, stations) {
           svgCountry.selectAll("path.land").attr("d", countryPath);
           svgCountry.attr("opacity", 1 - t);
           if (t >= 1) {
-            helperInfo.innerHTML =
-            `
+            helperInfo.innerHTML = `
             <div>
                 Freely spin around the globe by dragging it.
             </div>
@@ -1151,9 +1159,9 @@ function loadMap(err, json, csv, stations) {
         const aqiCheck = aqi ? qualityCheck(aqi_break_points, aqi) : "";
         const aqiText = aqi ? `${aqi} - ${aqiCheck}` : "unknown";
 
-        document.querySelector("#tooltip-station-name").innerHTML = `<b>Station</b>: ${
-          res.data.city.name
-        }`;
+        document.querySelector(
+          "#tooltip-station-name"
+        ).innerHTML = `<b>Station</b>: ${res.data.city.name}`;
         document.querySelector(
           "#tooltip-air-quality"
         ).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
