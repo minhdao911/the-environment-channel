@@ -837,5 +837,11 @@
 .table {
     display: flex;
     justify-content: center;
-    padding: 50px;
+}
+
+.tableImg {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: white;
 }
