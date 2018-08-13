@@ -10,21 +10,18 @@
 
     <!--Header-->
         <header id="header">
-            <nav class="left">
-                <a href="#menu"><span>Menu</span></a>
-            </nav>
+            <span class="btn-menu" onclick="openNav()">&#9776;</span>
             <a href="/home" class="logo">The Environment Channel</a>
         </header>
 
     <!--Menu-->
-        <nav id="menu">
-            <ul class="links">
-                <li><a href="/home">Home</a></li>
-                <li><a href="/learn-more">Learn More</a></li>
-                <li><a href="/">See project</a></li>
-            </ul>
-        </nav>
-
+        <div id="mySidenav" class="sidenav">
+          <a class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html">Home</a>
+          <a href="../index.html">Globe</a>
+          <a href="learnMore.html">Learn more</a>
+        </div>
+        
     <!--Banner-->
         <div class="img-banner">
             <p class="caption-banner">A tool to visualize environmental data from ground level.</p>

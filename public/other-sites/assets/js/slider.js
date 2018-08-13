@@ -7,3 +7,10 @@ for ( let i =0 ; i < btn.length; i++) {
         document.querySelector(".featured-images").style.backgroundImage = `url('/public/other-sites/images/${imgArray[i]}')`
     }
 }
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
