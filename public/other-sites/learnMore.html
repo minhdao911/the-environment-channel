@@ -1,166 +1,162 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>The Environment Channel</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/learnMore.css" />
-	</head>
-	<body>
-        <div style="z-index: -1000; " class="stars"></div>
-        <div style="z-index: -1000;" class="twinkling"></div>
+    <head>
+        <title>The Environment Channel</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/learnMore.css" />
+    </head>
+    
+    <body>
+<!--Twinkle star background-->
+        <div class="stars"></div>
+        <div class="twinkling"></div>
 
-		<!-- Header -->
-			<header id="header">
-                <nav class="left">
-					<a href="#menu"><span>Menu</span></a>
-				</nav>
-				<a href="index.html" class="logo">The Environment Channel</a>
-			</header>
-        <!-- Menu -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="/home">Home</a></li>
-					<li><a href="/learn-more">Learn More</a></li>
-					<li><a href="/">See project</a></li>
-				</ul>
-			</nav>
+<!-- Header -->
+        <header id="header">
+            <span class="btn-menu" onclick="openNav()">&#9776;</span>
+            <a href="/home" class="logo">The Environment Channel</a>
+        </header>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="content">
-					<h1>Air Index Quality</h1>
-					<p> Air quality index (AQI) is a number used by government agencies  to communicate to the public how polluted the air currently is or how polluted it is forecast to become.</p>
-				</div>
-			</section>
+<!-- Menu -->
+        <div id="mySidenav" class="sidenav">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="../index.html">Globe</a>
+            <a href="learnMore.html">Learn more</a>
+        </div>
 
-		<!-- One -->
-			<section id="one" class="wrapper">
-				<div class="inner flex flex-3">
-					<div class="flex-item left">
-						<div style="color: limegreen">
-							<h3 style="color: limegreen">Good (0 - 50)</h3>
-                            <ul style="list-style-type: none">
-                                <li>PM10 (24hr): 0 - 50</li>
-                                <li>PM2.5 (24hr): 0 - 30</li>
-                                <li>NO2 (24hr): 0 - 40</li>
-                                <li>O3 (8hr): 0 - 50</li>
-                                <li>NH3 (24hr): 0 - 200</li>
-                            </ul>
-						</div>
-						<div style="color: darkgreen">
-							<h3 style="color: darkgreen">Satisfactory (51 - 100)</h3>
-                            <ul style="list-style-type: none">
-                                <li>PM10 (24hr): 51 - 100</li>
-                                <li>PM2.5 (24hr): 31 - 60</li>
-                                <li>NO2 (24hr): 41 - 80</li>
-                                <li>O3 (8hr): 51 - 100</li>
-                                <li>NH3 (24hr): 201 - 400</li>
-                            </ul>
-						</div>
-					</div>
-					<div class="flex-item image fit round">
-						<img src="images/air-quality-monitoring.png" alt="" />
-					</div>
-					<div class="flex-item right">
-						<div style="color: orange">
-							<h3 style="color: orange">Polluted (101 - 300)</h3>
-                            <ul style="list-style-type: none">
-                                <li>PM10 (24hr): 101 - 350</li>
-                                <li>PM2.5 (24hr): 61 - 120</li>
-                                <li>NO2 (24hr): 81 - 280</li>
-                                <li>O3 (8hr): 101 - 208</li>
-                                <li>NH3 (24hr): 401 - 1200</li>
-                            </ul>
-						</div>
-                        <div style="color: orangered">
-							<h3 style="color: orangered">Hazardous (> 300)</h3>
-                            <ul style="list-style-type: none">
-                                <li>PM10 (24hr): 301+</li>
-                                <li>PM2.5 (24hr): 121+</li>
-                                <li>NO2 (24hr): 281+</li>
-                                <li>O3 (8hr): 209+</li>
-                                <li>NH3 (24hr): 1201+</li>
-                            </ul>
-						</div>
-					</div>
-				</div>
-			</section>
+<!-- Banner -->
+        <section id="banner">
+            <div class="content">
+            <h1>Air Index Quality</h1>
+            <p> Air quality index (AQI) is a number used by government agencies  to communicate to the public how polluted the air currently is or how polluted it is forecast to become.</p>
+            </div>
+        </section>
+
+<!--Article/ Section 1-->
+        <section id="one" class="wrapper">
+            <div class="inner flex flex-3">
+                <div class="flex-item left">
+                    <div class="limegreen">
+                        <h3 class="limegreen">Good (0 - 50)</h3>
+                        <ul class="list-type">
+                            <li>PM10 (24hr): 0 - 50</li>
+                            <li>PM2.5 (24hr): 0 - 30</li>
+                            <li>NO2 (24hr): 0 - 40</li>
+                            <li>O3 (8hr): 0 - 50</li>
+                            <li>NH3 (24hr): 0 - 200</li>
+                        </ul>
+                    </div>
+                    <div class="darkgreen">
+                        <h3 class="darkgreen">Satisfactory (51 - 100)</h3>
+                        <ul class="list-type">
+                            <li>PM10 (24hr): 51 - 100</li>
+                            <li>PM2.5 (24hr): 31 - 60</li>
+                            <li>NO2 (24hr): 41 - 80</li>
+                            <li>O3 (8hr): 51 - 100</li>
+                            <li>NH3 (24hr): 201 - 400</li>
+                    </ul>
+                    </div>
+                </div>
+                
+                <div class="flex-item image fit round">
+                    <img src="images/air-quality-monitoring.png" alt="" />
+                </div>
+                
+                <div class="flex-item right">
+                    <div class="orange">
+                        <h3 class="orange">Polluted (101 - 300)</h3>
+                        <ul class="list-type">
+                            <li>PM10 (24hr): 101 - 350</li>
+                            <li>PM2.5 (24hr): 61 - 120</li>
+                            <li>NO2 (24hr): 81 - 280</li>
+                            <li>O3 (8hr): 101 - 208</li>
+                            <li>NH3 (24hr): 401 - 1200</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="orangered">
+                    <h3 class="orangered">Hazardous (> 300)</h3>
+                    <ul class="list-type">
+                        <li>PM10 (24hr): 301+</li>
+                        <li>PM2.5 (24hr): 121+</li>
+                        <li>NO2 (24hr): 281+</li>
+                        <li>O3 (8hr): 209+</li>
+                        <li>NH3 (24hr): 1201+</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!--Table of Hazardous-->
         <div class="table">
             <img src="images/table.PNG">
-            
         </div>
         <p class="tableImg">(Image courtesy of wikipedia)</p>
 
-		<!-- Two -->
-			<section id="two" class="wrapper style1 special">
-				<div class="inner">
-					<h2>WE NEED TO ACT</h2>
-					<figure>
-					    <blockquote>
-					        "Love is in the air but the air is highly polluted"
-					    </blockquote>
-					    <footer>
-					        <cite>Anonymous</cite>
-					    </footer>
-					</figure>
-				</div>
-			</section>
+<!--Special Quotes/ Section 2-->
+        <section id="two" class="wrapper style1 align-center">
+            <div class="inner">
+                <h2>WE NEED TO ACT</h2>
+                <figure>
+                    <blockquote>
+                    "Love is in the air but the air is highly polluted"
+                    </blockquote>                    
+                    <cite>Anonymous</cite>                    
+                </figure>
+            </div>
+        </section>
 
-		<!-- Three -->
-			<section id="three" class="wrapper">
-				<div class="inner flex flex-3">
-					<div style="background-color: #f9faf9" class="flex-item box">
-						<div class="image fit">
-							<img src="images/pic02.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Transportation</h3>
-							<ul>
-                                <li>Choose a cleaner commute — car pool, use public transportation, bike or walk when possible.</li>
-                                <li>Combine errands into one trip to reduce “cold starts” of your car and avoid extended idling.</li>
-                                <li>Ensure your tires are properly inflated.</li>
-                                <li>Keep cars, boats and other engines in good repair and running properly.</li>
-
-                            </ul>
-						</div>
-					</div>
-					<div style="background-color: #f9faf9" class="flex-item box">
-						<div class="image fit">
-							<img src="images/pic03.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Household</h3>
-							<ul>
-                                <li>Use environmentally-safe paints and cleaning products whenever possible.</li>
-                                <li>Consider using gas logs instead of wood-burning fireplaces. If you use a wood-burning stove or fireplace insert, make sure it meets EPA design specifications. Burn only dry, seasoned wood.</li>
-                            </ul>
-						</div>
-					</div>
-					<div style="background-color: #f9faf9" class="flex-item box">
-						<div class="image fit">
-							<img src="images/pic04.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Lawn & Garden</h3>
-							<ul>
-                                <li>Opt for a manual lawn mower instead of electric or fuel-burning models.</li>
-                                <li>Rake leaves instead of using a leaf blower.</li>
-                                <li>Plant more plants, especially trees.</li>
-                            </ul>
-						</div>
-					</div>
-				</div>
-			</section>
-        <!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-
-
-
-	</body>
+<!--Tips/ Section 3-->
+        <section id="three" class="wrapper">
+            <div class="inner flex flex-3">
+                <div class="flex-item box">
+                    <div class="image fit">
+                        <img src="images/pic02.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Transportation</h3>
+                        <ul>
+                            <li>Choose a cleaner commute — car pool, use public transportation, bike or walk when possible.</li>
+                            <li>Combine errands into one trip to reduce “cold starts” of your car and avoid extended idling.</li>
+                            <li>Ensure your tires are properly inflated.</li>
+                            <li>Keep cars, boats and other engines in good repair and running properly.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="flex-item box">
+                    <div class="image fit">
+                    <img src="images/pic03.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Household</h3>
+                        <ul>
+                            <li>Use environmentally-safe paints and cleaning products whenever possible.</li>
+                            <li>Consider using gas logs instead of wood-burning fireplaces. If you use a wood-burning stove or fireplace insert, make sure it meets EPA design specifications. Burn only dry, seasoned wood.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="flex-item box">
+                    <div class="image fit">
+                    <img src="images/pic04.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Lawn & Garden</h3>
+                        <ul>
+                            <li>Opt for a manual lawn mower instead of electric or fuel-burning models.</li>
+                            <li>Rake leaves instead of using a leaf blower.</li>
+                            <li>Plant more plants, especially trees.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!-- Scripts -->
+        <script src="assets/js/slider.js"></script>
+    </body>
 </html>
