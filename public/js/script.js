@@ -192,8 +192,8 @@ var g = svgCountry.append("g");
 /* =========================== */
 
 queue()
-	.defer(d3.json, "./data/world-110m.json")
-	.defer(d3.tsv, "./data/world-110m-country-names.tsv")
+	.defer(d3.json, "../data/world-110m.json")
+	.defer(d3.tsv, "../data/world-110m-country-names.tsv")
 	.await(ready);
 
 //Main function
@@ -391,8 +391,8 @@ function ready(error, world, countryData) {
 								closeCountry.style("display", "block");
 								svgCountry.style("display", "block");
 								queue()
-									.defer(d3.json, "./data/countries/finland.json")
-									.defer(d3.csv, "./data/countries/finland.csv")
+									.defer(d3.json, "../data/countries/finland.json")
+									.defer(d3.csv, "../data/countries/finland.csv")
 									.defer(
 										d3.json,
 										"https://api.waqi.info/search/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8&keyword=finland",

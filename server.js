@@ -5,15 +5,23 @@ const express = require("express"),
 const port = process.env.PORT || 3000;
 
 const homePath = path.join(__dirname, "./public/other/home.html");
-const projectPath = path.join(__dirname, "./public");
+const projectPath = path.join(__dirname, "./public/demo.html");
 const learnMorePath = path.join(__dirname, "./public/other/learn-more.html");
+
+const publicPath = path.join(__dirname, "public");
+app.use(express.static(publicPath));
 
 app.get("/", function(req, res) {
 	res.sendFile(homePath);
 });
 
-app.use("/more", express.static(learnMorePath));
-app.use("/demo", express.static(projectPath));
+app.get("/demo", function(req, res) {
+	res.sendFile(projectPath)
+});
+
+app.get("/more", function(req, res) {
+	res.sendFile(learnMorePath);
+});
 
 app.get("/data/:stationName", function(req, res) {
 	const stationName = req.params.stationName;

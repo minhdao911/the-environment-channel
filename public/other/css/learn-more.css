@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
+/* @import url(font-awesome.min.css); */
 @import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
 
 body {
@@ -148,7 +148,7 @@ h3 {
 
 #banner {
     padding: 14em 0 12em 0;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../../images/banner.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/banner.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
