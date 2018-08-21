@@ -4,9 +4,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 25px 'Karla', sans-serif;    
+    font: 20px 'Karla', sans-serif;    
     background-color: #f9faf9;
     text-align: center;
+    letter-spacing: 0.1px;
 }
 
 .btn-demo {
@@ -250,4 +251,5 @@ input:checked + label {
     cursor:pointer;
     color: white;
     left: 15px;
+    padding-top: 5px;
 }
