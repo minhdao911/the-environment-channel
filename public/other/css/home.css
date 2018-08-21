@@ -4,10 +4,9 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 20px 'Karla', sans-serif;    
+    font: 25px 'Karla', sans-serif;    
     background-color: #f9faf9;
-    text-align: center;
-    letter-spacing: 0.1px;
+    line-height: 1.5;
 }
 
 .btn-demo {
@@ -43,9 +42,13 @@ body, html {
     margin-bottom: 50px;
 }
 
+.textCenter {
+    text-align: center;
+}
+
 .headline {
     font-size: 30px;  
-    padding-top: 1.5em; 
+    padding: 1.5em; 
     margin: 0; 
     text-align: center;
     background-color: #f9faf9; 
@@ -101,12 +104,13 @@ h3 {
     z-index: 1;
     border-bottom: 3px solid #1c1c1c;
     padding: 10px;
+    height: 50px;
 }
 
 #header .logo {
     color: white;
     font-family: "Pacifico", cursive;
-    font-size: 1.5em;
+    font-size: 30px;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
@@ -225,14 +229,14 @@ input:checked + label {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 15px;
+    color: #f1f1f1;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #818181;
 }
 
 .sidenav .closebtn {
@@ -251,5 +255,8 @@ input:checked + label {
     cursor:pointer;
     color: white;
     left: 15px;
-    padding-top: 5px;
+    padding-top: 2px;
+}
+.btn-menu:hover{
+    color: #818181;
 }

@@ -3,11 +3,10 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
 
 body {
-    line-height: 1;
     margin: 0;
     color: #767d85;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    line-height: 1.65;
+    line-height: 1.5;
 }
 
 .inner {
@@ -135,6 +134,7 @@ h3 {
     z-index: 1;
     border-bottom: 3px solid #1c1c1c;
     padding: 10px;
+    height: 50px;
 }
 
 #header .logo {
@@ -259,14 +259,14 @@ h3 {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 15px;
+    color: #f1f1f1;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #818181;
 }
 
 .sidenav .closebtn {
@@ -285,6 +285,9 @@ h3 {
     cursor:pointer;
     color: white;
     left: 15px;
+}
+.btn-menu:hover{
+    color: #818181;
 }
 
 .list-type {
