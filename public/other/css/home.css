@@ -23,11 +23,17 @@ body, html {
 
 .img-banner {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/b2.jpg");
-    min-height: 50%;
+    min-height: 61%;
     display:flex;
     justify-content: center;
     flex-flow: column;
     align-items:center;
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .caption-banner {
@@ -48,7 +54,7 @@ body, html {
 
 .headline {
     font-size: 30px;  
-    padding: 1.5em; 
+    padding: 50px 0px 30px 0px; 
     margin: 0; 
     text-align: center;
     background-color: #f9faf9; 
@@ -76,21 +82,23 @@ h3 {
     text-align:center
 }
 
+.noPadding {
+    padding: 0px!important ;
+}
+
 .container {
     display: flex;
     color: #777;
     background-color:#f9faf9;
-    padding:50px 80px;
     text-align: justify;
     justify-content: space-around;
+    padding: 30px 60px 50px 60px;
 }
 
 .about {
-    padding: 30px;
     display: flex;
     justify-content:space-around;
     background-color: #f9faf9;
-    padding:50px 80px 90px 80px;
 }
 
 
@@ -110,7 +118,7 @@ h3 {
 #header .logo {
     color: white;
     font-family: "Pacifico", cursive;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
