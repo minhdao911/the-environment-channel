@@ -4,7 +4,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 25px 'Karla', sans-serif;    
+    font: 25px 'Karla', sans-serif;
     background-color: #f9faf9;
     line-height: 1.5;
 }
@@ -53,11 +53,10 @@ body, html {
 }
 
 .headline {
-    font-size: 30px;  
-    padding: 50px 0px 30px 0px; 
-    margin: 0; 
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
     text-align: center;
-    background-color: #f9faf9; 
     color: black;
 }
 
@@ -98,7 +97,6 @@ h3 {
 .about {
     display: flex;
     justify-content:space-around;
-    background-color: #f9faf9;
 }
 
 
@@ -125,8 +123,8 @@ h3 {
 }
 
 .nav-box {
-    padding-top: 20px; 
-    background-color: black; 
+    padding-top: 20px;
+    background-color: black;
     padding-bottom: 20px
 }
 .nav-dots .nav-dot {
@@ -180,6 +178,7 @@ input:checked + label {
 .about > div > img {
     width:200px;
     height:200px;
+    border: 1px solid #EAEBEC;
 }
 
 .github {
@@ -188,10 +187,11 @@ input:checked + label {
     background: #f9faf9;
     color: gray;
     text-align: center;
+    padding-top:25px;
 }
 
 .github > a > p {
-    margin: 0; 
+    margin: 0;
     padding: 20px;
 }
 
@@ -208,17 +208,24 @@ input:checked + label {
     line-height: 100px;
 }
 
-.vid {
+.info-section {
     width: 100%;
     text-align: center;
+    background:#F0F0F1;
+    padding-top:10px;
+    padding-bottom:50px;
 }
 
 .profile-box {
-    color: gray;
+    color: #646464;
 }
 
 .profile-box > img {
-    border-radius: 100%; 
+    border-radius: 100%;
+}
+
+.profile-box > p {
+    margin-bottom: 0 !important;
 }
 
 .sidenav {
@@ -265,6 +272,14 @@ input:checked + label {
     left: 15px;
     padding-top: 2px;
 }
-.btn-menu:hover{
+.btn-menu:hover {
     color: #818181;
+}
+
+#video-headline, #team-section {
+    background: #F0EFF1;
+}
+
+#data-section {
+    background:#F9FAF9;
 }
