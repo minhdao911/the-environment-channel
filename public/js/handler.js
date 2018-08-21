@@ -5,7 +5,7 @@ const no2_break_points = [40, 80, 180, 280, 400];
 const so2_break_points = [40, 80, 380, 800, 1600];
 const nh3_break_points = [200, 400, 800, 1200, 1800];
 const o3_break_points = [50, 100, 168, 208, 748];
-const aqi_break_points = [50, 100, 200, 350, 430];
+const aqi_break_points = [50, 100, 150, 200, 300];
 
  const htmlDisplay = {
   pm10: "PM<sub>10</sub>",
@@ -39,14 +39,22 @@ const aqi_break_points = [50, 100, 200, 350, 430];
 
  const breakPointCheck = (arr, value) => {
   if (value <= arr[0]) {
+    //green
     return "#14a76c";
   } else if (value <= arr[1]) {
+    //yellow
     return "#ffe400";
   } else if (value <= arr[2]) {
+    //orange
     return "#ff652f";
   } else if (value <= arr[3]) {
+    //pink
     return "#c3073f";
+  } else if (value <= arr[4]) {
+    //purple
+    return "#950740";
   } else {
+    //red
     return "#950740";
   }
 };
