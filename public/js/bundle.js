@@ -1137,7 +1137,6 @@ function loadMap(err, json, csv, stations) {
 		const stationName = nameArray[1] + " " + nameArray[0];
 		const processedName = stationName.split(" ").join("-");
 
-    const proxyUrl = `https://cors-anywhere.herokuapp.com/`;
     const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
 		let airName = "pm25";
@@ -1177,12 +1176,13 @@ function loadMap(err, json, csv, stations) {
 				});
 
 			//this function fetch real time data
-			doRecursiveRequest(proxyUrl + fetchUrl, 10).then(res => {
+			doRecursiveRequest(fetchUrl, 10).then(res => {
 				const { aqi, iaqi, dominentpol } = res.data || {};
 				const airRegex = /no2|so2|o3|pm10|pm25/;
 
 				const aqiCheck = aqi ? qualityCheck(breakPoints["aqi_break_points"], aqi) : "";
 				const aqiText = aqi ? `${aqi} - ${aqiCheck}` : "unknown";
+
 
 				document.querySelector(
 					"#tooltip-station-name",
