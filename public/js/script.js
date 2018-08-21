@@ -947,6 +947,7 @@ function loadMap(err, json, csv, stations) {
 		);
 		if (k === 4) {
 			optionButtons.style.display = "none";
+			absoluteCircle.innerHTML = "";
 
 			g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
 			g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
@@ -1010,7 +1011,7 @@ function loadMap(err, json, csv, stations) {
 			graph.classList.add("animated");
 			graph.classList.add("bounceInRight");
 
-			absoluteCircle.style.background = breakPointCheck(breakPoints[aqi_break_points], aqi); //config circle color
+			absoluteCircle.style.background = breakPointCheck(breakPoints["aqi_break_points"], aqi); //config circle color
 
 			setTimeout(function() {
 				graph.classList.remove("bounceInRight");

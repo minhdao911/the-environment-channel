@@ -1088,6 +1088,7 @@ function loadMap(err, json, csv, stations) {
 		);
 		if (k === 4) {
 			optionButtons.style.display = "none";
+			absoluteCircle.innerHTML = "";
 
 			g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
 			g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
@@ -1137,7 +1138,7 @@ function loadMap(err, json, csv, stations) {
 		const stationName = nameArray[1] + " " + nameArray[0];
 		const processedName = stationName.split(" ").join("-");
 
-    const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
+		const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
 		let airName = "pm25";
 		let timePeriod = 2;
@@ -1182,7 +1183,6 @@ function loadMap(err, json, csv, stations) {
 
 				const aqiCheck = aqi ? qualityCheck(breakPoints["aqi_break_points"], aqi) : "";
 				const aqiText = aqi ? `${aqi} - ${aqiCheck}` : "unknown";
-
 
 				document.querySelector(
 					"#tooltip-station-name",
