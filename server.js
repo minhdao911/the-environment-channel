@@ -30,6 +30,32 @@ app.get("/data/:stationName", function(req, res) {
 	res.send(data);
 });
 
+app.get("/data", function(req, res) {
+	let date = req.query.date;
+	let start = req.query.start;
+	let end = req.query.end;
+	let result = [];
+	for(i = Number(start); i<=Number(end); i++){
+		let t = i<10 ? "0"+i : i;
+		let data = require(`./data/timeseries-data/${date}(${t}).json`);
+		for(k=0; k<data.length; k++){
+			if(data[k].cod === 200){
+				let timeseries = result[k] == undefined ? [] : result[k].timeseries;
+				timeseries.push({
+					weather: data[k].weather,
+					main: data[k].main,
+					wind: data[k].wind
+				});
+				result[k] = {
+					name: data[k].name,
+					timeseries: timeseries
+				};
+			}
+		}
+	}
+	res.send(result);
+});
+
 app.listen(port, (req, res) => {
 	console.log("Server is running at port " + port);
 });
