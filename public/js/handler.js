@@ -76,51 +76,56 @@ const aqi_break_points = [50, 100, 150, 200, 300];
 
 //set up functions
  const displayChart = (airName, days, historicalData) => {
-  const displayData = historicalData.slice(
-    historicalData.length - days * 24,
-    historicalData.length
-  );
+   const canvasDiv = document.querySelector(".canvas");
 
-  document.querySelector(".close").style.display = "none";
+   if (historicalData){
+     const displayData = historicalData.slice(
+       historicalData.length - days * 24,
+       historicalData.length
+     );
 
-  const canvasDiv = document.querySelector(".canvas");
-  canvasDiv.innerHTML = "";
-  const canvas = document.createElement("canvas");
-  canvas.id = "myChart";
-  canvasDiv.appendChild(canvas);
+     document.querySelector(".close").style.display = "none";
 
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myChart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: displayData.map(e => {
-        return `${e.Time} - ${e.d}/${e.m}`;
-      }),
-      datasets: [
-        {
-          label: "Amount (ug/m3)",
-          data: displayData
-            .map(e => e[airNameMap[airName]])
-            .map(e => Math.abs(e))
-        }
-      ]
-    },
-    options: {
-      scales: {
-        yAxes: [
-          {
-            ticks: {
-              beginAtZero: true
-            }
-          }
-        ]
-      },
-      title: {
-        display: true,
-        text: `Data last ${days} days`
-      }
-    }
-  });
+     canvasDiv.innerHTML = "";
+     const canvas = document.createElement("canvas");
+     canvas.id = "myChart";
+     canvasDiv.appendChild(canvas);
+
+     var ctx = document.getElementById("myChart").getContext("2d");
+     var myChart = new Chart(ctx, {
+       type: "line",
+       data: {
+         labels: displayData.map(e => {
+           return `${e.Time} - ${e.d}/${e.m}`;
+         }),
+         datasets: [
+           {
+             label: "Amount (ug/m3)",
+             data: displayData
+               .map(e => e[airNameMap[airName]])
+               .map(e => Math.abs(e))
+           }
+         ]
+       },
+       options: {
+         scales: {
+           yAxes: [
+             {
+               ticks: {
+                 beginAtZero: true
+               }
+             }
+           ]
+         },
+         title: {
+           display: true,
+           text: `Data last ${days} days`
+         }
+       }
+     });
+   } else {
+      canvasDiv.innerHTML = "Historical data of this station is not available!";
+   }
 };
 
  const doRecursiveRequest = (url, limit) => {

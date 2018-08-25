@@ -77,51 +77,56 @@ const aqi_break_points = [50, 100, 150, 200, 300];
 
 //set up functions
  const displayChart = (airName, days, historicalData) => {
-  const displayData = historicalData.slice(
-    historicalData.length - days * 24,
-    historicalData.length
-  );
+   const canvasDiv = document.querySelector(".canvas");
 
-  document.querySelector(".close").style.display = "none";
+   if (historicalData){
+     const displayData = historicalData.slice(
+       historicalData.length - days * 24,
+       historicalData.length
+     );
 
-  const canvasDiv = document.querySelector(".canvas");
-  canvasDiv.innerHTML = "";
-  const canvas = document.createElement("canvas");
-  canvas.id = "myChart";
-  canvasDiv.appendChild(canvas);
+     document.querySelector(".close").style.display = "none";
 
-  var ctx = document.getElementById("myChart").getContext("2d");
-  var myChart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: displayData.map(e => {
-        return `${e.Time} - ${e.d}/${e.m}`;
-      }),
-      datasets: [
-        {
-          label: "Amount (ug/m3)",
-          data: displayData
-            .map(e => e[airNameMap[airName]])
-            .map(e => Math.abs(e))
-        }
-      ]
-    },
-    options: {
-      scales: {
-        yAxes: [
-          {
-            ticks: {
-              beginAtZero: true
-            }
-          }
-        ]
-      },
-      title: {
-        display: true,
-        text: `Data last ${days} days`
-      }
-    }
-  });
+     canvasDiv.innerHTML = "";
+     const canvas = document.createElement("canvas");
+     canvas.id = "myChart";
+     canvasDiv.appendChild(canvas);
+
+     var ctx = document.getElementById("myChart").getContext("2d");
+     var myChart = new Chart(ctx, {
+       type: "line",
+       data: {
+         labels: displayData.map(e => {
+           return `${e.Time} - ${e.d}/${e.m}`;
+         }),
+         datasets: [
+           {
+             label: "Amount (ug/m3)",
+             data: displayData
+               .map(e => e[airNameMap[airName]])
+               .map(e => Math.abs(e))
+           }
+         ]
+       },
+       options: {
+         scales: {
+           yAxes: [
+             {
+               ticks: {
+                 beginAtZero: true
+               }
+             }
+           ]
+         },
+         title: {
+           display: true,
+           text: `Data last ${days} days`
+         }
+       }
+     });
+   } else {
+      canvasDiv.innerHTML = "Historical data of this station is not available!";
+   }
 };
 
  const doRecursiveRequest = (url, limit) => {
@@ -1201,50 +1206,90 @@ function loadMap(err, json, csv, stations) {
 
 		const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
+		//handle animation and display/hide layer
+		dataLayer.style.display = "block";
+		dataLayer.style.opacity = 1;
+		bars.style.visibility = "visible";
+
+		graph.classList.add("animated");
+		graph.classList.add("bounceInRight");
+
+		absoluteCircle.style.background = breakPointCheck(breakPoints["aqi_break_points"], aqi); //config circle color
+
+		setTimeout(function() {
+			graph.classList.remove("bounceInRight");
+			absoluteCircle.style.display = "flex"; //display circle after 1 sec
+			absoluteCircle.innerHTML = aqi || "unknown";
+			userTooltip.style.display = "block";
+		}, 1000);
+
+		//initialize real time air quality components
+		const infoBars = Array.from(document.querySelectorAll(".info-holder"));
+
+		infoBars.forEach(e => {
+			e.querySelector(".progress-bar").style.width = 0;
+			e.querySelector(".progress-number").innerHTML = "No data";
+		});
+
+		//default checked button
 		let airName = "pm25";
 		let timePeriod = 2;
+		let defaultAirButton = 	document.querySelector("#pm-25");
+		let defaultDaysButton = document.querySelector("#last-2-days");
+		defaultAirButton.checked = true;
+		defaultDaysButton.checked = true;
+
 		let historicalData = [];
+		//this function fetch historical data
+		fetch(`/data/${processedName}`)
+			.then(res =>{
+				if (res.status === 500){
+					console.log('historical data not available');
+					return undefined;
+				}
+				return res.json();
+			})
+			.then(res => {
+				historicalData = res;
+				displayChart(airName, timePeriod, historicalData);
 
-		if (k === 4) {
-			dataLayer.style.display = "block";
-			dataLayer.style.opacity = 1;
-			bars.style.visibility = "visible";
 
-			graph.classList.add("animated");
-			graph.classList.add("bounceInRight");
+							//handle display in different air catogories
+							var airButtons = document.querySelectorAll("input[name='air-category']");
+							var prevAir = defaultAirButton;
+							for (var i = 0; i < airButtons.length; i++) {
+								airButtons[i].onclick = function() {
+									if (this !== prevAir) {
+										prevAir = this;
+										airName = this.value.split("-").join(""); //process air name
+										displayChart(airName, timePeriod, historicalData);
+									}
+								};
+							}
 
-			absoluteCircle.style.background = breakPointCheck(breakPoints["aqi_break_points"], aqi); //config circle color
-
-			setTimeout(function() {
-				graph.classList.remove("bounceInRight");
-				absoluteCircle.style.display = "flex"; //display circle after 1 sec
-				userTooltip.style.display = "block";
-			}, 1000);
-
-			const infoBars = Array.from(document.querySelectorAll(".info-holder"));
-
-			infoBars.forEach(e => {
-				e.querySelector(".progress-bar").style.width = 0;
-				e.querySelector(".progress-number").innerHTML = "No data";
-			}); //initialize value
-
-			//this function fetch historical data
-			fetch(`/data/${processedName}`)
-				.then(res => res.json())
-				.then(res => {
-					historicalData = res;
-
-					displayChart(airName, timePeriod, historicalData);
-				});
+							//handle display in different time period
+							var timeButtons = document.querySelectorAll("input[name='time-period']");
+							var prevTime = defaultDaysButton;
+							for (var i = 0; i < timeButtons.length; i++) {
+								timeButtons[i].onclick = function() {
+									if (this !== prevTime) {
+										prevTime = this;
+										timePeriod = parseInt(this.value);  //process time period
+										displayChart(airName, timePeriod, historicalData);
+									}
+								};
+							}
+			});
 
 			//this function fetch real time data
 			doRecursiveRequest(fetchUrl, 10).then(res => {
 				const { iaqi, dominentpol } = res.data || {};
 				const airRegex = /no2|so2|o3|pm10|pm25/;
 
-				const aqiCheck = typeof(aqi) === 'number' ? qualityCheck(breakPoints["aqi_break_points"], aqi) : "";
-				const aqiText = typeof(aqi) === 'number' ? aqi : "unknown"
+				const aqiText = aqi ? qualityCheck(breakPoints["aqi_break_points"], aqi) : "unknown";
+				const pollutantText = htmlDisplay[dominentpol] ||	"unknown";
 
+				//display general data information
 				document.querySelector(
 					"#tooltip-station-name",
 				).innerHTML = `<b>Station</b>: ${res.data.city.name}`;
@@ -1253,19 +1298,16 @@ function loadMap(err, json, csv, stations) {
 				).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
 				document.querySelector(
 					"#tooltip-pol-dominant",
-				).innerHTML = `<b>Dominent pollutant</b>: ${htmlDisplay[dominentpol] ||
-					"unknown"}`;
+				).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
 
+				//filter response with regex
 				const dataArray = iaqi
 					? Object.entries(iaqi).filter(e => {
 							return airRegex.test(e[0]);
-					  })
-          : [];
-          
-          console.log(aqi);
+						})
+					: [];
 
-				absoluteCircle.innerHTML = aqi || "unknown";
-
+				//update real time air quality components
 				dataArray.forEach(e => {
 					const name = e[0];
 					const quality = e[1].v;
@@ -1286,35 +1328,6 @@ function loadMap(err, json, csv, stations) {
 					progressNumber.innerHTML = quality + "(µg/m3)";
 				});
 			});
-
-			//handle display in different air catogories
-			var airButtons = document.querySelectorAll("input[name='air-category']");
-			var prevAir = null;
-			for (var i = 0; i < airButtons.length; i++) {
-				airButtons[i].onclick = function() {
-					if (this !== prevAir) {
-						prevAir = this;
-					}
-					airName = this.value.split("-").join("");
-
-					displayChart(airName, timePeriod, historicalData);
-				};
-			}
-
-			//handle display in different time period
-			var timeButtons = document.querySelectorAll("input[name='time-period']");
-			var prevTime = null;
-			for (var i = 0; i < timeButtons.length; i++) {
-				timeButtons[i].onclick = function() {
-					if (this !== prevTime) {
-						prevTime = this;
-					}
-					timePeriod = parseInt(this.value);
-
-					displayChart(airName, timePeriod, historicalData);
-				};
-			}
-		}
 	}
 
 	d3.selection.prototype.moveToFront = function() {
