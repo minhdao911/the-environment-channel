@@ -114,7 +114,10 @@ $(".noti").css({
 
 var tempBtn = $("#tempBtn"),
 	windBtn = $("#windBtn"),
-	humidBtn = $("#humidBtn");
+	humidBtn = $("#humidBtn"),
+	timeBtn = $("#timeBtn"),
+	formBtn = $("#formBtn"),
+	timeSeriesFrom = $("#timeseries-form");
 
 var svgGlobe = d3
 	.select("#globe")
@@ -485,10 +488,12 @@ function loadMap(err, json, csv, stations) {
 	tempBtn.css("display", "block");
 	windBtn.css("display", "block");
 	humidBtn.css("display", "block");
+	timeBtn.css("display", "block");
 
 	tempBtn.prop("disabled", true);
 	windBtn.prop("disabled", true);
 	humidBtn.prop("disabled", true);
+	timeBtn.prop("disabled", true);
 
 	var landColor = "#636363";
 
@@ -543,6 +548,7 @@ function loadMap(err, json, csv, stations) {
 					tempBtn.prop("disabled", false);
 					windBtn.prop("disabled", false);
 					humidBtn.prop("disabled", false);
+					timeBtn.prop("disabled", false);
 					tempColor.domain([
 						d3.min(json.features, function(d) {
 							if (d.properties.weather !== "no data")
@@ -625,6 +631,71 @@ function loadMap(err, json, csv, stations) {
 			g.selectAll("line").remove();
 		}
 	});
+
+	timeBtn.on("click", () => {
+		timeBtn.toggleClass("chosen");
+		timeSeriesFrom.toggleClass("hide");
+	});
+
+	formBtn.on("click", () => {
+		let date = $("#date").val();
+		let start = $("#start").val();
+		let end = $("#end").val();
+		let condition = $("input[name='condition']:checked").val();
+		fetch(`/data?date=${date}&start=${start}&end=${end}`)
+			.then(res => res.json())
+			.then(res => {
+				res.forEach(d => {
+					if(d !== null){
+						json.features.forEach(jd => {
+							if (jd.properties.text == d.name) {
+								jd.properties.timeseries = d.timeseries;
+							}
+						});
+					}
+				});
+				console.log(json.features);
+				console.log(Number(end)-Number(start)+1);
+				showChanges(condition, Number(end)-Number(start)+1);
+				// console.log(res);
+			});
+	});
+
+	function showChanges(condition, duration){
+		let i = 0;
+		let interval = setInterval(function(){
+			g.selectAll("path")
+				.transition()
+				.duration(2000)
+				.style("fill", function(d){
+					if (d.properties.timeseries && d.properties.timeseries[i]) {
+						return tempColor(d.properties.timeseries[i].main.temp);
+					} else {
+						return "#c6c6c6";
+					}
+				});
+			i++;
+			console.log(i);
+			if(i === duration){
+				clearInterval(interval);
+				g.selectAll("path")
+					.transition()
+					.duration(1000)
+					.style("fill", landColor);
+			} 
+		}, 3000);
+		g.selectAll("path")
+			.transition()
+			.duration(2000)
+			.style("fill", function(d){
+				if (d.properties.timeseries && d.properties.timeseries[i]) {
+					return tempColor(d.properties.timeseries[i].main.temp);
+				} else {
+					return "#c6c6c6";
+				}
+			});
+		i++;
+	}
 
 	function addTempLayer() {
 		g.selectAll("path").style("fill", function(d) {
