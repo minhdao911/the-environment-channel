@@ -117,7 +117,11 @@ var tempBtn = $("#tempBtn"),
 	humidBtn = $("#humidBtn"),
 	timeBtn = $("#timeBtn"),
 	formBtn = $("#formBtn"),
-	timeSeriesFrom = $("#timeseries-form");
+	timeSeriesFrom = $("#timeseries-form"),
+	timeSeriesInfoDiv = $("#timeseries-info-div"),
+	timeSeriesTime = $("#timeseries-time"),
+	timeSeriesInfo = $("#timeseries-info");
+	console.log(timeSeriesTime);
 
 var svgGlobe = d3
 	.select("#globe")
@@ -513,35 +517,11 @@ function loadMap(err, json, csv, stations) {
 			})
 			.then(res => {
 				cityCount++;
-				d.properties.weather = res;
 
 				if (res !== "no data") {
-					let speed = res.wind.speed;
-					let deg = res.wind.deg;
-					for (let i = 0; i < 5; i++) {
-						let coord = [
-							res.coord.lon + Math.random() * 100 / 100,
-							res.coord.lat + Math.random() * 100 / 100,
-						];
-						let x0y0 = country(coord);
-						let x1y1 = country(getDestinationPoint(coord, 15 * speed, deg));
-						if (
-							!isNaN(x0y0[0]) &&
-							!isNaN(x0y0[1]) &&
-							!isNaN(x1y1[0]) &&
-							!isNaN(x1y1[1])
-						) {
-							lines.push({
-								x0: x0y0[0],
-								y0: x0y0[1],
-								x1: x1y1[0],
-								y1: x1y1[1],
-								s: speed,
-								duration: 8000 / speed,
-								delay: Math.random() * 1000,
-							});
-						}
-					}
+					d.properties.weather = [];
+					d.properties.weather[0] = res;
+					createLines(lines, res);
 				}
 
 				if (cityCount === json.features.length) {
@@ -551,17 +531,46 @@ function loadMap(err, json, csv, stations) {
 					timeBtn.prop("disabled", false);
 					tempColor.domain([
 						d3.min(json.features, function(d) {
-							if (d.properties.weather !== "no data")
-								return d.properties.weather.main.temp;
+							if (d.properties.weather)
+								return d.properties.weather[0].main.temp;
 						}),
 						d3.max(json.features, function(d) {
-							if (d.properties.weather !== "no data")
-								return d.properties.weather.main.temp;
+							if (d.properties.weather)
+								return d.properties.weather[0].main.temp;
 						}),
 					]);
 				}
 			});
 	});
+
+	function createLines(arr, data){
+		let speed = data.wind.speed;
+		let deg = data.wind.deg;
+		for (let i = 0; i < 5; i++) {
+			let coord = [
+				data.coord.lon + Math.random() * 100 / 100,
+				data.coord.lat + Math.random() * 100 / 100,
+			];
+			let x0y0 = country(coord);
+			let x1y1 = country(getDestinationPoint(coord, 15 * speed, deg));
+			if (
+				!isNaN(x0y0[0]) &&
+				!isNaN(x0y0[1]) &&
+				!isNaN(x1y1[0]) &&
+				!isNaN(x1y1[1])
+			) {
+				arr.push({
+					x0: x0y0[0],
+					y0: x0y0[1],
+					x1: x1y1[0],
+					y1: x1y1[1],
+					s: speed,
+					duration: 8000 / speed,
+					delay: Math.random() * 1000,
+				});
+			}
+		}
+	}
 
 	csv.forEach(d => {
 		json.features.forEach(jd => {
@@ -603,10 +612,10 @@ function loadMap(err, json, csv, stations) {
 		tempOn = !tempOn;
 		if (tempOn) {
 			tempBtn.addClass("chosen");
-			addTempLayer();
+			addTempLayer('weather', 0, 100);
 		} else {
 			tempBtn.removeClass("chosen");
-			g.selectAll("path").style("fill", landColor);
+			removeTempLayer(100);
 		}
 	});
 
@@ -614,10 +623,10 @@ function loadMap(err, json, csv, stations) {
 		humidOn = !humidOn;
 		if (humidOn) {
 			humidBtn.addClass("chosen");
-			addHumidLayer();
+			addHumidLayer('weather', 0, 100);
 		} else {
 			humidBtn.removeClass("chosen");
-			g.selectAll("path").attr("opacity", 1);
+			removeHumidLayer(100);
 		}
 	});
 
@@ -625,10 +634,10 @@ function loadMap(err, json, csv, stations) {
 		windOn = !windOn;
 		if (windOn) {
 			windBtn.addClass("chosen");
-			addWindLayer();
+			addWindLayer(lines);
 		} else {
 			windBtn.removeClass("chosen");
-			g.selectAll("line").remove();
+			removeWindLayer();
 		}
 	});
 
@@ -636,6 +645,8 @@ function loadMap(err, json, csv, stations) {
 		timeBtn.toggleClass("chosen");
 		timeSeriesFrom.toggleClass("hide");
 	});
+
+	var tsAvg = [];
 
 	formBtn.on("click", () => {
 		let date = $("#date").val();
@@ -645,7 +656,7 @@ function loadMap(err, json, csv, stations) {
 		fetch(`/data?date=${date}&start=${start}&end=${end}`)
 			.then(res => res.json())
 			.then(res => {
-				res.forEach(d => {
+				res.result.forEach(d => {
 					if(d !== null){
 						json.features.forEach(jd => {
 							if (jd.properties.text == d.name) {
@@ -654,63 +665,92 @@ function loadMap(err, json, csv, stations) {
 						});
 					}
 				});
-				console.log(json.features);
-				console.log(Number(end)-Number(start)+1);
-				showChanges(condition, Number(end)-Number(start)+1);
-				// console.log(res);
+				tsAvg = res.average;
+				showChanges(condition, Number(start), Number(end));
 			});
 	});
 
-	function showChanges(condition, duration){
+	var timeDuration = [2500, 2200, 2000, 1800, 1500, 1000];
+
+	function showChanges(condition, start, end){
+		timeSeriesInfoDiv.css("display", "block");
+		let timeRange = end - start + 1;
+		let duration = 0;
 		let i = 0;
+
+		if(timeRange<=4) duration = timeDuration[0];
+		else if(timeRange<=8) duration = timeDuration[1];
+		else if(timeRange<=12) duration = timeDuration[2];
+		else if(timeRange<=16) duration = timeDuration[3];
+		else if(timeRange<=18) duration = timeDuration[4];
+		else if(timeRange<=24) duration = timeDuration[5];
+
 		let interval = setInterval(function(){
-			g.selectAll("path")
-				.transition()
-				.duration(2000)
-				.style("fill", function(d){
-					if (d.properties.timeseries && d.properties.timeseries[i]) {
-						return tempColor(d.properties.timeseries[i].main.temp);
-					} else {
-						return "#c6c6c6";
-					}
-				});
+			timeSeriesTime.text(start+":00:00");
+			timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
+			getWeatherFunction(condition, false)('timeseries', i, duration);
 			i++;
-			console.log(i);
-			if(i === duration){
-				clearInterval(interval);
-				g.selectAll("path")
-					.transition()
-					.duration(1000)
-					.style("fill", landColor);
-			} 
-		}, 3000);
-		g.selectAll("path")
-			.transition()
-			.duration(2000)
-			.style("fill", function(d){
-				if (d.properties.timeseries && d.properties.timeseries[i]) {
-					return tempColor(d.properties.timeseries[i].main.temp);
-				} else {
-					return "#c6c6c6";
-				}
-			});
+			start++;
+			setTimeout(function(){
+				if(i === timeRange){
+					clearInterval(interval);
+					getWeatherFunction(condition, true)(duration);
+					timeSeriesInfoDiv.css("display", "none");
+				} 
+			},duration-100);
+		}, duration);
+		timeSeriesTime.text(start+":00:00");
+		timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
+		getWeatherFunction(condition, false)('timeseries', i, duration);
 		i++;
+		start++;
 	}
 
-	function addTempLayer() {
-		g.selectAll("path").style("fill", function(d) {
-			if (d.properties.weather !== "no data") {
-				return tempColor(d.properties.weather.main.temp);
+	function getWeatherFunction(condition, removed){
+		switch(condition){
+			case "temp":
+				return removed ? removeTempLayer : addTempLayer;
+			case "humid":
+				return removed ? removeHumidLayer : addHumidLayer;
+		}
+	}
+
+	function getInfo(condition, data){
+		switch(condition){
+			case "temp":
+				return data.temp + "°C";
+			case "humid":
+				return data.humid + "%";
+		}
+	}
+
+	function addTempLayer(entity, i, duration) {
+		g.selectAll("path")
+		.transition()
+		.duration(duration)
+		.style("fill", function(d) {
+			if (d.properties[entity] && d.properties[entity][i]){
+				return tempColor(d.properties[entity][i].main.temp);
 			} else {
 				return "#c6c6c6";
 			}
 		});
 	}
 
-	function addHumidLayer() {
-		g.selectAll("path").attr("opacity", function(d) {
-			if (d.properties.weather !== "no data") {
-				let h = d.properties.weather.main.humidity;
+	function removeTempLayer(duration){
+		g.selectAll("path")
+			.transition()
+			.duration(duration)
+			.style("fill", landColor);
+	}
+
+	function addHumidLayer(entity, i, duration) {
+		g.selectAll("path")
+		.transition()
+		.duration(duration)
+		.attr("opacity", function(d) {
+			if (d.properties[entity] && d.properties[entity][i]){
+				let h = d.properties[entity][i].main.humidity;
 				if (h < 20) return 0.9;
 				else if (h < 50) return 0.7;
 				else if (h < 70) return 0.5;
@@ -722,10 +762,17 @@ function loadMap(err, json, csv, stations) {
 		});
 	}
 
-	function addWindLayer() {
+	function removeHumidLayer(duration){
+		g.selectAll("path")
+		.transition()
+		.duration(duration)
+		.attr("opacity", 1);
+	}
+
+	function addWindLayer(arr) {
 		g
 			.selectAll("line")
-			.data(lines)
+			.data(arr)
 			.enter()
 			.append("line")
 			.attr("class", "line")
@@ -738,6 +785,10 @@ function loadMap(err, json, csv, stations) {
 				},
 			})
 			.call(lineAnimate);
+	}
+
+	function removeWindLayer(){
+		g.selectAll("line").remove();
 	}
 
 	function lineAnimate(selection) {
@@ -797,19 +848,16 @@ function loadMap(err, json, csv, stations) {
 			text = [d.properties.text, "Population: " + d.properties.pop];
 			let w = d.properties.weather;
 			if (tempOn) {
-				if (w === "no data") c = "No Data";
-				else {
+				if(w){
 					c = "Condition: " + w.weather[0].description;
-					t = "Temperature: " + w.main.temp + " C";
+					t = "Temperature: " + w.main.temp + "°C";
 				}
 			}
 			if (humidOn) {
-				if (w === "no data") c = "No Data";
-				else hu = "Humidity: " + w.main.humidity + "%";
+				if(w) hu = "Humidity: " + w.main.humidity + "%";
 			}
 			if (windOn) {
-				if (w === "no data") c = "No Data";
-				else hu = "Wind: " + w.wind.speed + " m/s";
+				if(w) wi = "Wind: " + w.wind.speed + " m/s";
 			}
 		}
 		setWeatherData(c, t, wi, hu);
@@ -831,10 +879,10 @@ function loadMap(err, json, csv, stations) {
 				.style("stroke-width", 0);
 		} else {
 			if (tempOn) {
-				addTempLayer();
+				addTempLayer('weather', 0, 100);
 			} else d3.select(this).style("fill", landColor);
 			if (humidOn) {
-				addHumidLayer();
+				addHumidLayer('weather', 0, 100);
 			} else d3.select(this).attr("opacity", 1);
 		}
 		tooltip.style("opacity", 0).style("display", "none");
@@ -1009,7 +1057,7 @@ function loadMap(err, json, csv, stations) {
 			optionButtons.style.display = "block";
 
 			if (humidOn) {
-				addHumidLayer();
+				addHumidLayer('weather', 0, 100);
 			} else {
 				g.selectAll("path").attr("opacity", 1);
 			}
