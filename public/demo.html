@@ -37,9 +37,9 @@
         <div id="timeseries-form" class="hide">
           <p>Choose a time range:</p>
           <label for="date">Date</label>
-          <input type="date" id="date"              
+          <input type="date" id="date"
                 value="2018-08-23"
-                min="2018-08-23" 
+                min="2018-08-23"
                 max="2018-08-25">
           <br>
           <label for="start">Start</label>
@@ -250,7 +250,51 @@
                   </div>
                 </div>
               </div>
-              <div>SO<sub>2</sub> and O<sub>3</sub> data is only available in several stations.</div>
+              <div>SO<sub>2</sub> and O<sub>3</sub> data is only available in some stations.</div>
+              <h2>Statistic Data</h2>
+              <div class="stat-canvas"></div>
+                <div class="custom-radios">
+                  <div class="category">
+                    <input type="radio" id="quality-good" name="stat-buttons" value="0" checked>
+                    <label for="quality-good">
+                       <span>
+                         Good
+                       </span>
+                     </label>
+                  </div>
+                  <div class="category">
+                    <input type="radio" id="quality-moderate" name="stat-buttons" value="1">
+                    <label for="quality-moderate">
+                       <span>
+                      Moderate
+                       </span>
+                     </label>
+                  </div>
+                  <div class="category">
+                    <input type="radio" id="quality-unhealthy" name="stat-buttons" value="2">
+                    <label for="quality-unhealthy">
+                       <span>
+                      Unhealthy
+                       </span>
+                     </label>
+                  </div>
+                  <div class="category">
+                    <input type="radio" id="quality-very-unhealthy" name="stat-buttons" value="3">
+                    <label for="quality-very-unhealthy">
+                       <span>
+                      Very unhealthy
+                       </span>
+                     </label>
+                  </div>
+                  <div class="category">
+                    <input type="radio" id="quality-harzardous" name="stat-buttons" value="4">
+                    <label for="quality-harzardous">
+                       <span>
+                      Harzardous
+                       </span>
+                     </label>
+                  </div>
+                </div>
             </div>
         </div>
 

@@ -7,6 +7,9 @@ var {
 	qualityCheck,
 	displayChart,
 	doRecursiveRequest,
+	analyzeHourlyData,
+	analyzeData,
+	displayStatChart,
 } = require("./handler");
 
 var width = window.innerWidth,
@@ -542,7 +545,7 @@ function loadMap(err, json, csv, stations) {
 			});
 	});
 
-	function createLines(arr, data){
+	function createLines(arr, data) {
 		let speed = data.wind.speed;
 		let deg = data.wind.deg;
 		for (let i = 0; i < 5; i++) {
@@ -662,7 +665,7 @@ function loadMap(err, json, csv, stations) {
 			.then(res => res.json())
 			.then(res => {
 				res.result.forEach(d => {
-					if(d !== null){
+					if (d !== null) {
 						json.features.forEach(jd => {
 							if (jd.properties.text == d.name) {
 								jd.properties.timeseries = d.timeseries;
@@ -692,21 +695,21 @@ function loadMap(err, json, csv, stations) {
 		let duration = 0;
 		let i = 0;
 
-		if(timeRange<=4) duration = timeDuration[0];
-		else if(timeRange<=8) duration = timeDuration[1];
-		else if(timeRange<=12) duration = timeDuration[2];
-		else if(timeRange<=16) duration = timeDuration[3];
-		else if(timeRange<=18) duration = timeDuration[4];
-		else if(timeRange<=24) duration = timeDuration[5];
+		if (timeRange <= 4) duration = timeDuration[0];
+		else if (timeRange <= 8) duration = timeDuration[1];
+		else if (timeRange <= 12) duration = timeDuration[2];
+		else if (timeRange <= 16) duration = timeDuration[3];
+		else if (timeRange <= 18) duration = timeDuration[4];
+		else if (timeRange <= 24) duration = timeDuration[5];
 
-		let interval = setInterval(function(){
-			timeSeriesTime.text(start+":00:00");
+		let interval = setInterval(function() {
+			timeSeriesTime.text(start + ":00:00");
 			timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
-			getWeatherFunction(condition, false)('timeseries', i, duration);
+			getWeatherFunction(condition, false)("timeseries", i, duration);
 			i++;
 			start++;
-			setTimeout(function(){
-				if(i === timeRange){
+			setTimeout(function() {
+				if (i === timeRange) {
 					clearInterval(interval);
 					getWeatherFunction(condition, true)(duration);
 					timeSeriesInfoDiv.css("display", "none");
@@ -718,15 +721,15 @@ function loadMap(err, json, csv, stations) {
 				} 
 			},duration-100);
 		}, duration);
-		timeSeriesTime.text(start+":00:00");
+		timeSeriesTime.text(start + ":00:00");
 		timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
-		getWeatherFunction(condition, false)('timeseries', i, duration);
+		getWeatherFunction(condition, false)("timeseries", i, duration);
 		i++;
 		start++;
 	}
 
-	function getWeatherFunction(condition, removed){
-		switch(condition){
+	function getWeatherFunction(condition, removed) {
+		switch (condition) {
 			case "temp":
 				return removed ? removeTempLayer : addTempLayer;
 			case "humid":
@@ -734,8 +737,8 @@ function loadMap(err, json, csv, stations) {
 		}
 	}
 
-	function getInfo(condition, data){
-		switch(condition){
+	function getInfo(condition, data) {
+		switch (condition) {
 			case "temp":
 				return data.temp + "°C";
 			case "humid":
@@ -814,7 +817,7 @@ function loadMap(err, json, csv, stations) {
 			.call(lineAnimate);
 	}
 
-	function removeWindLayer(){
+	function removeWindLayer() {
 		g.selectAll("line").remove();
 	}
 
@@ -1035,12 +1038,13 @@ function loadMap(err, json, csv, stations) {
 	const graph = dataLayer.querySelector(".right");
 	const userTooltip = document.querySelector(".user-tooltip");
 	const absoluteCircle = dataLayer.querySelector(".absolute-circle");
+	const closeButton = document.querySelector(".close");
 
 	absoluteCircle.addEventListener("click", e => {
 		absoluteCircle.style.display = "none";
 		graph.classList.add("fadeOutRight");
 		bars.style.visibility = "hidden";
-		document.querySelector(".close").style.display = "block";
+		closeButton.style.display = "block";
 		setTimeout(function() {
 			graph.classList.remove("fadeOutRight");
 			dataLayer.style.display = "none";
@@ -1082,6 +1086,7 @@ function loadMap(err, json, csv, stations) {
 		if (k === 4) {
 			optionButtons.style.display = "none";
 			absoluteCircle.innerHTML = "";
+			closeButton.style.display = "none";
 
 			g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
 			g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
@@ -1214,10 +1219,14 @@ function loadMap(err, json, csv, stations) {
 		//initialize default checked button for historical data
 		let airName = "pm25";
 		let timePeriod = 2;
-		let defaultAirButton = document.querySelector("#pm-25");
-		let defaultDaysButton = document.querySelector("#last-2-days");
+		let dangerLevel = 0;
+		const defaultAirButton = document.querySelector("#pm-25");
+		const defaultDaysButton = document.querySelector("#last-2-days");
+		const defaultDangerButton = document.querySelector("#quality-good");
+
 		defaultAirButton.checked = true;
 		defaultDaysButton.checked = true;
+		defaultDangerButton.checked = true;
 
 		let historicalData = [];
 		//this function fetch historical data
@@ -1232,6 +1241,7 @@ function loadMap(err, json, csv, stations) {
 			.then(res => {
 				historicalData = res;
 				displayChart(airName, timePeriod, historicalData);
+				displayStatChart(historicalData, dangerLevel);
 			});
 
 		//handle display in historical with different air catogories
@@ -1256,6 +1266,20 @@ function loadMap(err, json, csv, stations) {
 					prevTime = this;
 					timePeriod = parseInt(this.value); //process time period
 					displayChart(airName, timePeriod, historicalData);
+				}
+			};
+		}
+
+		//handle display in statistical data
+		var statButtons = document.querySelectorAll("input[name='stat-buttons']");
+		var prevDangerLevel = defaultDangerButton;
+		for (var i = 0; i < statButtons.length; i++) {
+			statButtons[i].onclick = function() {
+				if (this !== prevDangerLevel) {
+					prevDangerLevel = this;
+					dangerLevel = parseInt(this.value); //process danger level
+					console.log(dangerLevel);
+					displayStatChart(historicalData, dangerLevel);
 				}
 			};
 		}
