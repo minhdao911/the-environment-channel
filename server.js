@@ -35,25 +35,44 @@ app.get("/data", function(req, res) {
 	let start = req.query.start;
 	let end = req.query.end;
 	let result = [];
+	let avg = [];
 	for(i = Number(start); i<=Number(end); i++){
 		let t = i<10 ? "0"+i : i;
 		let data = require(`./data/timeseries-data/${date}(${t}).json`);
+		let tempCount = 0;
+		let humidCount = 0;
+		let total = 0;
 		for(k=0; k<data.length; k++){
 			if(data[k].cod === 200){
+				tempCount+=data[k].main.temp;
+				humidCount+=data[k].main.humidity;
+				total++;
 				let timeseries = result[k] == undefined ? [] : result[k].timeseries;
 				timeseries.push({
 					weather: data[k].weather,
 					main: data[k].main,
-					wind: data[k].wind
+					wind: data[k].wind,
+					coord: data[k].coord
 				});
 				result[k] = {
 					name: data[k].name,
 					timeseries: timeseries
 				};
 			}
+			if(k === data.length-1){
+				let avgTemp = Math.round(tempCount/total * 100) / 100;
+				let avgHumid = Math.round(humidCount/total * 100) / 100;
+				avg.push({
+					temp: avgTemp,
+					humid: avgHumid
+				})
+			}
 		}
 	}
-	res.send(result);
+	res.send({
+		result: result,
+		average: avg
+	});
 });
 
 app.listen(port, (req, res) => {
