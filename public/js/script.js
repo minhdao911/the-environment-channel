@@ -533,11 +533,11 @@ function loadMap(err, json, csv, stations) {
 					timeBtn.prop("disabled", false);
 					tempColor.domain([
 						d3.min(json.features, function(d) {
-							if (d.properties.weather[0])
+							if (d.properties.weather && d.properties.weather[0])
 								return d.properties.weather[0].main.temp;
 						}),
 						d3.max(json.features, function(d) {
-							if (d.properties.weather[0])
+							if (d.properties.weather && d.properties.weather[0])
 								return d.properties.weather[0].main.temp;
 						}),
 					]);
@@ -595,7 +595,16 @@ function loadMap(err, json, csv, stations) {
 
 	var marker = g
 		.selectAll("g.marker")
-		.data(stations.data.filter(d => d && d.aqi !== "-" && d.uid !== 4911)) //filter a station without historical data
+		.data(
+			stations.data.filter(
+				d =>
+					d &&
+					d.aqi !== "-" &&
+					d.uid !== 4911 &&
+					d.uid !== 4917 &&
+					d.uid !== 4938
+			),
+		) //filter a station without historical data
 		.enter()
 		.append("g")
 		.attr("class", "marker")
@@ -614,7 +623,7 @@ function loadMap(err, json, csv, stations) {
 		tempOn = !tempOn;
 		if (tempOn) {
 			tempBtn.addClass("chosen");
-			addTempLayer('weather', 0, 0);
+			addTempLayer("weather", 0, 0);
 		} else {
 			tempBtn.removeClass("chosen");
 			removeTempLayer(100);
@@ -625,7 +634,7 @@ function loadMap(err, json, csv, stations) {
 		humidOn = !humidOn;
 		if (humidOn) {
 			humidBtn.addClass("chosen");
-			addHumidLayer('weather', 0, 0);
+			addHumidLayer("weather", 0, 0);
 		} else {
 			humidBtn.removeClass("chosen");
 			removeHumidLayer(100);
@@ -660,32 +669,34 @@ function loadMap(err, json, csv, stations) {
 		windBtn.prop("disabled", true);
 		humidBtn.prop("disabled", true);
 
-		if(Number(start) < Number(end)){
+		if (Number(start) < Number(end)) {
 			fetch(`/data?date=${date}&start=${start}&end=${end}`)
-			.then(res => res.json())
-			.then(res => {
-				res.result.forEach(d => {
-					if (d !== null) {
-						json.features.forEach(jd => {
-							if (jd.properties.text == d.name) {
-								jd.properties.timeseries = d.timeseries;
-							}
-						});
-					}
+				.then(res => res.json())
+				.then(res => {
+					res.result.forEach(d => {
+						if (d !== null) {
+							json.features.forEach(jd => {
+								if (jd.properties.text == d.name) {
+									jd.properties.timeseries = d.timeseries;
+								}
+							});
+						}
+					});
+					tsAvg = res.average;
+					showChanges(condition, Number(start), Number(end));
 				});
-				tsAvg = res.average;
-				showChanges(condition, Number(start), Number(end));
-			});
 		}
 	});
 
 	var timeDuration = [2500, 2200, 2000, 1800, 1500, 1000];
 
-	function showChanges(condition, start, end){
+	function showChanges(condition, start, end) {
 		tempBtn.removeClass("chosen");
 		humidBtn.removeClass("chosen");
 		windBtn.removeClass("chosen");
-		tempOn = false; humidOn = false; windOn = false;
+		tempOn = false;
+		humidOn = false;
+		windOn = false;
 		g.selectAll("path").style("fill", landColor);
 		g.selectAll("path").attr("opacity", 1);
 		g.selectAll("line").remove();
@@ -713,13 +724,13 @@ function loadMap(err, json, csv, stations) {
 					clearInterval(interval);
 					getWeatherFunction(condition, true)(duration);
 					timeSeriesInfoDiv.css("display", "none");
-					setTimeout(function(){
+					setTimeout(function() {
 						tempBtn.prop("disabled", false);
 						windBtn.prop("disabled", false);
 						humidBtn.prop("disabled", false);
 					}, duration);
-				} 
-			},duration-100);
+				}
+			}, duration - 100);
 		}, duration);
 		timeSeriesTime.text(start + ":00:00");
 		timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
@@ -747,40 +758,43 @@ function loadMap(err, json, csv, stations) {
 	}
 
 	function addTempLayer(entity, i, duration) {
-		g.selectAll("path")
-		.transition()
-		.duration(duration)
-		.style("fill", function(d) {
-			return getTempColor(d, entity, i)
-		});
+		g
+			.selectAll("path")
+			.transition()
+			.duration(duration)
+			.style("fill", function(d) {
+				return getTempColor(d, entity, i);
+			});
 	}
 
-	function getTempColor(d, entity, i){
-		if (d.properties[entity] && d.properties[entity][i]){
+	function getTempColor(d, entity, i) {
+		if (d.properties[entity] && d.properties[entity][i]) {
 			return tempColor(d.properties[entity][i].main.temp);
 		} else {
 			return "#c6c6c6";
 		}
 	}
 
-	function removeTempLayer(duration){
-		g.selectAll("path")
+	function removeTempLayer(duration) {
+		g
+			.selectAll("path")
 			.transition()
 			.duration(duration)
 			.style("fill", landColor);
 	}
 
 	function addHumidLayer(entity, i, duration) {
-		g.selectAll("path")
-		.transition()
-		.duration(duration)
-		.attr("opacity", function(d) {
-			return getHumidColor(d, entity, i);
-		});
+		g
+			.selectAll("path")
+			.transition()
+			.duration(duration)
+			.attr("opacity", function(d) {
+				return getHumidColor(d, entity, i);
+			});
 	}
 
-	function getHumidColor(d, entity, i){
-		if (d.properties[entity] && d.properties[entity][i]){
+	function getHumidColor(d, entity, i) {
+		if (d.properties[entity] && d.properties[entity][i]) {
 			let h = d.properties[entity][i].main.humidity;
 			if (h < 20) return 0.9;
 			else if (h < 50) return 0.7;
@@ -792,11 +806,12 @@ function loadMap(err, json, csv, stations) {
 		}
 	}
 
-	function removeHumidLayer(duration){
-		g.selectAll("path")
-		.transition()
-		.duration(duration)
-		.attr("opacity", 1);
+	function removeHumidLayer(duration) {
+		g
+			.selectAll("path")
+			.transition()
+			.duration(duration)
+			.attr("opacity", 1);
 	}
 
 	function addWindLayer(arr) {
@@ -876,7 +891,7 @@ function loadMap(err, json, csv, stations) {
 				.style("fill", "orange")
 				.attr("opacity", 1);
 			text = [d.properties.text, "Population: " + d.properties.pop];
-			if(d.properties.weather && d.properties.weather[0]){
+			if (d.properties.weather && d.properties.weather[0]) {
 				let w = d.properties.weather[0];
 				if (tempOn) {
 					c = "Condition: " + w.weather[0].description;
@@ -909,15 +924,13 @@ function loadMap(err, json, csv, stations) {
 				.style("stroke-width", 0);
 		} else {
 			if (tempOn) {
-				d3.select(this)
-				.style("fill", function(d){
-					return getTempColor(d, 'weather', 0);
+				d3.select(this).style("fill", function(d) {
+					return getTempColor(d, "weather", 0);
 				});
 			} else d3.select(this).style("fill", landColor);
 			if (humidOn) {
-				d3.select(this)
-				.style("opacity", function(d){
-					return getHumidColor(d, 'weather', 0);
+				d3.select(this).style("opacity", function(d) {
+					return getHumidColor(d, "weather", 0);
 				});
 			} else d3.select(this).attr("opacity", 1);
 		}
@@ -1095,7 +1108,7 @@ function loadMap(err, json, csv, stations) {
 			optionButtons.style.display = "block";
 
 			if (humidOn) {
-				addHumidLayer('weather', 0, 0);
+				addHumidLayer("weather", 0, 0);
 			} else {
 				g.selectAll("path").attr("opacity", 1);
 			}
@@ -1131,7 +1144,7 @@ function loadMap(err, json, csv, stations) {
 
 		//work on data
 		const { uid, aqi, station: { name } } = d;
-
+		console.log(uid);
 		const nameArray = name.split(", ");
 		const stationName = nameArray[1] + " " + nameArray[0];
 		const processedName = stationName.split(" ").join("-");
@@ -1223,10 +1236,12 @@ function loadMap(err, json, csv, stations) {
 		const defaultAirButton = document.querySelector("#pm-25");
 		const defaultDaysButton = document.querySelector("#last-2-days");
 		const defaultDangerButton = document.querySelector("#quality-good");
+		const defaultCategoryButton = document.querySelector("#historical-data");
 
 		defaultAirButton.checked = true;
 		defaultDaysButton.checked = true;
 		defaultDangerButton.checked = true;
+		defaultCategoryButton.checked = true;
 
 		let historicalData = [];
 		//this function fetch historical data
@@ -1243,6 +1258,28 @@ function loadMap(err, json, csv, stations) {
 				displayChart(airName, timePeriod, historicalData);
 				displayStatChart(historicalData, dangerLevel);
 			});
+
+		//handle graph category
+		var categoryButtons = document.querySelectorAll(
+			"input[name='category-button']",
+		);
+		const historicalGraph = document.querySelector(".historical-data");
+		const statisticGraph = document.querySelector(".statistic-data");
+
+		historicalGraph.style.display = "block";
+		statisticGraph.style.display = "none";
+
+		for (var i = 0; i < categoryButtons.length; i++) {
+			categoryButtons[i].onclick = function() {
+				if (this.id === "historical-data") {
+					historicalGraph.style.display = "block";
+					statisticGraph.style.display = "none";
+				} else {
+					historicalGraph.style.display = "none";
+					statisticGraph.style.display = "block";
+				}
+			};
+		}
 
 		//handle display in historical with different air catogories
 		var airButtons = document.querySelectorAll("input[name='air-category']");
@@ -1278,7 +1315,6 @@ function loadMap(err, json, csv, stations) {
 				if (this !== prevDangerLevel) {
 					prevDangerLevel = this;
 					dangerLevel = parseInt(this.value); //process danger level
-					console.log(dangerLevel);
 					displayStatChart(historicalData, dangerLevel);
 				}
 			};
