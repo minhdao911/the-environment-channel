@@ -21,7 +21,7 @@ var width = window.innerWidth,
 	focused;
 
 const weatherKeyArray = [
-	"d7dfe147284d7ec8e4a5f8e1a7bb2812",
+	// "d7dfe147284d7ec8e4a5f8e1a7bb2812",
 	"afaa0e32c277554df53bc840221a792d",
 	"47f39f44428b8de9e62ab25171587f69",
 	"7257c0ef6e1cf3d7b539d9d24ef1b052",
@@ -121,7 +121,6 @@ var tempBtn = $("#tempBtn"),
 	timeSeriesInfoDiv = $("#timeseries-info-div"),
 	timeSeriesTime = $("#timeseries-time"),
 	timeSeriesInfo = $("#timeseries-info");
-	console.log(timeSeriesTime);
 
 var svgGlobe = d3
 	.select("#globe")
@@ -531,11 +530,11 @@ function loadMap(err, json, csv, stations) {
 					timeBtn.prop("disabled", false);
 					tempColor.domain([
 						d3.min(json.features, function(d) {
-							if (d.properties.weather)
+							if (d.properties.weather[0])
 								return d.properties.weather[0].main.temp;
 						}),
 						d3.max(json.features, function(d) {
-							if (d.properties.weather)
+							if (d.properties.weather[0])
 								return d.properties.weather[0].main.temp;
 						}),
 					]);
@@ -612,7 +611,7 @@ function loadMap(err, json, csv, stations) {
 		tempOn = !tempOn;
 		if (tempOn) {
 			tempBtn.addClass("chosen");
-			addTempLayer('weather', 0, 100);
+			addTempLayer('weather', 0, 0);
 		} else {
 			tempBtn.removeClass("chosen");
 			removeTempLayer(100);
@@ -623,7 +622,7 @@ function loadMap(err, json, csv, stations) {
 		humidOn = !humidOn;
 		if (humidOn) {
 			humidBtn.addClass("chosen");
-			addHumidLayer('weather', 0, 100);
+			addHumidLayer('weather', 0, 0);
 		} else {
 			humidBtn.removeClass("chosen");
 			removeHumidLayer(100);
@@ -653,7 +652,13 @@ function loadMap(err, json, csv, stations) {
 		let start = $("#start").val();
 		let end = $("#end").val();
 		let condition = $("input[name='condition']:checked").val();
-		fetch(`/data?date=${date}&start=${start}&end=${end}`)
+
+		tempBtn.prop("disabled", true);
+		windBtn.prop("disabled", true);
+		humidBtn.prop("disabled", true);
+
+		if(Number(start) < Number(end)){
+			fetch(`/data?date=${date}&start=${start}&end=${end}`)
 			.then(res => res.json())
 			.then(res => {
 				res.result.forEach(d => {
@@ -668,11 +673,20 @@ function loadMap(err, json, csv, stations) {
 				tsAvg = res.average;
 				showChanges(condition, Number(start), Number(end));
 			});
+		}
 	});
 
 	var timeDuration = [2500, 2200, 2000, 1800, 1500, 1000];
 
 	function showChanges(condition, start, end){
+		tempBtn.removeClass("chosen");
+		humidBtn.removeClass("chosen");
+		windBtn.removeClass("chosen");
+		tempOn = false; humidOn = false; windOn = false;
+		g.selectAll("path").style("fill", landColor);
+		g.selectAll("path").attr("opacity", 1);
+		g.selectAll("line").remove();
+
 		timeSeriesInfoDiv.css("display", "block");
 		let timeRange = end - start + 1;
 		let duration = 0;
@@ -696,6 +710,11 @@ function loadMap(err, json, csv, stations) {
 					clearInterval(interval);
 					getWeatherFunction(condition, true)(duration);
 					timeSeriesInfoDiv.css("display", "none");
+					setTimeout(function(){
+						tempBtn.prop("disabled", false);
+						windBtn.prop("disabled", false);
+						humidBtn.prop("disabled", false);
+					}, duration);
 				} 
 			},duration-100);
 		}, duration);
@@ -729,12 +748,16 @@ function loadMap(err, json, csv, stations) {
 		.transition()
 		.duration(duration)
 		.style("fill", function(d) {
-			if (d.properties[entity] && d.properties[entity][i]){
-				return tempColor(d.properties[entity][i].main.temp);
-			} else {
-				return "#c6c6c6";
-			}
+			return getTempColor(d, entity, i)
 		});
+	}
+
+	function getTempColor(d, entity, i){
+		if (d.properties[entity] && d.properties[entity][i]){
+			return tempColor(d.properties[entity][i].main.temp);
+		} else {
+			return "#c6c6c6";
+		}
 	}
 
 	function removeTempLayer(duration){
@@ -749,17 +772,21 @@ function loadMap(err, json, csv, stations) {
 		.transition()
 		.duration(duration)
 		.attr("opacity", function(d) {
-			if (d.properties[entity] && d.properties[entity][i]){
-				let h = d.properties[entity][i].main.humidity;
-				if (h < 20) return 0.9;
-				else if (h < 50) return 0.7;
-				else if (h < 70) return 0.5;
-				else if (h < 90) return 0.3;
-				else return 0.2;
-			} else {
-				return 0.1;
-			}
+			return getHumidColor(d, entity, i);
 		});
+	}
+
+	function getHumidColor(d, entity, i){
+		if (d.properties[entity] && d.properties[entity][i]){
+			let h = d.properties[entity][i].main.humidity;
+			if (h < 20) return 0.9;
+			else if (h < 50) return 0.7;
+			else if (h < 70) return 0.5;
+			else if (h < 90) return 0.3;
+			else return 0.2;
+		} else {
+			return 0.1;
+		}
 	}
 
 	function removeHumidLayer(duration){
@@ -846,18 +873,18 @@ function loadMap(err, json, csv, stations) {
 				.style("fill", "orange")
 				.attr("opacity", 1);
 			text = [d.properties.text, "Population: " + d.properties.pop];
-			let w = d.properties.weather;
-			if (tempOn) {
-				if(w){
+			if(d.properties.weather && d.properties.weather[0]){
+				let w = d.properties.weather[0];
+				if (tempOn) {
 					c = "Condition: " + w.weather[0].description;
 					t = "Temperature: " + w.main.temp + "°C";
 				}
-			}
-			if (humidOn) {
-				if(w) hu = "Humidity: " + w.main.humidity + "%";
-			}
-			if (windOn) {
-				if(w) wi = "Wind: " + w.wind.speed + " m/s";
+				if (humidOn) {
+					hu = "Humidity: " + w.main.humidity + "%";
+				}
+				if (windOn) {
+					wi = "Wind: " + w.wind.speed + " m/s";
+				}
 			}
 		}
 		setWeatherData(c, t, wi, hu);
@@ -879,10 +906,16 @@ function loadMap(err, json, csv, stations) {
 				.style("stroke-width", 0);
 		} else {
 			if (tempOn) {
-				addTempLayer('weather', 0, 100);
+				d3.select(this)
+				.style("fill", function(d){
+					return getTempColor(d, 'weather', 0);
+				});
 			} else d3.select(this).style("fill", landColor);
 			if (humidOn) {
-				addHumidLayer('weather', 0, 100);
+				d3.select(this)
+				.style("opacity", function(d){
+					return getHumidColor(d, 'weather', 0);
+				});
 			} else d3.select(this).attr("opacity", 1);
 		}
 		tooltip.style("opacity", 0).style("display", "none");
@@ -1057,7 +1090,7 @@ function loadMap(err, json, csv, stations) {
 			optionButtons.style.display = "block";
 
 			if (humidOn) {
-				addHumidLayer('weather', 0, 100);
+				addHumidLayer('weather', 0, 0);
 			} else {
 				g.selectAll("path").attr("opacity", 1);
 			}
