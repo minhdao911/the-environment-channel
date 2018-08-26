@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto');
+@import url("https://fonts.googleapis.com/css?family=Bitter|Roboto");
 #data {
   display: none;
   opacity: 0;
@@ -19,11 +19,11 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .data-container h2 {
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .data-container>* {
@@ -115,13 +115,9 @@ a {
 .buttons {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.buttons+div {
-  font-size: 90%;
-  color: #666666
-}
 
 .buttons span {
   height: 100%;
@@ -137,10 +133,8 @@ a {
   width: 620px;
   background: rgba(255, 255, 255, 0.95);
   justify-content: flex-start;
-}
-
-#myChart {
-  margin-bottom: 20px;
+  z-index: 6;
+  overflow: auto;
 }
 
 .absolute-circle {
@@ -153,12 +147,12 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   background: red;
-  z-index: 5;
+  z-index: 7;
   justify-content: center;
   align-items: center;
   color: #111111;
   font-size: 120%;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
   cursor: pointer;
 }
 
@@ -166,7 +160,7 @@ a {
   display: none;
   width: 220px;
   height: 120px;
-  -webkit-clip-path: polygon(100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
+  -webkit-clip-path: polygon( 100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
   clip-path: polygon(100% 0, 100% 75%, 61% 75%, 53% 100%, 44% 75%, 0 75%, 0 0);
   background: white;
   top: calc(50% - 110px);
@@ -185,7 +179,7 @@ a {
 
 .absolute-circle:hover+.data-tooltip {
   display: flex;
-  z-index: 5;
+  z-index: 7;
 }
 
 .user-tooltip {
@@ -201,5 +195,9 @@ a {
 }
 
 .canvas {
-  margin-bottom:10px;
+  margin-bottom: 10px;
+}
+
+.statistic-data {
+  display:none;
 }

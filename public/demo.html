@@ -177,124 +177,150 @@
               </div>
             </div>
             <div class="right">
-              <h2>Historical Data</h2>
-              <div class="canvas">
-              </div>
               <div class="buttons">
                 <div class="custom-radios">
                   <div class="category">
-                    <input type="radio" id="last-2-days" name="time-period" value="2" checked>
-                    <label for="last-2-days">
+                    <input type="radio" id="historical-data" name="category-button" checked>
+                    <label for="historical-data">
                        <span>
-                         Last 2 days
+                         Historical data
                        </span>
                      </label>
                   </div>
                   <div class="category">
-                    <input type="radio" id="last-week" name="time-period" value="7">
-                    <label for="last-week">
+                    <input type="radio" id="statistic-data" name="category-button" >
+                    <label for="statistic-data">
                        <span>
-                      Last week
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="last-month" name="time-period" value="30">
-                    <label for="last-month">
-                       <span>
-                        Last Month
-                       </span>
-                     </label>
-                  </div>
-                </div>
-                <div class="custom-radios">
-                  <div class="category">
-                    <input type="radio" id="pm-25" name="air-category" value="pm-25" checked>
-                    <label for="pm-25">
-                       <span>
-                         PM<sub>2.5</sub>
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="pm-10" name="air-category" value="pm-10">
-                    <label for="pm-10">
-                       <span>
-                         PM<sub>10</sub>
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="so-2" name="air-category" value="so-2">
-                    <label for="so-2">
-                       <span>
-                       SO<sub>2</sub>
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="o-3" name="air-category" value="o-3">
-                    <label for="o-3">
-                       <span>
-                       O<sub>3</sub>
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="no-2" name="air-category" value="no-2">
-                    <label for="no-2">
-                       <span>
-                       NO<sub>2</sub>
+                      Statistical data
                        </span>
                      </label>
                   </div>
                 </div>
               </div>
-              <div>SO<sub>2</sub> and O<sub>3</sub> data is only available in some stations.</div>
-              <h2>Statistic Data</h2>
-              <div class="stat-canvas"></div>
-                <div class="custom-radios">
-                  <div class="category">
-                    <input type="radio" id="quality-good" name="stat-buttons" value="0" checked>
-                    <label for="quality-good">
-                       <span>
-                         Good
-                       </span>
-                     </label>
+              <div class="historical-data">
+                <h2>Historical Data</h2>
+                <div class="canvas">
+                </div>
+                <div class="buttons">
+                  <div class="custom-radios">
+                    <div class="category">
+                      <input type="radio" id="last-2-days" name="time-period" value="2" checked>
+                      <label for="last-2-days">
+                         <span>
+                           Last 2 days
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="last-week" name="time-period" value="7">
+                      <label for="last-week">
+                         <span>
+                        Last week
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="last-month" name="time-period" value="30">
+                      <label for="last-month">
+                         <span>
+                          Last Month
+                         </span>
+                       </label>
+                    </div>
                   </div>
-                  <div class="category">
-                    <input type="radio" id="quality-moderate" name="stat-buttons" value="1">
-                    <label for="quality-moderate">
-                       <span>
-                      Moderate
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="quality-unhealthy" name="stat-buttons" value="2">
-                    <label for="quality-unhealthy">
-                       <span>
-                      Unhealthy
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="quality-very-unhealthy" name="stat-buttons" value="3">
-                    <label for="quality-very-unhealthy">
-                       <span>
-                      Very unhealthy
-                       </span>
-                     </label>
-                  </div>
-                  <div class="category">
-                    <input type="radio" id="quality-harzardous" name="stat-buttons" value="4">
-                    <label for="quality-harzardous">
-                       <span>
-                      Harzardous
-                       </span>
-                     </label>
+                  <div class="custom-radios">
+                    <div class="category">
+                      <input type="radio" id="pm-25" name="air-category" value="pm-25" checked>
+                      <label for="pm-25">
+                         <span>
+                           PM<sub>2.5</sub>
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="pm-10" name="air-category" value="pm-10">
+                      <label for="pm-10">
+                         <span>
+                           PM<sub>10</sub>
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="so-2" name="air-category" value="so-2">
+                      <label for="so-2">
+                         <span>
+                         SO<sub>2</sub>
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="o-3" name="air-category" value="o-3">
+                      <label for="o-3">
+                         <span>
+                         O<sub>3</sub>
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="no-2" name="air-category" value="no-2">
+                      <label for="no-2">
+                         <span>
+                         NO<sub>2</sub>
+                         </span>
+                       </label>
+                    </div>
                   </div>
                 </div>
+                <div>SO<sub>2</sub> and O<sub>3</sub> data is only available in some stations.</div>
+              </div>
+              <div class="statistic-data">
+                <h2>Statistic Data</h2>
+                <div class="stat-canvas"></div>
+                <div class="buttons">
+                  <div class="custom-radios">
+                    <div class="category">
+                      <input type="radio" id="quality-good" name="stat-buttons" value="0" checked>
+                      <label for="quality-good">
+                         <span>
+                           Good
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="quality-moderate" name="stat-buttons" value="1">
+                      <label for="quality-moderate">
+                         <span>
+                        Moderate
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="quality-unhealthy" name="stat-buttons" value="2">
+                      <label for="quality-unhealthy">
+                         <span>
+                        Unhealthy
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="quality-very-unhealthy" name="stat-buttons" value="3">
+                      <label for="quality-very-unhealthy">
+                         <span>
+                        Very unhealthy
+                         </span>
+                       </label>
+                    </div>
+                    <div class="category">
+                      <input type="radio" id="quality-harzardous" name="stat-buttons" value="4">
+                      <label for="quality-harzardous">
+                         <span>
+                        Harzardous
+                         </span>
+                       </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
 
