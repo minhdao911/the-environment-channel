@@ -93,7 +93,7 @@ const displayChart = (airName, days, historicalData) => {
 			type: "line",
 			data: {
 				labels: displayData.map(e => {
-					return `${e.Time} - ${e.d}/${e.m}`;
+					return `${e.d}/${e.m} - ${e.Time}`;
 				}),
 				datasets: [
 					{
@@ -134,16 +134,26 @@ const dataCategories = [
 ];
 
 const analyzeHourlyData = (hourlyData, dangerLevel) => {
-	let result = 1;
+	let result = 1; //clean air
 
 	Object.entries(airNameMap).forEach(element => {
 		const airShortName = element[0];
 		const airFullName = element[1];
-		if (
-			hourlyData[airFullName] >
-			breakPoints[`${airShortName}_break_points`][dangerLevel]
-		) {
-			result = 0;
+
+		if (dangerLevel === 0 ){
+			if (
+				hourlyData[airFullName] >
+				breakPoints[`${airShortName}_break_points`][dangerLevel]
+			) {
+				result = 0; //bad air
+			}
+		} else {
+			if (
+				hourlyData[airFullName] >
+				breakPoints[`${airShortName}_break_points`][dangerLevel - 1]
+			) {
+				result = 0; //bad air
+			}
 		}
 	});
 
@@ -159,7 +169,12 @@ const analyzeData = (historicalData, dangerLevel) => {
 		processDataArray[hour] += analyzeHourlyData(hourlyData, dangerLevel);
 	});
 
-	const resultArray = processDataArray.map(e => e / numberOfDays);
+	const resultArray = processDataArray.map(e => {
+		const rate = e / numberOfDays * 100;
+		const processRate = dangerLevel === 0 ? rate : 100 - rate; //level 0 has different formula
+		return parseFloat(processRate.toFixed(2));
+	});
+
 	return resultArray;
 };
 
@@ -190,6 +205,7 @@ const displayStatChart = (historicalData, dangerLevel) => {
 					{
 						ticks: {
 							beginAtZero: true,
+							max: 100,
 						},
 					},
 				],
