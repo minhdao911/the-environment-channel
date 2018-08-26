@@ -116,7 +116,7 @@ const displayChart = (airName, days, historicalData) => {
 				},
 				title: {
 					display: true,
-					text: `Data last ${days} days`,
+					text: `Air quality data last ${days} days`,
 				},
 			},
 		});
@@ -212,7 +212,7 @@ const displayStatChart = (historicalData, dangerLevel) => {
 			},
 			title: {
 				display: true,
-				text: `Data`,
+				text: `Air quality stats`,
 			},
 		},
 	});

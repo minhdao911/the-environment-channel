@@ -602,7 +602,8 @@ function loadMap(err, json, csv, stations) {
 					d.aqi !== "-" &&
 					d.uid !== 4911 &&
 					d.uid !== 4917 &&
-					d.uid !== 4938
+					d.uid !== 4938 &&
+					d.uid !== 4919
 			),
 		) //filter a station without historical data
 		.enter()
