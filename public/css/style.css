@@ -172,28 +172,11 @@ select {
   background-color: #f2f2f2;
 }
 
-body {
-  background: black;
-  box-sizing: border-box;
-}
-
 #timeBtn {
   padding: 15px 19px;
   border: 1px solid white;
   border-radius: 50%;
-  background: black;
   font-size: 1.2em;
-  color: white;
-}
-
-#timeBtn:hover {
-  background: white;
-  color: black;
-  cursor: pointer;
-}
-
-#timeBtn:focus {
-  outline: none;
 }
 
 #timeseries-form {
@@ -202,7 +185,7 @@ body {
   padding: 20px;
   position: absolute;
   right: 80px;
-  top: 255px;
+  top: 248px;
 }
 
 #timeseries-form::after {
@@ -233,6 +216,24 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
+}
+
+#timeseries-info-div {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+#timeseries-time {
+  margin-bottom: 0px;
+}
+
+#timeseries-info {
+  margin-top: 0px;
 }
 
 .hide {
