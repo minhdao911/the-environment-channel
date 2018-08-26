@@ -8,139 +8,213 @@ const nh3_break_points = [200, 400, 800, 1200, 1800];
 const o3_break_points = [50, 100, 168, 208, 748];
 const aqi_break_points = [50, 100, 150, 200, 300];
 
- const htmlDisplay = {
-  pm10: "PM<sub>10</sub>",
-  pm25: "PM<sub>2.5</sub>",
-  no2: "NO<sub>2</sub>",
-  nh3: "NH<sub>3</sub>",
-  o3: "O<sub>3</sub>"
+const htmlDisplay = {
+	pm10: "PM<sub>10</sub>",
+	pm25: "PM<sub>2.5</sub>",
+	no2: "NO<sub>2</sub>",
+	nh3: "NH<sub>3</sub>",
+	o3: "O<sub>3</sub>",
 };
 
- const breakPoints = {
-  pm10_break_points,
-  pm25_break_points,
-  no2_break_points,
-  so2_break_points,
-  nh3_break_points,
-  o3_break_points,
-  aqi_break_points
+const breakPoints = {
+	pm10_break_points,
+	pm25_break_points,
+	no2_break_points,
+	so2_break_points,
+	nh3_break_points,
+	o3_break_points,
+	aqi_break_points,
 };
 
- const airNameMap = {
-  no2: "Nitrogen dioxide (ug/m3)",
-  pm10: "Particulate matter < 10 µm (ug/m3)",
-  pm25: "Particulate matter < 2.5 µm (ug/m3)",
-  o3: "Ozone (ug/m3)",
-  so2: "Sulphur dioxide (ug/m3)"
+const airNameMap = {
+	no2: "Nitrogen dioxide (ug/m3)",
+	pm10: "Particulate matter < 10 µm (ug/m3)",
+	pm25: "Particulate matter < 2.5 µm (ug/m3)",
+	o3: "Ozone (ug/m3)",
+	so2: "Sulphur dioxide (ug/m3)",
 };
 
- const scoreCount = (arr, value) => {
-  return Math.log(value) / Math.log(arr[4]) * 100 + "%";
+const scoreCount = (arr, value) => {
+	return Math.log(value) / Math.log(arr[4]) * 100 + "%";
 };
 
- const breakPointCheck = (arr, value) => {
-  if (value <= arr[0]) {
-    //green
-    return "#14a76c";
-  } else if (value <= arr[1]) {
-    //yellow
-    return "#ffe400";
-  } else if (value <= arr[2]) {
-    //orange
-    return "#ff652f";
-  } else if (value <= arr[3]) {
-    //pink
-    return "#c3073f";
-  } else if (value <= arr[4]) {
-    //purple
-    return "#950740";
-  } else {
-    //red
-    return "#950740";
-  }
+const breakPointCheck = (arr, value) => {
+	if (value <= arr[0]) {
+		//green
+		return "#14a76c";
+	} else if (value <= arr[1]) {
+		//yellow
+		return "#ffe400";
+	} else if (value <= arr[2]) {
+		//orange
+		return "#ff652f";
+	} else if (value <= arr[3]) {
+		//pink
+		return "#c3073f";
+	} else if (value <= arr[4]) {
+		//purple
+		return "#950740";
+	} else {
+		//red
+		return "#950740";
+	}
 };
 
- const qualityCheck = (arr, value) => {
-  if (value <= arr[0]) {
-    return "Good";
-  } else if (value <= arr[1]) {
-    return "Moderate";
-  } else if (value <= arr[2]) {
-    return "Unhealthy";
-  } else if (value <= arr[3]) {
-    return "Very Unhealthy";
-  } else {
-    return "Hazardous";
-  }
+const qualityCheck = (arr, value) => {
+	if (value <= arr[0]) {
+		return "Good";
+	} else if (value <= arr[1]) {
+		return "Moderate";
+	} else if (value <= arr[2]) {
+		return "Unhealthy";
+	} else if (value <= arr[3]) {
+		return "Very Unhealthy";
+	} else {
+		return "Hazardous";
+	}
 };
 //end of air quality config
 
 //set up functions
- const displayChart = (airName, days, historicalData) => {
-   const canvasDiv = document.querySelector(".canvas");
+const displayChart = (airName, days, historicalData) => {
+	if (historicalData) {
+		const displayData = historicalData.slice(
+			historicalData.length - days * 24,
+			historicalData.length,
+		);
 
-   if (historicalData){
-     const displayData = historicalData.slice(
-       historicalData.length - days * 24,
-       historicalData.length
-     );
+		const canvasDiv = document.querySelector(".canvas");
+		canvasDiv.innerHTML = "";
+		const canvas = document.createElement("canvas");
+		canvas.id = "myChart";
+		canvasDiv.appendChild(canvas);
 
-     document.querySelector(".close").style.display = "none";
-
-     canvasDiv.innerHTML = "";
-     const canvas = document.createElement("canvas");
-     canvas.id = "myChart";
-     canvasDiv.appendChild(canvas);
-
-     var ctx = document.getElementById("myChart").getContext("2d");
-     var myChart = new Chart(ctx, {
-       type: "line",
-       data: {
-         labels: displayData.map(e => {
-           return `${e.Time} - ${e.d}/${e.m}`;
-         }),
-         datasets: [
-           {
-             label: "Amount (ug/m3)",
-             data: displayData
-               .map(e => e[airNameMap[airName]])
-               .map(e => Math.abs(e))
-           }
-         ]
-       },
-       options: {
-         scales: {
-           yAxes: [
-             {
-               ticks: {
-                 beginAtZero: true
-               }
-             }
-           ]
-         },
-         title: {
-           display: true,
-           text: `Data last ${days} days`
-         }
-       }
-     });
-   } else {
-      canvasDiv.innerHTML = "Historical data of this station is not available!";
-   }
+		const ctx = document.getElementById("myChart").getContext("2d");
+		const myChart = new Chart(ctx, {
+			type: "line",
+			data: {
+				labels: displayData.map(e => {
+					return `${e.Time} - ${e.d}/${e.m}`;
+				}),
+				datasets: [
+					{
+						label: "Amount (ug/m3)",
+						data: displayData
+							.map(e => e[airNameMap[airName]])
+							.map(e => Math.abs(e)),
+					},
+				],
+			},
+			options: {
+				scales: {
+					yAxes: [
+						{
+							ticks: {
+								beginAtZero: true,
+							},
+						},
+					],
+				},
+				title: {
+					display: true,
+					text: `Data last ${days} days`,
+				},
+			},
+		});
+	} else {
+		canvasDiv.innerHTML = "Historical data of this station is not available!";
+	}
 };
 
- const doRecursiveRequest = (url, limit) => {
-  return fetch(url)
-    .then(res => res.json())
-    .then(res => {
-      if (res.status === "nug" && --limit) {
-        return doRecursiveRequest(url, limit);
-      }
-      return res;
-    });
+const dataCategories = [
+	"Nitrogen dioxide (ug/m3)",
+	"Ozone (ug/m3)",
+	"Particulate matter < 10 µm (ug/m3)",
+	"Particulate matter < 2.5 µm (ug/m3)",
+	"Sulphur dioxide (ug/m3)",
+];
+
+const analyzeHourlyData = (hourlyData, dangerLevel) => {
+	let result = 1;
+
+	Object.entries(airNameMap).forEach(element => {
+		const airShortName = element[0];
+		const airFullName = element[1];
+		if (
+			hourlyData[airFullName] >
+			breakPoints[`${airShortName}_break_points`][dangerLevel]
+		) {
+			result = 0;
+		}
+	});
+
+	return result;
 };
 
-module.exports =  {
+const analyzeData = (historicalData, dangerLevel) => {
+	const numberOfDays = historicalData.length / 24;
+	const processDataArray = [...new Array(24)].map(() => 0);
+
+	historicalData.forEach((hourlyData, index) => {
+		const hour = index % 24;
+		processDataArray[hour] += analyzeHourlyData(hourlyData, dangerLevel);
+	});
+
+	const resultArray = processDataArray.map(e => e / numberOfDays);
+	return resultArray;
+};
+
+const displayStatChart = (historicalData, dangerLevel) => {
+	const hourArray = [...new Array(24)].map((e, i) => `${i}:00`);
+
+	const canvasDiv = document.querySelector(".stat-canvas");
+	canvasDiv.innerHTML = "";
+	const canvas = document.createElement("canvas");
+	canvas.id = "stat-canvas";
+	canvasDiv.appendChild(canvas);
+
+	const ctx = document.getElementById("stat-canvas").getContext("2d");
+	const myChart = new Chart(ctx, {
+		type: "line",
+		data: {
+			labels: hourArray,
+			datasets: [
+				{
+					label: "Percentage (%)",
+					data: analyzeData(historicalData, dangerLevel),
+				},
+			],
+		},
+		options: {
+			scales: {
+				yAxes: [
+					{
+						ticks: {
+							beginAtZero: true,
+						},
+					},
+				],
+			},
+			title: {
+				display: true,
+				text: `Data`,
+			},
+		},
+	});
+};
+
+const doRecursiveRequest = (url, limit) => {
+	return fetch(url)
+		.then(res => res.json())
+		.then(res => {
+			if (res.status === "nug" && --limit) {
+				return doRecursiveRequest(url, limit);
+			}
+			return res;
+		});
+};
+
+module.exports = {
 	htmlDisplay,
 	breakPoints,
 	airNameMap,
@@ -149,6 +223,9 @@ module.exports =  {
 	qualityCheck,
 	displayChart,
 	doRecursiveRequest,
+	analyzeHourlyData,
+	analyzeData,
+	displayStatChart,
 };
 
 },{}],2:[function(require,module,exports){
@@ -161,6 +238,9 @@ var {
 	qualityCheck,
 	displayChart,
 	doRecursiveRequest,
+	analyzeHourlyData,
+	analyzeData,
+	displayStatChart,
 } = require("./handler");
 
 var width = window.innerWidth,
@@ -275,7 +355,7 @@ var tempBtn = $("#tempBtn"),
 	timeSeriesInfoDiv = $("#timeseries-info-div"),
 	timeSeriesTime = $("#timeseries-time"),
 	timeSeriesInfo = $("#timeseries-info");
-	console.log(timeSeriesTime);
+console.log(timeSeriesTime);
 
 var svgGlobe = d3
 	.select("#globe")
@@ -671,7 +751,6 @@ function loadMap(err, json, csv, stations) {
 			})
 			.then(res => {
 				cityCount++;
-				// d.properties.weather = res;
 
 				if (res !== "no data") {
 					d.properties.weather = [];
@@ -686,12 +765,10 @@ function loadMap(err, json, csv, stations) {
 					timeBtn.prop("disabled", false);
 					tempColor.domain([
 						d3.min(json.features, function(d) {
-							// if (d.properties.weather !== "no data")
 							if (d.properties.weather)
 								return d.properties.weather[0].main.temp;
 						}),
 						d3.max(json.features, function(d) {
-							// if (d.properties.weather !== "no data")
 							if (d.properties.weather)
 								return d.properties.weather[0].main.temp;
 						}),
@@ -700,7 +777,7 @@ function loadMap(err, json, csv, stations) {
 			});
 	});
 
-	function createLines(arr, data){
+	function createLines(arr, data) {
 		let speed = data.wind.speed;
 		let deg = data.wind.deg;
 		for (let i = 0; i < 5; i++) {
@@ -769,7 +846,7 @@ function loadMap(err, json, csv, stations) {
 		tempOn = !tempOn;
 		if (tempOn) {
 			tempBtn.addClass("chosen");
-			addTempLayer('weather', 0, 100);
+			addTempLayer("weather", 0, 100);
 		} else {
 			tempBtn.removeClass("chosen");
 			removeTempLayer(100);
@@ -780,7 +857,7 @@ function loadMap(err, json, csv, stations) {
 		humidOn = !humidOn;
 		if (humidOn) {
 			humidBtn.addClass("chosen");
-			addHumidLayer('weather', 0, 100);
+			addHumidLayer("weather", 0, 100);
 		} else {
 			humidBtn.removeClass("chosen");
 			removeHumidLayer(100);
@@ -794,7 +871,6 @@ function loadMap(err, json, csv, stations) {
 			addWindLayer(lines);
 		} else {
 			windBtn.removeClass("chosen");
-			// g.selectAll("line").remove();
 			removeWindLayer();
 		}
 	});
@@ -815,7 +891,7 @@ function loadMap(err, json, csv, stations) {
 			.then(res => res.json())
 			.then(res => {
 				res.result.forEach(d => {
-					if(d !== null){
+					if (d !== null) {
 						json.features.forEach(jd => {
 							if (jd.properties.text == d.name) {
 								jd.properties.timeseries = d.timeseries;
@@ -830,47 +906,42 @@ function loadMap(err, json, csv, stations) {
 
 	var timeDuration = [2500, 2200, 2000, 1800, 1500, 1000];
 
-	function showChanges(condition, start, end){
+	function showChanges(condition, start, end) {
 		timeSeriesInfoDiv.css("display", "block");
 		let timeRange = end - start + 1;
 		let duration = 0;
 		let i = 0;
 
-		if(timeRange<=4) duration = timeDuration[0];
-		else if(timeRange<=8) duration = timeDuration[1];
-		else if(timeRange<=12) duration = timeDuration[2];
-		else if(timeRange<=16) duration = timeDuration[3];
-		else if(timeRange<=18) duration = timeDuration[4];
-		else if(timeRange<=24) duration = timeDuration[5];
+		if (timeRange <= 4) duration = timeDuration[0];
+		else if (timeRange <= 8) duration = timeDuration[1];
+		else if (timeRange <= 12) duration = timeDuration[2];
+		else if (timeRange <= 16) duration = timeDuration[3];
+		else if (timeRange <= 18) duration = timeDuration[4];
+		else if (timeRange <= 24) duration = timeDuration[5];
 
-		console.log(duration + "ms");
-
-		let interval = setInterval(function(){
-			console.log("inside interval");
-			console.log(i);
-			timeSeriesTime.text(start+":00:00");
+		let interval = setInterval(function() {
+			timeSeriesTime.text(start + ":00:00");
 			timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
-			getWeatherFunction(condition, false)('timeseries', i, duration);
+			getWeatherFunction(condition, false)("timeseries", i, duration);
 			i++;
 			start++;
-			setTimeout(function(){
-				if(i === timeRange){
-					console.log("end");
+			setTimeout(function() {
+				if (i === timeRange) {
 					clearInterval(interval);
 					getWeatherFunction(condition, true)(duration);
 					timeSeriesInfoDiv.css("display", "none");
-				} 
-			},duration-100);
+				}
+			}, duration - 100);
 		}, duration);
-		timeSeriesTime.text(start+":00:00");
+		timeSeriesTime.text(start + ":00:00");
 		timeSeriesInfo.text("Average: " + getInfo(condition, tsAvg[i]));
-		getWeatherFunction(condition, false)('timeseries', i, duration);
+		getWeatherFunction(condition, false)("timeseries", i, duration);
 		i++;
 		start++;
 	}
 
-	function getWeatherFunction(condition, removed){
-		switch(condition){
+	function getWeatherFunction(condition, removed) {
+		switch (condition) {
 			case "temp":
 				return removed ? removeTempLayer : addTempLayer;
 			case "humid":
@@ -878,8 +949,8 @@ function loadMap(err, json, csv, stations) {
 		}
 	}
 
-	function getInfo(condition, data){
-		switch(condition){
+	function getInfo(condition, data) {
+		switch (condition) {
 			case "temp":
 				return data.temp + "°C";
 			case "humid":
@@ -888,50 +959,52 @@ function loadMap(err, json, csv, stations) {
 	}
 
 	function addTempLayer(entity, i, duration) {
-		g.selectAll("path")
-		.transition()
-		.duration(duration)
-		.style("fill", function(d) {
-			// if (d.properties.weather !== "no data") {
-			if (d.properties[entity] && d.properties[entity][i]){
-				return tempColor(d.properties[entity][i].main.temp);
-			} else {
-				return "#c6c6c6";
-			}
-		});
+		g
+			.selectAll("path")
+			.transition()
+			.duration(duration)
+			.style("fill", function(d) {
+				if (d.properties[entity] && d.properties[entity][i]) {
+					return tempColor(d.properties[entity][i].main.temp);
+				} else {
+					return "#c6c6c6";
+				}
+			});
 	}
 
-	function removeTempLayer(duration){
-		g.selectAll("path")
+	function removeTempLayer(duration) {
+		g
+			.selectAll("path")
 			.transition()
 			.duration(duration)
 			.style("fill", landColor);
 	}
 
 	function addHumidLayer(entity, i, duration) {
-		g.selectAll("path")
-		.transition()
-		.duration(duration)
-		.attr("opacity", function(d) {
-			// if (d.properties.weather !== "no data") {
-			if (d.properties[entity] && d.properties[entity][i]){
-				let h = d.properties[entity][i].main.humidity;
-				if (h < 20) return 0.9;
-				else if (h < 50) return 0.7;
-				else if (h < 70) return 0.5;
-				else if (h < 90) return 0.3;
-				else return 0.2;
-			} else {
-				return 0.1;
-			}
-		});
+		g
+			.selectAll("path")
+			.transition()
+			.duration(duration)
+			.attr("opacity", function(d) {
+				if (d.properties[entity] && d.properties[entity][i]) {
+					let h = d.properties[entity][i].main.humidity;
+					if (h < 20) return 0.9;
+					else if (h < 50) return 0.7;
+					else if (h < 70) return 0.5;
+					else if (h < 90) return 0.3;
+					else return 0.2;
+				} else {
+					return 0.1;
+				}
+			});
 	}
 
-	function removeHumidLayer(duration){
-		g.selectAll("path")
-		.transition()
-		.duration(duration)
-		.attr("opacity", 1);
+	function removeHumidLayer(duration) {
+		g
+			.selectAll("path")
+			.transition()
+			.duration(duration)
+			.attr("opacity", 1);
 	}
 
 	function addWindLayer(arr) {
@@ -952,7 +1025,7 @@ function loadMap(err, json, csv, stations) {
 			.call(lineAnimate);
 	}
 
-	function removeWindLayer(){
+	function removeWindLayer() {
 		g.selectAll("line").remove();
 	}
 
@@ -1013,22 +1086,16 @@ function loadMap(err, json, csv, stations) {
 			text = [d.properties.text, "Population: " + d.properties.pop];
 			let w = d.properties.weather;
 			if (tempOn) {
-				// if (w === "no data") c = "No Data";
-				// else {
-				if(w){
+				if (w) {
 					c = "Condition: " + w.weather[0].description;
 					t = "Temperature: " + w.main.temp + "°C";
 				}
 			}
 			if (humidOn) {
-				// if (w === "no data") c = "No Data";
-				// else hu = "Humidity: " + w.main.humidity + "%";
-				if(w) hu = "Humidity: " + w.main.humidity + "%";
+				if (w) hu = "Humidity: " + w.main.humidity + "%";
 			}
 			if (windOn) {
-				// if (w === "no data") c = "No Data";
-				// else hu = "Wind: " + w.wind.speed + " m/s";
-				if(w) wi = "Wind: " + w.wind.speed + " m/s";
+				if (w) wi = "Wind: " + w.wind.speed + " m/s";
 			}
 		}
 		setWeatherData(c, t, wi, hu);
@@ -1050,10 +1117,10 @@ function loadMap(err, json, csv, stations) {
 				.style("stroke-width", 0);
 		} else {
 			if (tempOn) {
-				addTempLayer('weather', 0, 100);
+				addTempLayer("weather", 0, 100);
 			} else d3.select(this).style("fill", landColor);
 			if (humidOn) {
-				addHumidLayer('weather', 0, 100);
+				addHumidLayer("weather", 0, 100);
 			} else d3.select(this).attr("opacity", 1);
 		}
 		tooltip.style("opacity", 0).style("display", "none");
@@ -1173,12 +1240,13 @@ function loadMap(err, json, csv, stations) {
 	const graph = dataLayer.querySelector(".right");
 	const userTooltip = document.querySelector(".user-tooltip");
 	const absoluteCircle = dataLayer.querySelector(".absolute-circle");
+	const closeButton = document.querySelector(".close");
 
 	absoluteCircle.addEventListener("click", e => {
 		absoluteCircle.style.display = "none";
 		graph.classList.add("fadeOutRight");
 		bars.style.visibility = "hidden";
-		document.querySelector(".close").style.display = "block";
+		closeButton.style.display = "block";
 		setTimeout(function() {
 			graph.classList.remove("fadeOutRight");
 			dataLayer.style.display = "none";
@@ -1220,6 +1288,7 @@ function loadMap(err, json, csv, stations) {
 		if (k === 4) {
 			optionButtons.style.display = "none";
 			absoluteCircle.innerHTML = "";
+			closeButton.style.display = "none";
 
 			g.selectAll("path").attr("opacity", d => (d === centered ? 1 : 0.3));
 			g.selectAll("circle").attr("opacity", d => (d === centered ? 1 : 0.3));
@@ -1228,7 +1297,7 @@ function loadMap(err, json, csv, stations) {
 			optionButtons.style.display = "block";
 
 			if (humidOn) {
-				addHumidLayer('weather', 0, 100);
+				addHumidLayer("weather", 0, 100);
 			} else {
 				g.selectAll("path").attr("opacity", 1);
 			}
@@ -1352,10 +1421,14 @@ function loadMap(err, json, csv, stations) {
 		//initialize default checked button for historical data
 		let airName = "pm25";
 		let timePeriod = 2;
-		let defaultAirButton = document.querySelector("#pm-25");
-		let defaultDaysButton = document.querySelector("#last-2-days");
+		let dangerLevel = 0;
+		const defaultAirButton = document.querySelector("#pm-25");
+		const defaultDaysButton = document.querySelector("#last-2-days");
+		const defaultDangerButton = document.querySelector("#quality-good");
+
 		defaultAirButton.checked = true;
 		defaultDaysButton.checked = true;
+		defaultDangerButton.checked = true;
 
 		let historicalData = [];
 		//this function fetch historical data
@@ -1370,6 +1443,7 @@ function loadMap(err, json, csv, stations) {
 			.then(res => {
 				historicalData = res;
 				displayChart(airName, timePeriod, historicalData);
+				displayStatChart(historicalData, dangerLevel);
 			});
 
 		//handle display in historical with different air catogories
@@ -1394,6 +1468,20 @@ function loadMap(err, json, csv, stations) {
 					prevTime = this;
 					timePeriod = parseInt(this.value); //process time period
 					displayChart(airName, timePeriod, historicalData);
+				}
+			};
+		}
+
+		//handle display in statistical data
+		var statButtons = document.querySelectorAll("input[name='stat-buttons']");
+		var prevDangerLevel = defaultDangerButton;
+		for (var i = 0; i < statButtons.length; i++) {
+			statButtons[i].onclick = function() {
+				if (this !== prevDangerLevel) {
+					prevDangerLevel = this;
+					dangerLevel = parseInt(this.value); //process danger level
+					console.log(dangerLevel);
+					displayStatChart(historicalData, dangerLevel);
 				}
 			};
 		}
