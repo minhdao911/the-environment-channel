@@ -979,6 +979,7 @@ function loadMap(err, json, csv, stations) {
 		tempBtn.css("display", "none");
 		windBtn.css("display", "none");
 		humidBtn.css("display", "none");
+		timeBtn.css("display", "none");
 		g.selectAll("circle").style("display", "none");
 		g.attr(
 			"transform",
@@ -1331,6 +1332,7 @@ function loadMap(err, json, csv, stations) {
 		tempBtn.removeClass("chosen");
 		windBtn.removeClass("chosen");
 		humidBtn.removeClass("chosen");
+		timeBtn.removeClass("chosen");
 		setWeatherData("", "", "", "");
 		g
 			.selectAll("path")
