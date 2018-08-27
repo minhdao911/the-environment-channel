@@ -842,23 +842,25 @@ function loadMap(err, json, csv, stations) {
 
 	var marker;
 
-	function fetchStation(arr, callback){
+	function fetchStation(arr, callback) {
 		let count = 0;
 		let stationData = [];
 
 		arr.forEach(d => {
-			const fetchUrl = `https://api.waqi.info/feed/@${d.uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
+			const fetchUrl = `https://api.waqi.info/feed/@${
+				d.uid
+			}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 			fetch(fetchUrl)
-			.then(res => res.json())
-			.then(data => {
-				count++;
-				stationData.push(data);
-				if(count === arr.length-1){
-					callback(null, stationData);
-				}
-			})
-			.catch(err => callback(err));
-		})
+				.then(res => res.json())
+				.then(data => {
+					count++;
+					stationData.push(data);
+					if (count === arr.length - 1) {
+						callback(null, stationData);
+					}
+				})
+				.catch(err => callback(err));
+		});
 	}
 
 	// marker = g
@@ -1228,7 +1230,7 @@ function loadMap(err, json, csv, stations) {
 	function zoomOut() {
 		d3
 			.transition()
-			.duration(2000)
+			.duration(2500)
 			.tween("zoomout", function() {
 				let curScale = country.scale();
 				return function(t) {
@@ -1242,11 +1244,11 @@ function loadMap(err, json, csv, stations) {
 					if (t >= 1) {
 						options.style("display", "block");
 						fetchStation(stations.data, (err, data) => {
-							console.log("data", data);
-							if(!err){
+							if (!err) {
 								marker = g
 									.selectAll("g.marker")
-									.data(data.filter(
+									.data(
+										data.filter(
 											d =>
 												d &&
 												d.status !== "nug" &&
@@ -1254,17 +1256,16 @@ function loadMap(err, json, csv, stations) {
 												d.data.idx !== 4911 &&
 												d.data.idx !== 4917 &&
 												d.data.idx !== 4938 &&
-												d.data.idx !== 4919
+												d.data.idx !== 4919,
 										),
 									)
 									.enter()
 									.append("g")
 									.attr("class", "marker")
 									.attr("display", "block")
-								// marker
+									// marker
 									.append("circle")
 									.attr("cx", function(d) {
-										console.log("point", country([d.data.city.geo[1], d.data.city.geo[0]]));
 										let cx = country([d.data.city.geo[1], d.data.city.geo[0]]);
 										return cx == null ? 0 : cx[0];
 									})
@@ -1275,7 +1276,10 @@ function loadMap(err, json, csv, stations) {
 									.attr("r", 12)
 									.style("fill", function(d) {
 										let aqi = d.data.aqi;
-										return breakPointCheck(breakPoints["aqi_break_points"], aqi);
+										return breakPointCheck(
+											breakPoints["aqi_break_points"],
+											aqi,
+										);
 									});
 								g.selectAll("circle").style("display", "block");
 								marker
@@ -1388,8 +1392,8 @@ function loadMap(err, json, csv, stations) {
 		if (d && centered !== d) {
 			closeCountry.style("display", "none");
 			var p;
-			if (d.aqi) {
-				p = country([d.station.geo[1], d.station.geo[0]]);
+			if (d.data.aqi) {
+				p = country([d.data.city.geo[1], d.data.city.geo[0]]);
 			} else {
 				p = countryPath.centroid(d);
 			}
@@ -1457,11 +1461,10 @@ function loadMap(err, json, csv, stations) {
 		var x = a[0],
 			y = a[1],
 			k = a[2];
-		console.log(d);
 		//work on data
 		const { idx, aqi, iaqi, dominentpol, city: { name } } = d.data;
-
-			const aqiText = aqi
+		console.log(idx);
+		const aqiText = aqi
 			? qualityCheck(breakPoints["aqi_break_points"], aqi)
 			: "unknown";
 		const pollutantText = htmlDisplay[dominentpol] || "unknown";
@@ -1510,17 +1513,16 @@ function loadMap(err, json, csv, stations) {
 		});
 
 		const airRegex = /no2|so2|o3|pm10|pm25/;
-			//filter response with regex
-			const dataArray = iaqi
-				? Object.entries(iaqi).filter(e => {
-						return airRegex.test(e[0]);
-					})
-				: [];
+		//filter response with regex
+		const dataArray = iaqi
+			? Object.entries(iaqi).filter(e => {
+					return airRegex.test(e[0]);
+			  })
+			: [];
 
-			//update real time air quality components
-		setTimeout(function(){
+		//update real time air quality components
+		setTimeout(function() {
 			dataArray.forEach(e => {
-				console.log(e);
 				const name = e[0];
 				const quality = e[1].v;
 
@@ -1539,58 +1541,7 @@ function loadMap(err, json, csv, stations) {
 				progressNumber.style.opacity = 1;
 				progressNumber.innerHTML = quality + "(µg/m3)";
 			});
-		}, 10)
-
-
-		//this function fetch real time data
-		// doRecursiveRequest(fetchUrl, 10).then(res => {
-		// 	const { iaqi, dominentpol } = res.data || {};
-		// 	const airRegex = /no2|so2|o3|pm10|pm25/;
-		//
-		// 	const aqiText = aqi
-		// 		? qualityCheck(breakPoints["aqi_break_points"], aqi)
-		// 		: "unknown";
-		// 	const pollutantText = htmlDisplay[dominentpol] || "unknown";
-		//
-		// 	//display general data information
-		// 	document.querySelector(
-		// 		"#tooltip-station-name",
-		// 	).innerHTML = `<b>Station</b>: ${res.data.city.name}`;
-		// 	document.querySelector(
-		// 		"#tooltip-air-quality",
-		// 	).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
-		// 	document.querySelector(
-		// 		"#tooltip-pol-dominant",
-		// 	).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
-		//
-		// 	//filter response with regex
-		// 	const dataArray = iaqi
-		// 		? Object.entries(iaqi).filter(e => {
-		// 				return airRegex.test(e[0]);
-		// 		  })
-		// 		: [];
-		//
-		// 	//update real time air quality components
-		// 	dataArray.forEach(e => {
-		// 		const name = e[0];
-		// 		const quality = e[1].v;
-		//
-		// 		const breakPointsArray = breakPoints[`${name}_break_points`];
-		//
-		// 		const dataDiv = document.getElementById(name);
-		// 		const progressBar = dataDiv.querySelector(".progress-bar");
-		// 		const progressNumber = dataDiv.querySelector(".progress-number");
-		//
-		// 		progressBar.style.width = scoreCount(breakPointsArray, quality);
-		// 		progressBar.style.background = breakPointCheck(
-		// 			breakPointsArray,
-		// 			quality,
-		// 		);
-		//
-		// 		progressNumber.style.opacity = 1;
-		// 		progressNumber.innerHTML = quality + "(µg/m3)";
-		// 	});
-		// });
+		}, 10);
 
 		//initialize default checked button for historical data
 		let airName = "pm25";
@@ -1611,7 +1562,7 @@ function loadMap(err, json, csv, stations) {
 		fetch(`/data/${processedName}`)
 			.then(res => {
 				if (res.status === 500) {
-					console.log("historical data not available");
+					console.log("Historical data not available");
 					return undefined;
 				}
 				return res.json();

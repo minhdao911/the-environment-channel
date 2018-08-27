@@ -983,7 +983,7 @@ function loadMap(err, json, csv, stations) {
 	function zoomOut() {
 		d3
 			.transition()
-			.duration(2000)
+			.duration(2500)
 			.tween("zoomout", function() {
 				let curScale = country.scale();
 				return function(t) {
@@ -997,7 +997,6 @@ function loadMap(err, json, csv, stations) {
 					if (t >= 1) {
 						options.style("display", "block");
 						fetchStation(stations.data, (err, data) => {
-							console.log("data", data);
 							if (!err) {
 								marker = g
 									.selectAll("g.marker")
@@ -1020,10 +1019,6 @@ function loadMap(err, json, csv, stations) {
 									// marker
 									.append("circle")
 									.attr("cx", function(d) {
-										console.log(
-											"point",
-											country([d.data.city.geo[1], d.data.city.geo[0]]),
-										);
 										let cx = country([d.data.city.geo[1], d.data.city.geo[0]]);
 										return cx == null ? 0 : cx[0];
 									})
@@ -1150,8 +1145,8 @@ function loadMap(err, json, csv, stations) {
 		if (d && centered !== d) {
 			closeCountry.style("display", "none");
 			var p;
-			if (d.aqi) {
-				p = country([d.station.geo[1], d.station.geo[0]]);
+			if (d.data.aqi) {
+				p = country([d.data.city.geo[1], d.data.city.geo[0]]);
 			} else {
 				p = countryPath.centroid(d);
 			}
@@ -1320,7 +1315,7 @@ function loadMap(err, json, csv, stations) {
 		fetch(`/data/${processedName}`)
 			.then(res => {
 				if (res.status === 500) {
-					console.log("historical data not available");
+					console.log("Historical data not available");
 					return undefined;
 				}
 				return res.json();
