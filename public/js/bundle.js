@@ -1457,15 +1457,29 @@ function loadMap(err, json, csv, stations) {
 		var x = a[0],
 			y = a[1],
 			k = a[2];
-
+		console.log(d);
 		//work on data
-		const { uid, aqi, station: { name } } = d;
-		console.log(uid);
+		const { idx, aqi, iaqi, dominentpol, city: { name } } = d.data;
+
+			const aqiText = aqi
+			? qualityCheck(breakPoints["aqi_break_points"], aqi)
+			: "unknown";
+		const pollutantText = htmlDisplay[dominentpol] || "unknown";
+
+		//display general data information
+		document.querySelector(
+			"#tooltip-station-name",
+		).innerHTML = `<b>Station</b>: ${name}`;
+		document.querySelector(
+			"#tooltip-air-quality",
+		).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
+		document.querySelector(
+			"#tooltip-pol-dominant",
+		).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
+
 		const nameArray = name.split(", ");
 		const stationName = nameArray[1] + " " + nameArray[0];
 		const processedName = stationName.split(" ").join("-");
-
-		const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
 		//handle animation and display/hide layer
 		dataLayer.style.display = "block";
@@ -1495,36 +1509,18 @@ function loadMap(err, json, csv, stations) {
 			e.querySelector(".progress-number").innerHTML = "No data";
 		});
 
-		//this function fetch real time data
-		doRecursiveRequest(fetchUrl, 10).then(res => {
-			const { iaqi, dominentpol } = res.data || {};
-			const airRegex = /no2|so2|o3|pm10|pm25/;
-
-			const aqiText = aqi
-				? qualityCheck(breakPoints["aqi_break_points"], aqi)
-				: "unknown";
-			const pollutantText = htmlDisplay[dominentpol] || "unknown";
-
-			//display general data information
-			document.querySelector(
-				"#tooltip-station-name",
-			).innerHTML = `<b>Station</b>: ${res.data.city.name}`;
-			document.querySelector(
-				"#tooltip-air-quality",
-			).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
-			document.querySelector(
-				"#tooltip-pol-dominant",
-			).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
-
+		const airRegex = /no2|so2|o3|pm10|pm25/;
 			//filter response with regex
 			const dataArray = iaqi
 				? Object.entries(iaqi).filter(e => {
 						return airRegex.test(e[0]);
-				  })
+					})
 				: [];
 
 			//update real time air quality components
+		setTimeout(function(){
 			dataArray.forEach(e => {
+				console.log(e);
 				const name = e[0];
 				const quality = e[1].v;
 
@@ -1543,7 +1539,58 @@ function loadMap(err, json, csv, stations) {
 				progressNumber.style.opacity = 1;
 				progressNumber.innerHTML = quality + "(µg/m3)";
 			});
-		});
+		}, 10)
+
+
+		//this function fetch real time data
+		// doRecursiveRequest(fetchUrl, 10).then(res => {
+		// 	const { iaqi, dominentpol } = res.data || {};
+		// 	const airRegex = /no2|so2|o3|pm10|pm25/;
+		//
+		// 	const aqiText = aqi
+		// 		? qualityCheck(breakPoints["aqi_break_points"], aqi)
+		// 		: "unknown";
+		// 	const pollutantText = htmlDisplay[dominentpol] || "unknown";
+		//
+		// 	//display general data information
+		// 	document.querySelector(
+		// 		"#tooltip-station-name",
+		// 	).innerHTML = `<b>Station</b>: ${res.data.city.name}`;
+		// 	document.querySelector(
+		// 		"#tooltip-air-quality",
+		// 	).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
+		// 	document.querySelector(
+		// 		"#tooltip-pol-dominant",
+		// 	).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
+		//
+		// 	//filter response with regex
+		// 	const dataArray = iaqi
+		// 		? Object.entries(iaqi).filter(e => {
+		// 				return airRegex.test(e[0]);
+		// 		  })
+		// 		: [];
+		//
+		// 	//update real time air quality components
+		// 	dataArray.forEach(e => {
+		// 		const name = e[0];
+		// 		const quality = e[1].v;
+		//
+		// 		const breakPointsArray = breakPoints[`${name}_break_points`];
+		//
+		// 		const dataDiv = document.getElementById(name);
+		// 		const progressBar = dataDiv.querySelector(".progress-bar");
+		// 		const progressNumber = dataDiv.querySelector(".progress-number");
+		//
+		// 		progressBar.style.width = scoreCount(breakPointsArray, quality);
+		// 		progressBar.style.background = breakPointCheck(
+		// 			breakPointsArray,
+		// 			quality,
+		// 		);
+		//
+		// 		progressNumber.style.opacity = 1;
+		// 		progressNumber.innerHTML = quality + "(µg/m3)";
+		// 	});
+		// });
 
 		//initialize default checked button for historical data
 		let airName = "pm25";

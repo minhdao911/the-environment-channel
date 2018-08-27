@@ -595,23 +595,25 @@ function loadMap(err, json, csv, stations) {
 
 	var marker;
 
-	function fetchStation(arr, callback){
+	function fetchStation(arr, callback) {
 		let count = 0;
 		let stationData = [];
 
 		arr.forEach(d => {
-			const fetchUrl = `https://api.waqi.info/feed/@${d.uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
+			const fetchUrl = `https://api.waqi.info/feed/@${
+				d.uid
+			}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 			fetch(fetchUrl)
-			.then(res => res.json())
-			.then(data => {
-				count++;
-				stationData.push(data);
-				if(count === arr.length-1){
-					callback(null, stationData);
-				}
-			})
-			.catch(err => callback(err));
-		})
+				.then(res => res.json())
+				.then(data => {
+					count++;
+					stationData.push(data);
+					if (count === arr.length - 1) {
+						callback(null, stationData);
+					}
+				})
+				.catch(err => callback(err));
+		});
 	}
 
 	// marker = g
@@ -996,10 +998,11 @@ function loadMap(err, json, csv, stations) {
 						options.style("display", "block");
 						fetchStation(stations.data, (err, data) => {
 							console.log("data", data);
-							if(!err){
+							if (!err) {
 								marker = g
 									.selectAll("g.marker")
-									.data(data.filter(
+									.data(
+										data.filter(
 											d =>
 												d &&
 												d.status !== "nug" &&
@@ -1007,17 +1010,20 @@ function loadMap(err, json, csv, stations) {
 												d.data.idx !== 4911 &&
 												d.data.idx !== 4917 &&
 												d.data.idx !== 4938 &&
-												d.data.idx !== 4919
+												d.data.idx !== 4919,
 										),
 									)
 									.enter()
 									.append("g")
 									.attr("class", "marker")
 									.attr("display", "block")
-								// marker
+									// marker
 									.append("circle")
 									.attr("cx", function(d) {
-										console.log("point", country([d.data.city.geo[1], d.data.city.geo[0]]));
+										console.log(
+											"point",
+											country([d.data.city.geo[1], d.data.city.geo[0]]),
+										);
 										let cx = country([d.data.city.geo[1], d.data.city.geo[0]]);
 										return cx == null ? 0 : cx[0];
 									})
@@ -1028,7 +1034,10 @@ function loadMap(err, json, csv, stations) {
 									.attr("r", 12)
 									.style("fill", function(d) {
 										let aqi = d.data.aqi;
-										return breakPointCheck(breakPoints["aqi_break_points"], aqi);
+										return breakPointCheck(
+											breakPoints["aqi_break_points"],
+											aqi,
+										);
 									});
 								g.selectAll("circle").style("display", "block");
 								marker
@@ -1210,15 +1219,28 @@ function loadMap(err, json, csv, stations) {
 		var x = a[0],
 			y = a[1],
 			k = a[2];
-
 		//work on data
-		const { uid, aqi, station: { name } } = d;
-		console.log(uid);
+		const { idx, aqi, iaqi, dominentpol, city: { name } } = d.data;
+		console.log(idx);
+		const aqiText = aqi
+			? qualityCheck(breakPoints["aqi_break_points"], aqi)
+			: "unknown";
+		const pollutantText = htmlDisplay[dominentpol] || "unknown";
+
+		//display general data information
+		document.querySelector(
+			"#tooltip-station-name",
+		).innerHTML = `<b>Station</b>: ${name}`;
+		document.querySelector(
+			"#tooltip-air-quality",
+		).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
+		document.querySelector(
+			"#tooltip-pol-dominant",
+		).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
+
 		const nameArray = name.split(", ");
 		const stationName = nameArray[1] + " " + nameArray[0];
 		const processedName = stationName.split(" ").join("-");
-
-		const fetchUrl = `https://api.waqi.info/feed/@${uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
 
 		//handle animation and display/hide layer
 		dataLayer.style.display = "block";
@@ -1248,35 +1270,16 @@ function loadMap(err, json, csv, stations) {
 			e.querySelector(".progress-number").innerHTML = "No data";
 		});
 
-		//this function fetch real time data
-		doRecursiveRequest(fetchUrl, 10).then(res => {
-			const { iaqi, dominentpol } = res.data || {};
-			const airRegex = /no2|so2|o3|pm10|pm25/;
+		const airRegex = /no2|so2|o3|pm10|pm25/;
+		//filter response with regex
+		const dataArray = iaqi
+			? Object.entries(iaqi).filter(e => {
+					return airRegex.test(e[0]);
+			  })
+			: [];
 
-			const aqiText = aqi
-				? qualityCheck(breakPoints["aqi_break_points"], aqi)
-				: "unknown";
-			const pollutantText = htmlDisplay[dominentpol] || "unknown";
-
-			//display general data information
-			document.querySelector(
-				"#tooltip-station-name",
-			).innerHTML = `<b>Station</b>: ${res.data.city.name}`;
-			document.querySelector(
-				"#tooltip-air-quality",
-			).innerHTML = `<b>Air quality index</b>: ${aqiText}`;
-			document.querySelector(
-				"#tooltip-pol-dominant",
-			).innerHTML = `<b>Dominent pollutant</b>: ${pollutantText}`;
-
-			//filter response with regex
-			const dataArray = iaqi
-				? Object.entries(iaqi).filter(e => {
-						return airRegex.test(e[0]);
-				  })
-				: [];
-
-			//update real time air quality components
+		//update real time air quality components
+		setTimeout(function() {
 			dataArray.forEach(e => {
 				const name = e[0];
 				const quality = e[1].v;
@@ -1296,7 +1299,7 @@ function loadMap(err, json, csv, stations) {
 				progressNumber.style.opacity = 1;
 				progressNumber.innerHTML = quality + "(µg/m3)";
 			});
-		});
+		}, 10);
 
 		//initialize default checked button for historical data
 		let airName = "pm25";
