@@ -840,28 +840,68 @@ function loadMap(err, json, csv, stations) {
 		.on("mouseover", mouseoverCountry)
 		.on("mouseout", mouseoutCountry);
 
-	var marker = g
-		.selectAll("g.marker")
-		.data(
-			stations.data.filter(
-				d =>
-					d &&
-					d.aqi !== "-" &&
-					d.uid !== 4911 &&
-					d.uid !== 4917 &&
-					d.uid !== 4938 &&
-					d.uid !== 4919
-			),
-		) //filter a station without historical data
-		.enter()
-		.append("g")
-		.attr("class", "marker")
-		.attr("display", "block");
+	var marker;
 
-	marker
-		.on("mouseover", mouseoverCountry)
-		.on("mouseout", mouseoutCountry)
-		.on("click", clicked);
+	function fetchStation(arr, callback){
+		let count = 0;
+		let stationData = [];
+
+		arr.forEach(d => {
+			const fetchUrl = `https://api.waqi.info/feed/@${d.uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
+			fetch(fetchUrl)
+			.then(res => res.json())
+			.then(data => {
+				count++;
+				stationData.push(data);
+				if(count === arr.length-1){
+					callback(null, stationData);
+				}
+			})
+			.catch(err => callback(err));
+		})
+	}
+
+	// marker = g
+	// 	.selectAll("g.marker")
+	// 	.data(data)
+	// 	.enter()
+	// 	.append("g")
+	// 	.attr("class", "marker")
+	// 	.attr("display", "block");
+	//
+	// marker
+	// 	.on("mouseover", mouseoverCountry)
+	// 	.on("mouseout", mouseoutCountry)
+	// 	.on("click", clicked);
+
+	// var marker = g
+	// 	.selectAll("g.marker")
+	// 	.data(
+	// 		stations.data.filter(
+	// 			d => {
+	// 				// return 	d &&
+	// 				// 	d.aqi !== "-" &&
+	// 				// 	d.uid !== 4911 &&
+	// 				// 	d.uid !== 4917 &&
+	// 				// 	d.uid !== 4938 &&
+	// 				// 	d.uid !== 4919;
+	// 				const fetchUrl = `https://api.waqi.info/feed/@${d.uid}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
+	//
+	// 				fetch(fetchUrl)
+	// 				.then(res => res.json())
+	// 				.then()
+	// 			}
+	// 		),
+	// 	) //filter a station without historical data
+	// 	.enter()
+	// 	.append("g")
+	// 	.attr("class", "marker")
+	// 	.attr("display", "block");
+
+	// marker
+	// 	.on("mouseover", mouseoverCountry)
+	// 	.on("mouseout", mouseoutCountry)
+	// 	.on("click", clicked);
 
 	closeCountry.on("click", zoomIn);
 
@@ -1126,13 +1166,13 @@ function loadMap(err, json, csv, stations) {
 			t = "",
 			wi = "",
 			hu = "";
-		if (d.aqi) {
+		if (d.data && d.data.aqi) {
 			d3.select(this).moveToFront();
 			d3
 				.select(this)
 				.style("stroke", "white")
 				.style("stroke-width", 2);
-			text = [d.station.name, "AQI: " + d.aqi];
+			text = [d.data.city.name, "AQI: " + d.data.aqi];
 		} else {
 			d3
 				.select(this)
@@ -1165,7 +1205,7 @@ function loadMap(err, json, csv, stations) {
 	}
 
 	function mouseoutCountry(d) {
-		if (d.aqi) {
+		if (d.data && d.data.aqi) {
 			d3
 				.select(this)
 				.style("stroke", "none")
@@ -1201,22 +1241,49 @@ function loadMap(err, json, csv, stations) {
 					svgCountry.attr("opacity", t);
 					if (t >= 1) {
 						options.style("display", "block");
-						marker
-							.append("circle")
-							.attr("cx", function(d) {
-								let cx = country([d.station.geo[1], d.station.geo[0]]);
-								return cx == null ? 0 : cx[0];
-							})
-							.attr("cy", function(d) {
-								let cy = country([d.station.geo[1], d.station.geo[0]]);
-								return cy == null ? 0 : cy[1];
-							})
-							.attr("r", 12)
-							.style("fill", function(d) {
-								let aqi = d.aqi;
-								return breakPointCheck(breakPoints["aqi_break_points"], aqi);
-							});
-						g.selectAll("circle").style("display", "block");
+						fetchStation(stations.data, (err, data) => {
+							console.log("data", data);
+							if(!err){
+								marker = g
+									.selectAll("g.marker")
+									.data(data.filter(
+											d =>
+												d &&
+												d.status !== "nug" &&
+												d.data.aqi !== "-" &&
+												d.data.idx !== 4911 &&
+												d.data.idx !== 4917 &&
+												d.data.idx !== 4938 &&
+												d.data.idx !== 4919
+										),
+									)
+									.enter()
+									.append("g")
+									.attr("class", "marker")
+									.attr("display", "block")
+								// marker
+									.append("circle")
+									.attr("cx", function(d) {
+										console.log("point", country([d.data.city.geo[1], d.data.city.geo[0]]));
+										let cx = country([d.data.city.geo[1], d.data.city.geo[0]]);
+										return cx == null ? 0 : cx[0];
+									})
+									.attr("cy", function(d) {
+										let cy = country([d.data.city.geo[1], d.data.city.geo[0]]);
+										return cy == null ? 0 : cy[1];
+									})
+									.attr("r", 12)
+									.style("fill", function(d) {
+										let aqi = d.data.aqi;
+										return breakPointCheck(breakPoints["aqi_break_points"], aqi);
+									});
+								g.selectAll("circle").style("display", "block");
+								marker
+									.on("mouseover", mouseoverCountry)
+									.on("mouseout", mouseoutCountry)
+									.on("click", clicked);
+							}
+						});
 					}
 				};
 			});
