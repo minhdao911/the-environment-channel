@@ -133,7 +133,7 @@ a {
   width: 620px;
   background: rgba(255, 255, 255, 0.95);
   justify-content: flex-start;
-  z-index: 6;
+  z-index: 4;
   overflow: auto;
 }
 
