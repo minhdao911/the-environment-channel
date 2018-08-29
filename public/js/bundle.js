@@ -1256,7 +1256,11 @@ function loadMap(err, json, csv, stations) {
 												d.data.idx !== 4911 &&
 												d.data.idx !== 4917 &&
 												d.data.idx !== 4938 &&
-												d.data.idx !== 4919,
+												d.data.idx !== 4919 &&
+												d.data.idx !== 9997 &&
+												d.data.idx !== 4937 &&
+												d.data.idx !== 4932 &&
+												d.data.idx !== 10006 ,
 										),
 									)
 									.enter()
