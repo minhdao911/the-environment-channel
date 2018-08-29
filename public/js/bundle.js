@@ -850,8 +850,7 @@ function loadMap(err, json, csv, stations) {
 			const fetchUrl = `https://api.waqi.info/feed/@${
 				d.uid
 			}/?token=cc9ba5f6999c729c8b1b36646f4c6f94c4b97ad8`;
-			fetch(fetchUrl)
-				.then(res => res.json())
+			doRecursiveRequest(fetchUrl, 10)
 				.then(data => {
 					count++;
 					stationData.push(data);
@@ -1244,6 +1243,7 @@ function loadMap(err, json, csv, stations) {
 					if (t >= 1) {
 						options.style("display", "block");
 						fetchStation(stations.data, (err, data) => {
+							console.log(data);
 							if (!err) {
 								marker = g
 									.selectAll("g.marker")
