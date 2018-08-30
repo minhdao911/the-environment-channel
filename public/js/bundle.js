@@ -1249,7 +1249,7 @@ function loadMap(err, json, csv, stations) {
 									.selectAll("g.marker")
 									.data(
 										data.filter(
-											d =>
+											d => 
 												d &&
 												d.status !== "nug" &&
 												d.data.aqi !== "-" &&
@@ -1303,6 +1303,7 @@ function loadMap(err, json, csv, stations) {
 		windBtn.css("display", "none");
 		humidBtn.css("display", "none");
 		timeBtn.css("display", "none");
+		timeSeriesFrom.addClass("hide");
 		g.selectAll("circle").style("display", "none");
 		g.attr(
 			"transform",
